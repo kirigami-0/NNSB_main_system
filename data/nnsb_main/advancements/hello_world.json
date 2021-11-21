@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "enter": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main:install_system/install"
+    }
+  }
