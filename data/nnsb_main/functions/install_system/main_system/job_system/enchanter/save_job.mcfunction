@@ -1,5 +1,4 @@
 #現在のジョブのステを保存する。
-
 scoreboard players operation @s enther_exp = @s exp
 scoreboard players operation @s enther_level = @s level
 scoreboard players operation @s enther_need_exp = @s need_exp

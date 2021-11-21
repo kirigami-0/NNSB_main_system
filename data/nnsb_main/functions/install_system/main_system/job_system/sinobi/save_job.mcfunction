@@ -1,5 +1,4 @@
 #現在のジョブのステを保存する。
-
 scoreboard players operation @s sinobi_exp = @s exp
 scoreboard players operation @s sinobi_level = @s level
 scoreboard players operation @s sinobi_need_exp = @s need_exp
