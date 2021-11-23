@@ -52,3 +52,4 @@ scoreboard objectives remove bomber_need_exp
 scoreboard objectives remove bomber_total_exp
 
 data remove storage nnsb:job {job:"",next_job:""}
+

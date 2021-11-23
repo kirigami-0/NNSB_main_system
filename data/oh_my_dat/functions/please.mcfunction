@@ -8,4 +8,4 @@ execute unless score @s OhMyDatID matches 1.. run function oh_my_dat:sys/allocat
 # IDを一時変数にコピー
 scoreboard players operation _ OhMyDatID = @s OhMyDatID
 # ストレージ提供
-function oh_my_dat:sys/provide
+
