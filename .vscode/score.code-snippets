@@ -1,6 +1,0 @@
-{
-	"nnsb_val":{
-		"prefix": "n.score",
-		"body": "scoreboard objectives add $1 dummy \"$2\""
-	}
-}
