@@ -1,0 +1,8 @@
+{
+	"nnsb_val":{
+		"prefix": "n.reset",
+		"body": "scoreboard players set ",
+		"scope": "",
+		"description": ""
+	}
+}

@@ -6,3 +6,8 @@ scoreboard players operation @s total_exp = @s arter_total_exp
 
 #ストレージを置き換える。
 data merge storage nnsb:job {job:"§2アーチャー"}
+
+#現在のファンクション
+#
+#説明
+#

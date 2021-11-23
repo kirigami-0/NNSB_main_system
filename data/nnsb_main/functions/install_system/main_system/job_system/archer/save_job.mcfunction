@@ -10,3 +10,6 @@ function nnsb_main:install_system/main_system/job_system/reset_score
 #指定したジョブを判定させて読み出すファンクション
 function nnsb_main:install_system/main_system/job_system/1_pl_select/if_next_job
 
+##説明1
+##説明2
+##説明3
