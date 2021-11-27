@@ -1,4 +1,3 @@
-
 #各職業ごとにスコアボードを追加する
 #§2§lアーチャー
 scoreboard objectives add arter_level dummy "§2§lレベル"
@@ -77,5 +76,7 @@ scoreboard players set @a sosal_exp 0
 scoreboard players set @a sosal_need_exp 10
 scoreboard players set @a sosal_total_exp 0
 
-data merge storage nnsb:job {job:"§2アーチャー",next_job:"§d無職"}
 
+data merge storage nnsb:job {now:"無職",next:"無職"}
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next_job set value "無職"
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now_job set value "無職"
