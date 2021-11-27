@@ -51,5 +51,13 @@ scoreboard objectives remove bomber_exp
 scoreboard objectives remove bomber_need_exp
 scoreboard objectives remove bomber_total_exp
 
-data remove storage nnsb:job {job:"",next_job:""}
+data remove storage nnsb:job now
+data remove storage nnsb:job next
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now_job
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next_job
 
+#難易度
+scoreboard objectives remove time_limit
+data remove storage nnsb:difficult lv
+data remove storage nnsb:difficult reg
+data remove storage nnsb:difficult flag

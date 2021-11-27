@@ -4,15 +4,9 @@
 scoreboard objectives add time_limit dummy "§eタイマー"
 scoreboard players set @a time_limit 60
 
-data merge storage nnsb:difficult_system {difficult:"§e通常モード",kyohi:false,change:false}
-#制作日<2021/11/23>
-#製作者<>
-#説明
-##sasas
-##sasas
-##sasas
-
-
-##説明2
-##説明3
+#難易度ストレージ
+# lv = 難易度
+# reg = 拒否したか
+# flag = 確定したか
+data merge storage nnsb:difficult {lv:"通常","reg":0,"flag":0}
 
