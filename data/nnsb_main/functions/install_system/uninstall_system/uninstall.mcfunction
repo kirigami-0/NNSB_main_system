@@ -59,5 +59,5 @@ data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next_job
 #難易度
 scoreboard objectives remove time_limit
 data remove storage nnsb:difficult lv
-data remove storage nnsb:difficult reg
+data remove storage nnsb:difficult lv_temp
 data remove storage nnsb:difficult flag
