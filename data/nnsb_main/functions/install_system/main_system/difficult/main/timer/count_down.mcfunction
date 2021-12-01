@@ -1,6 +1,6 @@
 #>nnsb_main:install_system/main_system/difficult/main/timer/count_down
-#カウントダウン
 
+#カウントダウン
 scoreboard players remove @a time_limit 1
 
 #一定時間経過
