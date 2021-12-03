@@ -11,5 +11,5 @@ scoreboard players set @s color_math 10
 scoreboard players operation @s color_at *= @s color_math
 
 #属性を取得するファンクションに飛ばす
-function nnsb_main:install_system/main_system/colors/system/search_color/search_index
+function nnsb_main:install_system/main_system/colors/system/get_color/1_hub
 
