@@ -3,7 +3,8 @@
         "pack_format": 7,
         "description": [
             "main_system",
-            "Oh! My Dat! =Private Storage for All Entities="
+            "Oh! My Dat! =Private Storage for All Entities=",
+            "Sync Health with Score"
         ]
 
     }

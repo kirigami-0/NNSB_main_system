@@ -1,4 +1,4 @@
-#from : nnsb_main:install_system/main_system/level_system/main/math
+#> nnsb_main:install_system/main_system/level_system/level_math/lv_up_1
 
 #レベルが36以下の処理
 execute if score @s level matches 1..5 run scoreboard players add @s need_exp 3

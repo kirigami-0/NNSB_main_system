@@ -1,3 +1,5 @@
+#> nnsb_main:install_system/main_system/job_system/add_job
+
 #各職業ごとにスコアボードを追加する
 #§2§lアーチャー
 scoreboard objectives add arter_level dummy "§2§lレベル"

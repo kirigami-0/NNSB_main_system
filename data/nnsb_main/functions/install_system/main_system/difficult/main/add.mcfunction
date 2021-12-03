@@ -1,4 +1,4 @@
-#function nnsb_main:install_system/main_system/difficult/main/add
+#> nnsb_main:install_system/main_system/difficult/main/add
 #制限時間とか追加する。
 
 scoreboard objectives add time_limit dummy "§eタイマー"

@@ -1,11 +1,26 @@
 #function nnsb_main:install_system/install
 #インストール部分
+
+#プレーヤーの個別ストレージを呼び出す
 function oh_my_dat:please
+
 #レベルシステム
-function nnsb_main:install_system/main_system/level_system/main/level_add
+function nnsb_main:install_system/main_system/level_system/level_add
 
 #難易度
 function nnsb_main:install_system/main_system/difficult/main/add
 
 #jobシステム
 function nnsb_main:install_system/main_system/job_system/add_job
+
+#属性システム
+function nnsb_main:install_system/main_system/colors/add
+
+
+
+
+
+
+
+
+

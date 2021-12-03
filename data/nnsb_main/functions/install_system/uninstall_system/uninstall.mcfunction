@@ -61,3 +61,9 @@ scoreboard objectives remove time_limit
 data remove storage nnsb:difficult lv
 data remove storage nnsb:difficult lv_temp
 data remove storage nnsb:difficult flag
+
+#属性関連
+scoreboard objectives remove color_dm
+scoreboard objectives remove color_at
+scoreboard objectives remove color_pl_at
+scoreboard objectives remove color_pl_dm
