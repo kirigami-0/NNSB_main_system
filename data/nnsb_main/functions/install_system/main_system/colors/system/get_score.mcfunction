@@ -22,6 +22,6 @@ execute as @a if score @s color_at matches ..1 run function nnsb_main:install_sy
 execute as @a if score @s color_dm matches ..1 run function nnsb_main:install_system/main_system/colors/system/damage/dm_math
 
 #初期化
-scoreboard players reset @s color_pl_at
-scoreboard players reset @s color_pl_dm
+scoreboard players set @s color_pl_at 0
+scoreboard players set @s color_pl_dm 0
 

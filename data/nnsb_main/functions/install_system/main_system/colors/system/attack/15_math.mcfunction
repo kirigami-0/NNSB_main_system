@@ -6,6 +6,6 @@
 #変数セット
 scoreboard players set @s color_math 15
 
-#2倍処理完了
+#1.5倍処理完了
 scoreboard players operation @s color_at *= @s color_math
 
