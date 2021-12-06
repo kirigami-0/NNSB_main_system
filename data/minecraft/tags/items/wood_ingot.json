@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:gold_ingot",
+        "minecraft:emerald",
+        "minecraft:iron_ingot",
+        "minecraft:netherite_ingot",
+        "minecraft:diamond",
+        "minecraft:amethyst_shard",
+
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:birch_planks",
+        "minecraft:jungle_planks",
+        "minecraft:acacia_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:warped_planks",
+        "minecraft:crimson_planks"
+    ]
+}
