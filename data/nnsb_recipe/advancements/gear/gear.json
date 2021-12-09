@@ -3,11 +3,11 @@
         "requirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "nnsb_recipe:gear"
+                "recipe": "nnsb_recipe:gear/metal"
                 }
             }
         },
     "rewards": {
-        "function": "minecraft:sasasa"
+        "function": "nnsb_recipe:gear/metal"
     }
 }

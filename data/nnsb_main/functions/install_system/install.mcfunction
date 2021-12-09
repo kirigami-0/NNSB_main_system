@@ -1,3 +1,6 @@
+#> nnsb_main:install_system/install
+#>
+# いろんな説明
 #インストール部分
 #プレイヤーのOh My Datを呼び出す
 function oh_my_dat:please
