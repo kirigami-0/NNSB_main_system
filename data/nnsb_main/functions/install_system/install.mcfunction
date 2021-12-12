@@ -16,7 +16,13 @@ function nnsb_main:install_system/main_system/job_system/add_job
 
 
 #属性システム
-function nnsb_main:install_system/main_system/colors/add
+function nnsb_main:install_system/main_system/color_system/add
+
+#スキルシステム
+function nnsb_main:install_system/main_system/color_system/add
+
+#HP管理
+function nnsb_main:install_system/main_system/hp_system/add
 
 
 

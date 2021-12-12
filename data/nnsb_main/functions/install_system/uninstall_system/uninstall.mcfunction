@@ -63,7 +63,9 @@ data remove storage nnsb:difficult lv_temp
 data remove storage nnsb:difficult flag
 
 #属性関連
-scoreboard objectives remove color_dm
-scoreboard objectives remove color_at
-scoreboard objectives remove color_pl_at
-scoreboard objectives remove color_pl_dm
+scoreboard objectives remove r_carrot
+scoreboard objectives remove r_warped
+scoreboard objectives remove OhMyDatID
+scoreboard objectives remove color_math
+scoreboard objectives remove OhMyDat
+

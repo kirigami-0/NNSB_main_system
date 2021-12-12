@@ -1,16 +1,7 @@
 #> nnsb_skill:tick
-#
-#@input as player
-#@output storage nnsb_skill:tick
-#@public
+execute as @a as @s if score @s r_carrot matches 1.. run say 00001
+execute as @a as @s if score @s r_carrot matches 1.. run scoreboard players set @s r_carrot 0
 
-#>TEMP
-#@private
-    #declare score_holder $
+execute as @a as @s if score @s r_warped matches 1.. run say 10001
+execute as @a as @s if score @s r_warped matches 1.. run scoreboard players set @s r_warped 0
 
-#>
-#@internal
-bossbar add nnsb_skill:tick ""
-
-#>
-#declare bossbar 
