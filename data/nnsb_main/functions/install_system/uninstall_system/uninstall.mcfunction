@@ -69,3 +69,7 @@ scoreboard objectives remove OhMyDatID
 scoreboard objectives remove color_math
 scoreboard objectives remove OhMyDat
 
+#HP
+scoreboard objectives remove attack
+scoreboard objectives remove attack_temp
+scoreboard objectives remove dm_temp

@@ -1,0 +1,28 @@
+
+  {
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:carrot_on_a_stick"
+                ],
+                "nbt": "{ItemName:red}"
+              }
+            }
+          },
+          "entity": {
+            "nbt": "{Tags:[red]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_main:install_system/main_system/color_system/enemy_color/from_red/hub"
+    }
+  }
+  

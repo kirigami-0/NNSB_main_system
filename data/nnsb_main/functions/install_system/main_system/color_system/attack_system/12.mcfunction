@@ -1,17 +1,19 @@
 #> nnsb_main:install_system/main_system/color_system/attack_system/12
+say 33636
+#1.2倍ダメージ
+#まずはデータを12倍する
+scoreboard players set @e[type=player,limit=1] dm_temp 12
+scoreboard players operation @e[type=player,limit=1] attack_temp *= @e[type=player,limit=1] dm_temp
 
-#.22倍ダメージ
-scoreboard players set @s dm_temp 12
-scoreboard players operation @s color_at *= @s dm_temp
 
-#10で割る
-scoreboard players set @s dm_temp 10
-scoreboard players operation @s color_at /= @s dm_temp
-scoreboard players operation @s nnsb_dm = @s color_at
+scoreboard players set @e[type=player,limit=1] dm_temp 10
+scoreboard players operation @e[type=player,limit=1] attack_temp /= @e[type=player,limit=1] dm_temp
 
-#値リセット
-function nnsb_main:install_system/main_system/color_system/attack_system/reset
+#HPget
+execute store result score @e[type=!player,limit=1] nnsb_hp run data get entity @e[type=!player,limit=1] Health
 
-#死ぬ？生きてる？
-function nnsb_main:install_system/main_system/hp_system/dead_or_alive
 
+#execute store result storage nnsb:system HP int 0 run scoreboard players get @e[type=player,limit=1] attack_temp
+
+
+#execute store result entity @e[type=!player,limit=1] Health float 0 run scoreboard players get @e[type=player,limit=1] attack_temp
