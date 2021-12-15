@@ -1,12 +1,14 @@
+
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:carrot_on_a_stick"
-          ]
+            "minecraft:bow"
+          ],
+          "nbt": "{ItemName:red}"
         }
       }
     }

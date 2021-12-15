@@ -1,0 +1,31 @@
+#> nnsb_main:install
+
+##プレイヤーのOh My Datを呼び出す
+ function oh_my_dat:please
+
+
+##メインシステムインストール
+ 
+ #レベルシステム
+ function nnsb_main:install_system/level_system/add
+ 
+ #難易度
+ function nnsb_main:install_system/difficult/add
+ 
+ #jobシステム
+ function nnsb_main:install_system/job_system/add_job
+
+ #HPシステム
+ function nnsb_main:install_system/hp_system/add
+
+
+##付属システム
+ 
+ #属性システム
+ function nnsb_main:install_system/color_system/add
+ 
+ #スキルシステム
+ function nnsb_main:install_system/color_system/add
+
+
+

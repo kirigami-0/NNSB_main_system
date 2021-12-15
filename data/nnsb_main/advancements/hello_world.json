@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "nnsb_main:install_system/install"
+    "function": "nnsb_main:install"
   }
 }
