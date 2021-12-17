@@ -22,10 +22,8 @@
 ##付属システム
  
  #属性システム
- function nnsb_main:install_system/color_system/add
+ function color_system:add
  
  #スキルシステム
  function nnsb_main:install_system/color_system/add
-
-
 

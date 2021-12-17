@@ -1,28 +1,25 @@
-
-  {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_hurt_entity",
-        "conditions": {
-          "player": {
-            "type": "minecraft:player",
-            "equipment": {
-              "mainhand": {
-                "items": [
-                  "minecraft:carrot_on_a_stick"
-                ],
-                "nbt": "{ItemName:red}"
-              }
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{ItemName:red}"
             }
-          },
-          "entity": {
-            "nbt": "{Tags:[red]}"
           }
+        },
+        "entity": {
+          "nbt": "{Tags:[red]}"
         }
       }
-    },
-    "rewards": {
-      "function": "color_system:attack_system/12"
     }
+  },
+  "rewards": {
+    "function": "color_system:attack_system/12"
   }
-  
+}
