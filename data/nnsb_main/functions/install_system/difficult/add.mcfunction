@@ -1,7 +1,7 @@
 #> nnsb_main:install_system/difficult/add
 
 #制限時間とか追加する。
-scoreboard objectives add time_limit dummy "§eタイマー"
+scoreboard objectives add time_limit dummy "§2タイマー"
 scoreboard players set @a time_limit 120
 
 #難易度ストレージ

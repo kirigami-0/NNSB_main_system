@@ -1,6 +1,7 @@
 {
     "values": [
         "nnsb_main:tick",
-        "nnsb_skill:tick"
+        "color_system:attack_system/reset"
+       
     ]
 }

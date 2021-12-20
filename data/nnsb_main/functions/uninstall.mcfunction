@@ -64,16 +64,14 @@ data remove storage nnsb:difficult lv_temp
 data remove storage nnsb:difficult flag
 
 #属性関連
-scoreboard objectives remove r_carrot
-scoreboard objectives remove r_warped
 scoreboard objectives remove OhMyDatID
-scoreboard objectives remove color_math
 scoreboard objectives remove OhMyDat
 
 #HP
-scoreboard objectives remove MOB_HP
-scoreboard objectives remove MOB_damage
-
+scoreboard objectives remove damage
+scoreboard objectives remove attack
+scoreboard objectives remove Mob_damage
+scoreboard objectives remove Mob_HP
 
 
 #scoreboard objectives remove

@@ -11,12 +11,12 @@
                 "items": [
                   "minecraft:carrot_on_a_stick"
                 ],
-                "nbt": "{ItemName:red}"
+                "nbt": "{ItemName:yellow}"
               }
             }
           },
           "entity": {
-            "nbt": "{Tags:[red]}"
+            "nbt": "{Tags:[magenta]}"
           }
         }
       }

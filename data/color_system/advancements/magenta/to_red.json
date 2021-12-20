@@ -11,7 +11,7 @@
                 "items": [
                   "minecraft:carrot_on_a_stick"
                 ],
-                "nbt": "{ItemName:red}"
+                "nbt": "{ItemName:magenta}"
               }
             }
           },
