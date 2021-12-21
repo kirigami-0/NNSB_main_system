@@ -17,12 +17,3 @@
 
  #HPシステム
  function nnsb_main:install_system/hp_system/add
-
-
-##付属システム
- 
- #属性システム
- function color_system:add
- 
- #スキルシステム
-
