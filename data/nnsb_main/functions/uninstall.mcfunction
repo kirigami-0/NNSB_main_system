@@ -61,23 +61,14 @@ scoreboard objectives remove time_limit
 data remove storage nnsb:difficult lv
 data remove storage nnsb:difficult lv_temp
 data remove storage nnsb:difficult flag
+
 #属性関連
 scoreboard objectives remove OhMyDatID
 scoreboard objectives remove OhMyDat
 
 #HP
 scoreboard objectives remove Mob_HP
-
-
-
-
-
-
-
-
-
-
-
+scoreboard players reset $HP_temp
 
 
 #scoreboard objectives remove
