@@ -1,7 +1,7 @@
 #> nnsb_mobs:test_2
 
 #ゾンビを召喚する
-summon zombie ~ ~1 ~ {Silent:true,Health:10f,Attributes:[{Name:"generic.max_health",Base:10}]}
+summon zombie ~ ~1 ~ {Silent:true,Health:100f,Attributes:[{Name:"generic.max_health",Base:1000}],Tags:[blue]}
 #effect give @e[nbt={Tags:[red]}] resistance 999999 4 true
 
 #AECを召喚する。

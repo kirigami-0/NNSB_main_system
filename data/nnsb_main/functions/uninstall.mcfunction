@@ -69,6 +69,6 @@ scoreboard objectives remove OhMyDat
 #HP
 scoreboard objectives remove Mob_HP
 scoreboard players reset $HP_temp
-
-
+scoreboard objectives remove set_at
+scoreboard objectives remove temp_at
 #scoreboard objectives remove
