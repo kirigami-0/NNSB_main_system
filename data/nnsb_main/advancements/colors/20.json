@@ -1,0 +1,136 @@
+{
+	"criteria": {
+		"red": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:red}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+
+        "blue": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:blue}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+
+        "green": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:green}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+
+        "yellow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:yellow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+
+        "cyan": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:cyan}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+
+        "magenta": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot_on_a_stick"
+							],
+							"nbt": "{ItemName:magenta}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		}
+	},
+    
+	"requirements": [
+		[
+			"red",
+
+            "blue",
+
+            "green",
+
+            "yellow",
+
+            "cyan",
+
+            "magenta"
+        ]
+	],
+	"rewards": {
+		"function": "nnsb_main:install_system/color_system/20"
+	}
+}
