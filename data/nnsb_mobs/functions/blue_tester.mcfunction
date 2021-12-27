@@ -1,9 +1,7 @@
-#> nnsb_mobs:test
+#> nnsb_mobs:blue_tester
 
 #ゾンビを召喚する
-summon zombie ~ ~1 ~ {Silent:true,Health:100f,Attributes:[{Name:"generic.max_health",Base:100}],Tags:[red]}
-
-
+summon zombie ~ ~ ~ {Silent:1b,Tags:["blue"],CustomNameVisible:1b,CustomName:'{"text":"ゾンビ","color":"blue","bold":true}',Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.movement_speed",Base:-10}]}
 #AECを召喚する。
 summon area_effect_cloud ~ ~ ~ {Tags:[get]}
 
