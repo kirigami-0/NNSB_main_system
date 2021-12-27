@@ -57,18 +57,26 @@ scoreboard objectives remove total_exp
  data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next_job
 
 #難易度
-scoreboard objectives remove time_limit
-data remove storage nnsb:difficult lv
-data remove storage nnsb:difficult lv_temp
-data remove storage nnsb:difficult flag
+ scoreboard objectives remove time_limit
+ data remove storage nnsb:difficult lv
+ data remove storage nnsb:difficult lv_temp
+ data remove storage nnsb:difficult flag
 
 #属性関連
-scoreboard objectives remove OhMyDatID
-scoreboard objectives remove OhMyDat
+ scoreboard objectives remove OhMyDatID
+ scoreboard objectives remove OhMyDat
 
 #HP
-scoreboard objectives remove Mob_HP
-scoreboard players reset $HP_temp
-scoreboard objectives remove set_at
-scoreboard objectives remove temp_at
+ scoreboard objectives remove Mob_HP
+ scoreboard objectives remove set_at
+ scoreboard objectives remove temp_at
+ scoreboard players reset @e
+ scoreboard players reset $HP_temp
+ scoreboard players reset $10
+ scoreboard players reset $12
+ scoreboard players reset $15
+ scoreboard players reset $20
+ scoreboard objectives remove kill_reset
+
+
 #scoreboard objectives remove
