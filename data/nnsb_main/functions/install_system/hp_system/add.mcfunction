@@ -9,10 +9,7 @@
  scoreboard players set @s temp_at 0
  
 #属性用変数
- scoreboard players set $10 temp_at 10
- scoreboard players set $12 temp_at 12
- scoreboard players set $15 temp_at 15
- scoreboard players set $20 temp_at 20
+ scoreboard players set $damage_math temp_at 0
  scoreboard objectives add kill_reset custom:mob_kills "キルカウンター"
  scoreboard players set @s kill_reset 0
  

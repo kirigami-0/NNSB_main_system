@@ -1,13 +1,13 @@
 {
 	"criteria": {
-		"red": {
+
+		"test_cyan_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": {
 					"equipment": {
 						"mainhand": {
-							
-							"nbt": "{tags:[reg]}"
+							"nbt": "{Tags:[cyan],ItemName:test}"
 						}
 					}
 				},
@@ -16,49 +16,13 @@
 				}
 			}
 		},
-
-        "blue": {
+		"test_cyan_12_2": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": {
 					"equipment": {
 						"mainhand": {
-							
-							"nbt": "{Tags:[blue]}"
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[yellow]}"
-				}
-			}
-		},
-
-        "green": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"player": {
-					"equipment": {
-						"mainhand": {
-							
-							"nbt": "{Tags:[green]}"
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-
-        "yellow": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"player": {
-					"equipment": {
-						"mainhand": {
-							
-							"nbt": "{Tags:[yellow]}"
+							"nbt": "{Tags:[cyan],ItemName:test}"
 						}
 					}
 				},
@@ -67,15 +31,43 @@
 				}
 			}
 		},
-
-        "cyan": {
+		"test_cyan_12_3": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": {
 					"equipment": {
 						"mainhand": {
-							
-							"nbt": "{Tags:[cyan]}"
+							"nbt": "{Tags:[cyan],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"test_magenta_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[magenta],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"test_magenta_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[magenta],ItemName:test}"
 						}
 					}
 				},
@@ -84,41 +76,50 @@
 				}
 			}
 		},
-
-        "magenta": {
+		"test_magenta_12_3": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": {
 					"equipment": {
 						"mainhand": {
-							
-							"nbt": "{Tags:[magenta]}"
+							"nbt": "{Tags:[magenta],ItemName:test}"
 						}
 					}
 				},
 				"entity": {
-					"nbt": "{Tags:[green]}"
+					"nbt": "{Tags:[blue]}"
 				}
 			}
 		}
 	},
-    
 	"requirements": [
 		[
-			"red",
+			"test_red_12_1",
+			"test_red_12_2",
+			"test_red_12_3",
 
-            "blue",
+			"test_blue_12_1",
+			"test_blue_12_2",
+			"test_blue_12_2",
 
-            "green",
+			"test_green_12_1",
+			"test_green_12_2",
+			"test_green_12_3",
 
-            "yellow",
+			"test_yellow_12_1",
+			"test_yellow_12_2",
+			"test_yellow_12_3",
 
-            "cyan",
+			"test_cyan_12_1",
+			"test_cyan_12_2",
+			"test_cyan_12_3",
 
-            "magenta"
-        ]
+			"test_magenta_12_1",
+			"test_magenta_12_2",
+			"test_magenta_12_3"
+		]
 	],
 	"rewards": {
-		"function": "nnsb_main:install_system/color_system/20"
+		"function": "nnsb_item:damage_set/test"
 	}
 }

@@ -1,0 +1,112 @@
+
+{
+	"criteria": {
+		"test_red_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{ItemName:test,Tags:[red]}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+        "test_blue_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[blue],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+        "test_green_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[green],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		
+        "test_yellow_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[yellow],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		
+		"test_cyan_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[cyan],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		
+        "test_magenta_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{Tags:[magenta],ItemName:test}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		}
+	},
+    
+    "requirements": [
+        [
+            "test_red_20_1",
+            "test_blue_20_1",
+            "test_green_20_1",
+            "test_yellow_20_1",
+            "test_cyan_20_1",
+            "test_magenta_20_1"
+        ]
+    ],
+	"rewards": {
+		"function": "nnsb_item:damage_set/items/test_item/test_20"
+	}
+}
