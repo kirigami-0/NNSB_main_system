@@ -13,3 +13,4 @@ execute as @e[nbt={HurtTime:10s},limit=1,sort=nearest] if score @s Mob_HP matche
 
 #進捗を有効化
 advancement revoke @s only nnsb_main:colors/12
+

@@ -6,10 +6,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:red}"
+							
+							"nbt": "{tags:[red]}"
 						}
 					}
 				},
@@ -24,10 +22,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:red}"
+							
+							"nbt": "{tags:[red]}"
 						}
 					}
 				},
@@ -42,10 +38,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:red}"
+							
+							"nbt": "{tags:[red]}"
 						}
 					}
 				},
@@ -61,10 +55,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:blue}"
+							
+							"nbt": "{tags:[blue]}"
 						}
 					}
 				},
@@ -79,10 +71,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:blue}"
+							
+							"nbt": "{tags:[blue]}"
 						}
 					}
 				},
@@ -97,10 +87,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:blue}"
+							
+							"nbt": "{tags:[blue]}"
 						}
 					}
 				},
@@ -116,10 +104,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:green}"
+							
+							"nbt": "{tags:[green]}"
 						}
 					}
 				},
@@ -134,10 +120,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:green}"
+							
+							"nbt": "{tags:[green]}"
 						}
 					}
 				},
@@ -152,10 +136,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:green}"
+							
+							"nbt": "{tags:[green]}"
 						}
 					}
 				},
@@ -171,10 +153,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:yellow}"
+							
+							"nbt": "{Tags:[yellow]}"
 						}
 					}
 				},
@@ -189,10 +169,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:yellow}"
+							
+							"nbt": "{Tags:[yellow]}"
 						}
 					}
 				},
@@ -207,10 +185,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:yellow}"
+							
+							"nbt": "{Tags:[yellow]}"
 						}
 					}
 				},
@@ -226,10 +202,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:cyan}"
+							
+							"nbt": "{tags:[cyan]}"
 						}
 					}
 				},
@@ -244,10 +218,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:cyan}"
+							
+							"nbt": "{tags:[cyan]}"
 						}
 					}
 				},
@@ -262,10 +234,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:cyan}"
+							
+							"nbt": "{tags:[cyan]}"
 						}
 					}
 				},
@@ -281,10 +251,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:magenta}"
+							
+							"nbt": "{tags:[magenta]}"
 						}
 					}
 				},
@@ -299,10 +267,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:magenta}"
+							
+							"nbt": "{tags:[magenta]}"
 						}
 					}
 				},
@@ -317,10 +283,8 @@
 				"player": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{ItemName:magenta}"
+							
+							"nbt": "{tags:[magenta]}"
 						}
 					}
 				},
