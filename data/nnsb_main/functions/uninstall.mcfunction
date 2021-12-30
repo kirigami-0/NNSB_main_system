@@ -68,7 +68,6 @@ scoreboard objectives remove total_exp
 
 #HP
  scoreboard objectives remove Mob_HP
- scoreboard objectives remove set_at
  scoreboard objectives remove temp_at
  scoreboard players reset @e
  scoreboard players reset $HP_temp

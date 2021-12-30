@@ -1,12 +1,8 @@
 #> nnsb_main:install_system/hp_system/add
 
 #HPを格納する
- scoreboard objectives add Mob_HP dummy "§4HP"
+ scoreboard objectives add Mob_HP dummy
  scoreboard players set $HP_temp Mob_HP 0
- 
-#攻撃を検知する
- scoreboard objectives add set_at custom:damage_dealt "攻撃"
- scoreboard players set @s set_at 0
  
 #攻撃力を保存する
  scoreboard objectives add temp_at dummy "攻撃保存"
