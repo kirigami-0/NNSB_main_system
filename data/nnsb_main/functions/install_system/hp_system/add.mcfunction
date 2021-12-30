@@ -10,6 +10,3 @@
  
 #属性用変数
  scoreboard players set $damage_math temp_at 0
- scoreboard objectives add kill_reset custom:mob_kills "キルカウンター"
- scoreboard players set @s kill_reset 0
- 

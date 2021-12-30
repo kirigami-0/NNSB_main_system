@@ -1,0 +1,114 @@
+{
+	"criteria": {
+		"basic_bow_red_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "minecraft:arrows",
+							"nbt": "{ItemName:basic_bow,Tags:[red]}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"basic_bow_blue_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [],
+							"tag": "minecraft:arrows",
+							"nbt": "{Tags:[blue],ItemName:basic_bow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"basic_bow_green_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "minecraft:arrows",
+							"nbt": "{Tags:[green],ItemName:basic_bow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"basic_bow_yellow_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "minecraft:arrows",
+							"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"basic_bow_cyan_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "minecraft:arrows",
+							"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		"basic_bow_magenta_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "minecraft:arrows",
+							"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"basic_bow_red_20_1",
+			"basic_bow_blue_20_1",
+			"basic_bow_green_20_1",
+			"basic_bow_yellow_20_1",
+			"basic_bow_cyan_20_1",
+			"basic_bow_magenta_20_1"
+		]
+	],
+	"rewards": {
+		"function": "nnsb_item:damage_system/items/basic_bow/20"
+	}
+}

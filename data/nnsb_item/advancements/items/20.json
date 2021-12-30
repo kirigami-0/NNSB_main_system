@@ -107,6 +107,6 @@
         ]
     ],
 	"rewards": {
-		"function": "nnsb_item:damage_set/items/test_item/test_20"
+		"function": "nnsb_item:damage_system/items/test/20"
 	}
 }

@@ -3,11 +3,11 @@
         "requirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "nnsb_item:〇〇"
+                "recipe": "nnsb_item:test"
                 }
             }
         },
     "rewards": {
-        "function": "nnsb_item:〇〇"
+        "function": "nnsb_item:test"
     }
 }
