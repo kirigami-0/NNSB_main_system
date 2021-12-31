@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"basic_bow_red_12_1": {
+		"test_red_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -11,7 +11,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[red],ItemName:basic_bow}"
+								"nbt": "{Tags:[red],ItemName:test}"
 							}
 						}
 					}
@@ -22,7 +22,7 @@
 			}
 		},
 		
-		"basic_bow_magenta_12_1": {
+		"test_magenta_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -33,7 +33,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+								"nbt": "{Tags:[magenta],ItemName:test}"
 							}
 						}
 					}
@@ -43,7 +43,7 @@
 				}
 			}
 		},
-		"basic_bow_blue_12_1": {
+		"test_blue_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -54,7 +54,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[blue],ItemName:basic_bow}"
+								"nbt": "{Tags:[blue],ItemName:test}"
 							}
 						}
 					}
@@ -64,7 +64,7 @@
 				}
 			}
 		},
-		"basic_bow_cyan_12_1": {
+		"test_cyan_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -75,7 +75,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+								"nbt": "{Tags:[cyan],ItemName:test}"
 							}
 						}
 					}
@@ -85,7 +85,7 @@
 				}
 			}
 		},
-		"basic_bow_green_12_1": {
+		"test_green_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -96,7 +96,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[green],ItemName:basic_bow}"
+								"nbt": "{Tags:[green],ItemName:test}"
 							}
 						}
 					}
@@ -106,7 +106,7 @@
 				}
 			}
 		},
-		"basic_bow_yellow_12_1": {
+		"test_yellow_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -117,7 +117,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+								"nbt": "{Tags:[yellow],ItemName:test}"
 							}
 						}
 					}
@@ -131,12 +131,12 @@
 	},
 	"requirements": [
 		[
-			"basic_bow_red_12_1",
-			"basic_bow_magenta_12_1",
-			"basic_bow_blue_12_1",
-			"basic_bow_cyan_12_1",
-			"basic_bow_green_12_1",
-			"basic_bow_yellow_12_1"
+			"test_red_12_1",
+			"test_magenta_12_1",
+			"test_blue_12_1",
+			"test_cyan_12_1",
+			"test_green_12_1",
+			"test_yellow_12_1"
 		]
 	],
 	"rewards": {

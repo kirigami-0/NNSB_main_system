@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"basic_bow_red_12_1": {
+		"test_bow_red_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -11,7 +11,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[red],ItemName:basic_bow}"
+								"nbt": "{Tags:[red],ItemName:test_bow}"
 							}
 						}
 					},
@@ -25,7 +25,7 @@
 			}
 		},
 		
-		"basic_bow_magenta_12_1": {
+		"test_bow_magenta_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -36,7 +36,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+								"nbt": "{Tags:[magenta],ItemName:test_bow}"
 							}
 						}
 					},
@@ -49,7 +49,7 @@
 				}
 			}
 		},
-		"basic_bow_blue_12_1": {
+		"test_bow_blue_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -60,7 +60,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[blue],ItemName:basic_bow}"
+								"nbt": "{Tags:[blue],ItemName:test_bow}"
 							}
 						}
 					},
@@ -73,7 +73,7 @@
 				}
 			}
 		},
-		"basic_bow_cyan_12_1": {
+		"test_bow_cyan_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -84,7 +84,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+								"nbt": "{Tags:[cyan],ItemName:test_bow}"
 							}
 						}
 					},
@@ -97,7 +97,7 @@
 				}
 			}
 		},
-		"basic_bow_green_12_1": {
+		"test_bow_green_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -108,7 +108,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[green],ItemName:basic_bow}"
+								"nbt": "{Tags:[green],ItemName:test_bow}"
 							}
 						}
 					},
@@ -121,7 +121,7 @@
 				}
 			}
 		},
-		"basic_bow_yellow_12_1": {
+		"test_bow_yellow_12_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -132,7 +132,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+								"nbt": "{Tags:[yellow],ItemName:test_bow}"
 							}
 						}
 					},
@@ -149,12 +149,12 @@
 	},
 	"requirements": [
 		[
-			"basic_bow_red_12_1",
-			"basic_bow_magenta_12_1",
-			"basic_bow_blue_12_1",
-			"basic_bow_cyan_12_1",
-			"basic_bow_green_12_1",
-			"basic_bow_yellow_12_1"
+			"test_bow_red_12_1",
+			"test_bow_magenta_12_1",
+			"test_bow_blue_12_1",
+			"test_bow_cyan_12_1",
+			"test_bow_green_12_1",
+			"test_bow_yellow_12_1"
 		]
 	],
 	"rewards": {

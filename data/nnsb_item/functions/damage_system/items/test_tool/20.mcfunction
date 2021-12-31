@@ -1,7 +1,7 @@
 #> nnsb_item:damage_system/items/test_tool/20
 
-#固有ダメージを設定する
-scoreboard players set @s temp_at 10
+#コンフィグを適応させる
+function nnsb_item:damage_system/items/test_tool/config
 
 #進捗を剥奪する
 advancement revoke @s only nnsb_item:items/test_tool/20
