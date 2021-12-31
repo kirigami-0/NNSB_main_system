@@ -1,5 +1,4 @@
-#> nnsb_item:damage_system/damage_set/set_damage
-
+#> nnsb_item:damage_system/set_damage
 
 #ダメージ計算
 scoreboard players operation @s temp_at *= $damage_math temp_at
@@ -11,8 +10,3 @@ scoreboard players operation @e[nbt={HurtTime:10s},limit=1,sort=nearest] Mob_HP 
 
 #HPが0になったらキル
 execute as @e[nbt={HurtTime:10s},limit=1,sort=nearest] if score @s Mob_HP matches ..0 run kill @s
-
-#進捗を剥奪
-advancement revoke @s only nnsb_item:items/test/12
-advancement revoke @s only nnsb_item:items/test/15
-advancement revoke @s only nnsb_item:items/test/20

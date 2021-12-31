@@ -1,0 +1,451 @@
+{
+	"criteria": {
+		"basic_bow_red_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[red],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		
+		"basic_bow_red_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[red],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"basic_bow_red_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[red],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"basic_bow_magenta_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		"basic_bow_magenta_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"basic_bow_magenta_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[magenta],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"basic_bow_blue_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[blue],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"basic_bow_blue_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[blue],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"basic_bow_blue_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[blue],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"basic_bow_cyan_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"basic_bow_cyan_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"basic_bow_cyan_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[cyan],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"basic_bow_green_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[green],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"basic_bow_green_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[green],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"basic_bow_green_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[green],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"basic_bow_yellow_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"basic_bow_yellow_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"basic_bow_yellow_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow],ItemName:basic_bow}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		}
+
+	},
+	"requirements": [
+		[
+			"basic_bow_red_12_1","basic_bow_red_12_2","basic_bow_red_12_3",
+			"basic_bow_magenta_12_1","basic_bow_magenta_12_2","basic_bow_magenta_12_3",
+			"basic_bow_blue_12_1","basic_bow_blue_12_2","basic_bow_blue_12_3",
+			"basic_bow_cyan_12_1","basic_bow_cyan_12_2","basic_bow_cyan_12_3",
+			"basic_bow_green_12_1","basic_bow_green_12_2","basic_bow_green_12_3",
+			"basic_bow_yellow_12_1","basic_bow_yellow_12_2","basic_bow_yellow_12_3"
+		]
+	],
+	"rewards": {
+		"function": "nnsb_item:damage_system/items/test_bow/12"
+	}
+}
