@@ -13,7 +13,7 @@ say 1
 ##
 
 #判定させるために一旦nnsb:job {next}にコピー
- data modify storage nnsb:job {next} set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
+ data modify storage nnsb:job next set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
 
 ##
  # nnsb:job {next:"アーチャー"}
@@ -23,7 +23,7 @@ say 1
 ##
 
 #判定させるために一旦nnsb:job {now}にコピー
- data modify storage nnsb:job {now} set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now
+ data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now
 
 ##
  # nnsb:job {next:"アーチャー"}
@@ -33,7 +33,7 @@ say 1
 ##
 
 #now が無職だったらnextのジョブをコピー
- execute as @a as @s if data storage nnsb:job {now:"無職"} run data modify storage nnsb:job {now} set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
+ execute as @a as @s if data storage nnsb:job {now:"無職"} run data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
   
   ##
    # nnsb:job {next:"アーチャー"}
