@@ -34,6 +34,7 @@
 ##
 
 ##ジョブ
+ function oh_my_dat:release
  #アーチャー
   scoreboard objectives remove archer_exp
   scoreboard objectives remove archer_need_exp

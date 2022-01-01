@@ -1,12 +1,3 @@
 フォルダを作ってtestと書かれているファイルを打ち込んで下さい。
 その後testと書かれた部分をアイテム名変えるだけでOKです。
 
-Advancementsのplayer_hurt_entityを使います。
-conditions.
- damage.
-  source_entity でダメージの原因となった間接的なエンティティをチェックできます。
-   source_entity.
-    equipment.
-     mainhand.
-      nbt で弓のNBTを指定できます。
-この進捗を用いてfunctionを実行してはどうでしょうか

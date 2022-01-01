@@ -1,7 +1,7 @@
 #> nnsb_mobs:yellow_tester
 
 #ゾンビを召喚する
-summon zombie ~ ~ ~ {Silent:1b,Tags:[yellow],CustomNameVisible:1b,CustomName:'{"text":"ゾンビ","color":"yellow","bold":true}',Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.movement_speed",Base:-10}]}
+summon zombie ~ ~ ~ {Silent:1b,Tags:[yellow,enemy],CustomNameVisible:1b,CustomName:'{"text":"ゾンビ","color":"yellow","bold":true}',Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.movement_speed",Base:-10}]}
 
 #AECを召喚する。
 summon area_effect_cloud ~ ~ ~ {Tags:[get]}
