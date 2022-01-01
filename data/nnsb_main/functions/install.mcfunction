@@ -13,7 +13,7 @@
  function nnsb_main:install_system/difficult/add
  
  #jobシステム
- function nnsb_main:install_system/job_system/add_job
+ function nnsb_main:install_system/job_system/add
 
  #HPシステム
  function nnsb_main:install_system/hp_system/add

@@ -2,7 +2,7 @@
 
 #制限時間とか追加する。
  scoreboard objectives add time_limit dummy "§2タイマー"
- scoreboard players set @s time_limit 120
+ execute as @a as @s run scoreboard players set @s time_limit 120
 
 #難易度ストレージ
  ## lv = 難易度
