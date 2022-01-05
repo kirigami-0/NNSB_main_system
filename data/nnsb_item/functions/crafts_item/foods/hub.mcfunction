@@ -1,0 +1,1 @@
+#> nnsb_item:crafts_item/foods/hub

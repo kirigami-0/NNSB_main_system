@@ -17,3 +17,6 @@
 
  #HPシステム
  function nnsb_main:install_system/hp_system/add
+
+##カスタムアイテム
+ function nnsb_item:crafts_item/tools/custom_craft_table/add
