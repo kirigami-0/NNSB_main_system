@@ -11,7 +11,13 @@
  execute if data storage nnsb:craft slot_7{id:"void"} run scoreboard players add @s nnsb_craft 1
  execute if data storage nnsb:craft slot_8{Slot:8b,Count:1b,tag:{ItemName:1}} run scoreboard players add @s nnsb_craft 1
 
+#アイテムを与える
  execute as @a as @s[scores={nnsb_craft=9}] run give @s painting
+
+#成功したら初期化
+ execute as @a as @s[scores={nnsb_craft=9}] run playsound block.anvil.use ambient @a ~ ~ ~ 1 1
  execute as @a as @s[scores={nnsb_craft=9}] run function nnsb_item:crafts_item/tools/custom_craft_table/item_del
+
+#失敗しても初期化をする
  scoreboard players set @s nnsb_craft 0
 

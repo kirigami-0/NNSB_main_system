@@ -1,6 +1,7 @@
 {
     "values": [
-        "nnsb_main:tick"
+        "nnsb_main:tick",
+        "nnsb_item:tick"
        
     ]
 }

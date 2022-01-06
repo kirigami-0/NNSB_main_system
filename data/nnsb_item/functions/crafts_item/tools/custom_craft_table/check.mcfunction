@@ -1,7 +1,5 @@
 #> nnsb_item:crafts_item/tools/custom_craft_table/check
 
-say 00
-
 #データ初期化
  data modify storage nnsb:craft slot_0 set from storage nnsb:craft_temp reset
  data modify storage nnsb:craft slot_1 set from storage nnsb:craft_temp reset
@@ -24,7 +22,7 @@ say 00
  execute at @e[type=item_frame,nbt={Item:{id:"minecraft:repeating_command_block",Count:1b}}] if block ~ ~-1 ~ dropper run data modify storage nnsb:craft slot_7 set from block ~ ~-1 ~ Items[{Slot:7b}]
  execute at @e[type=item_frame,nbt={Item:{id:"minecraft:repeating_command_block",Count:1b}}] if block ~ ~-1 ~ dropper run data modify storage nnsb:craft slot_8 set from block ~ ~-1 ~ Items[{Slot:8b}]
 
-#各場所の部分に飛ばす
+##各場所の部分に飛ばす
 #食べ物
  function nnsb_item:crafts_item/foods/hub
 
@@ -35,4 +33,4 @@ say 00
  function nnsb_item:crafts_item/tools/hub
 
 #クラフトタグ削除
-tag @s remove crafting
+ tag @s remove crafting
