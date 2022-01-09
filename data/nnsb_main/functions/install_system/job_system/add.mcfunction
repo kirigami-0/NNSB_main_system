@@ -43,10 +43,10 @@
  scoreboard objectives add sorcerer_level dummy
 
 #セットアップ
- execute as @a as @s run scoreboard players set @s archer_need_exp 10
- execute as @a as @s run scoreboard players set @s bomber_need_exp 10
- execute as @a as @s run scoreboard players set @s enchanter_need_exp 10
- execute as @a as @s run scoreboard players set @s kannagi_need_exp 10
- execute as @a as @s run scoreboard players set @s samurai_need_exp 10
- execute as @a as @s run scoreboard players set @s sinobi_need_exp 10
- execute as @a as @s run scoreboard players set @s sorcerer_need_exp 10
+ execute as @s run scoreboard players set @s archer_need_exp 10
+ execute as @s run scoreboard players set @s bomber_need_exp 10
+ execute as @s run scoreboard players set @s enchanter_need_exp 10
+ execute as @s run scoreboard players set @s kannagi_need_exp 10
+ execute as @s run scoreboard players set @s samurai_need_exp 10
+ execute as @s run scoreboard players set @s sinobi_need_exp 10
+ execute as @s run scoreboard players set @s sorcerer_need_exp 10
