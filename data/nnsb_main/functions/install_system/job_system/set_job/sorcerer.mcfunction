@@ -4,7 +4,7 @@
  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "ソーサラー"
 
 #判定させるために一旦nnsb:job {next}にコピー
- data modify storage nnsb:job {next} set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
+ data modify storage nnsb:job next set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
 
 #判定させるために一旦nnsb:job {now}にコピー
  data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now
