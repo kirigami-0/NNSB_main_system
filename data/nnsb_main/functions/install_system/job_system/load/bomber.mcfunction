@@ -7,3 +7,6 @@
 
 #nextをnowに入れ直す
  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now set from storage nnsb:job next
+
+#タグを与えて、スキル使用の際のトリガーにする
+ tag @s add bomber
