@@ -10,3 +10,7 @@
  
 #属性用変数ダミーを作成
  scoreboard players set $damage_math temp_at 0
+
+#手に持ったアイテムタグを取得するストレージを作成
+ data merge storage nnsb:damage {ItemName:""}
+ 
