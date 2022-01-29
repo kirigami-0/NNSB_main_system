@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "snow_check": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:snowball"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb:sa"
+    }
+  }
+  
