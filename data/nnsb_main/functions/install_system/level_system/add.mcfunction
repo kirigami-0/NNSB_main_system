@@ -14,5 +14,3 @@
  execute as @s run scoreboard players set @s level 0
  execute as @s run scoreboard players set @s need_exp 10
  
-
- 

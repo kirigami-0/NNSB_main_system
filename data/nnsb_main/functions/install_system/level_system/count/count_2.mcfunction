@@ -8,3 +8,6 @@
 
 #経験値を消す。
  clear @s command_block{CustomModelData:109001}
+
+
+

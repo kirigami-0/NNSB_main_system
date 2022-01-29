@@ -10,3 +10,4 @@
  
 #次は読み込み
  function nnsb_main:install_system/job_system/load/hub
+

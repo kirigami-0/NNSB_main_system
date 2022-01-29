@@ -9,3 +9,5 @@
 
 #進捗を剥奪する
  advancement revoke @s only nnsb_item:items/test_tool/12
+
+execute if data entity @s SelectedItem.tag run say 1

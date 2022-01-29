@@ -1,11 +1,11 @@
 #> nnsb_main:install_system/job_system/add
 
 #比較用ストレージを作成
- data merge storage nnsb:job {next:"",now:""}
+ data merge storage nnsb:job {next:"neet",now:"neet"}
 
 #自分のジョブを格納するストレージ
- data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "無職"
- data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now set value "無職"
+ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "neet"
+ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now set value "neet"
 
 #アーチャー
  scoreboard objectives add archer_exp dummy

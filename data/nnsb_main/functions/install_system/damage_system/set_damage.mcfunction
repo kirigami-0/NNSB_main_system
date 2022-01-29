@@ -1,4 +1,4 @@
-#> nnsb_item:damage_system/set_damage
+#> nnsb_main:install_system/damage_system/set_damage
 
 #ダメージ計算
  scoreboard players operation @s temp_at *= $damage_math temp_at

@@ -10,7 +10,10 @@
  data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].now
 
 #now が無職だったらnextのジョブをコピー
- execute as @s if data storage nnsb:job {now:"無職"} run data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
+ execute as @s if data storage nnsb:job {now:"neet"} run data modify storage nnsb:job now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
    
 #現在のジョブのデータをセーブ
  function nnsb_main:install_system/job_system/save/hub
+ function nnsb_main:install_system/job_system/set_job/clear_job_book
+
+
