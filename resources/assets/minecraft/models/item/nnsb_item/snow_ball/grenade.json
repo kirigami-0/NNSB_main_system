@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "item/snow_ball/shinobi_star"
+        "layer0": "item/snow_ball/grenade"
     }
 }

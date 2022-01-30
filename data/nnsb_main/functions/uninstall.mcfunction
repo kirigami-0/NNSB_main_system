@@ -65,4 +65,4 @@
  data remove storage nnsb:craft_temp reset
 
 #最終奥義
- datapack disable "file/NNSB_main_system"
+ #datapack disable "file/NNSB_main_system"

@@ -10,3 +10,6 @@
 
 #タグを与えて、スキル使用の際のトリガーにする
  tag @s add bomber
+
+#雪玉変化
+function nnsb_skill:snow_ball/check_job

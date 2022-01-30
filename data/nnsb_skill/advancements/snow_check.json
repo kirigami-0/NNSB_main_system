@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "nnsb:sa"
+      "function": "nnsb_skill:snow_ball/check_job"
     }
   }
   
