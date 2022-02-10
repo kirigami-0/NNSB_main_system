@@ -9,4 +9,11 @@
 
 #スキル変更用のスコア
  scoreboard objectives add skill_display custom:sneak_time
- 
+
+#MPの追加
+ scoreboard objectives add nnsb_MP_MAX dummy
+ scoreboard players set @s nnsb_MP_MAX 100
+
+ scoreboard objectives add nnsb_MP dummy "§aMP"
+ scoreboard players set @s nnsb_MP 100
+ scoreboard objectives setdisplay sidebar nnsb_MP

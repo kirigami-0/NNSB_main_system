@@ -1,3 +1,3 @@
 #> nnsb_skill:tick
 
-function nnsb_skill:main_system/skill_display
+#何も思いつかないの草

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": {
+            "stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:light_gray_glazed_terracotta"
+                ],
+                "state": {}
+              }
+            },
+            "flags": {
+              "is_sneaking": false
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nnsb_skill:main_system/slill_reset"
+    }
+  }
+  

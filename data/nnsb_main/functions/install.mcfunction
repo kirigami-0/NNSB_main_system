@@ -24,3 +24,5 @@
  
  #スキルシステム
  function nnsb_skill:add
+ #MP回復ファンクション
+ function nnsb_skill:mp_regeneration
