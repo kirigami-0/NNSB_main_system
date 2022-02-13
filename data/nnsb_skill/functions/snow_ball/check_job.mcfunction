@@ -5,5 +5,5 @@
  execute as @s[tag=sinobi] run function nnsb_skill:snow_ball/sinobi/cmd_set
 
 #進捗取り消す
- advancement revoke @s only nnsb_skill:snow_check
+ advancement revoke @s only nnsb_skill:item/snow_check
 

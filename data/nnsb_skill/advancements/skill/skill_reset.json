@@ -8,8 +8,7 @@
               "block": {
                 "blocks": [
                   "minecraft:light_gray_glazed_terracotta"
-                ],
-                "state": {}
+                ]
               }
             },
             "flags": {

@@ -5,4 +5,4 @@
 tellraw @s [{"text": "ここにスキルを表示させてクリックさせるのだ!!"}]
 
 #リセットできるように進捗を剥奪する。
- advancement revoke @s only nnsb_skill:skill_reset
+ advancement revoke @s only nnsb_skill:skill/skill_reset

@@ -3,4 +3,5 @@
  #特に何か書く必要はないのでいじらないでね。
 
 #トリガーを再セット 
- advancement revoke @s only nnsb_skill:skill_set
+ advancement revoke @s only nnsb_skill:skill/skill_set
+ advancement revoke @s only nnsb_skill:skill/skill_all
