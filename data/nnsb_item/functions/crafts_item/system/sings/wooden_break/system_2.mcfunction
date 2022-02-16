@@ -1,6 +1,5 @@
 #> nnsb_item:crafts_item/system/sings/wooden_break/system_2
 
-
 #原木粉砕君
 #x,z=0
 execute at @e[tag=wood_break] if block ~1 ~ ~ #logs run setblock ~1 ~ ~ air destroy
@@ -87,5 +86,4 @@ execute at @e[tag=wood_break] if block ~3 ~ ~-5 #logs run setblock ~3 ~ ~-5 air 
 execute at @e[tag=wood_break] if block ~4 ~ ~-5 #logs run setblock ~4 ~ ~-5 air destroy
 execute at @e[tag=wood_break] if block ~5 ~ ~-5 #logs run setblock ~5 ~ ~-5 air destroy
 
-schedule function nnsb_item:crafts_item/system/sings/wooden_break 1t
-effect give @e[tag=wood_break,limit=1,sort=nearest] levitation 1 3 false
+schedule function nnsb_item:crafts_item/system/sings/wooden_break/system_2 1t
