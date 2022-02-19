@@ -3,6 +3,8 @@
 #使用した人の最も近いエンチチをジャンプさせる。
  summon armor_stand ~ ~0.1 ~ {Tags:["wood_break"],Invulnerable:true,NoBasePlate:true,ShowArms:true}
 
+#UUIDを格納させる。
+
 #毎tick動かす部分を有効化する。
  function nnsb_item:crafts_item/system/sings/wooden_break/system_2
 
