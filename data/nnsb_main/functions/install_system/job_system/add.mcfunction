@@ -1,7 +1,7 @@
 #> nnsb_main:install_system/job_system/add
 
 #比較用ストレージを作成
- data merge storage nnsb:job {next:"neet",now:"neet"}
+ #data merge storage nnsb:job {next:"neet",now:"neet"}
 
 #自分のジョブを格納するストレージ
  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "neet"

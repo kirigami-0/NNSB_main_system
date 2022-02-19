@@ -2,11 +2,11 @@
 # いろんな判定
 
 #確定
- execute as @a if data storage nnsb:difficult {flag:2} run function nnsb_main:install_system/difficult/pl_select/flags/flags2
+ execute as @e[type=player] if score &difficult_flag time_limit matches 2 run function nnsb_main:install_system/difficult/pl_select/flags/flags2
 
 #仮変更
- execute as @a if data storage nnsb:difficult {flag:1} run function nnsb_main:install_system/difficult/pl_select/flags/flags
+ execute as @e[type=player] if score &difficult_flag time_limit matches 1 run function nnsb_main:install_system/difficult/pl_select/flags/flags
 
 #未変更
- execute as @a if data storage nnsb:difficult {flag:0} run data modify storage nnsb:difficult flag set value 1
+ execute as @e[type=player] if score &difficult_flag time_limit matches 0 run data modify storage nnsb: system[0][0][2].set_flag set value 1
 

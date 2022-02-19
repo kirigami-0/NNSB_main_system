@@ -4,7 +4,9 @@
  function #oh_my_dat:please
 
 ##メインシステムインストール
- 
+ #共通ストレージ
+ function nnsb_main:install_system/main/add
+
  #レベルシステム
  function nnsb_main:install_system/level_system/add
  
@@ -18,7 +20,7 @@
  function nnsb_main:install_system/hp_system/add
 
  #その他スコアボード
- function nnsb_main:install_system/other/sdd
+ function nnsb_main:install_system/main/add
 
 ##サブシステムインストール
  #カスタムアイテム

@@ -6,11 +6,7 @@
  
 #攻撃力を保存するスコアボードを作成
  scoreboard objectives add temp_at dummy "攻撃保存"
- execute as @a run scoreboard players set @s temp_at 0
- 
+  
 #属性用変数ダミーを作成
  scoreboard players set $damage_math temp_at 0
-
-#手に持ったアイテムタグを取得するストレージを作成
- data merge storage nnsb:damage {ItemName:""}
  
