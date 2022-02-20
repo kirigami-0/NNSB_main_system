@@ -5,7 +5,7 @@
  scoreboard players set $HP_temp Mob_HP 0
  
 #攻撃力を保存するスコアボードを作成
- scoreboard objectives add temp_at dummy "攻撃保存"
+ scoreboard objectives add temp_at dummy
   
 #属性用変数ダミーを作成
  scoreboard players set $damage_math temp_at 0

@@ -1,19 +1,8 @@
 #> nnsb_skill:add
 
-#投げたの検知するスコアボード
- scoreboard objectives add snow_ball_throw used:snowball
+#フラグ管理
+execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_skill:new_add
 
-#投げた人と雪玉が同じ人かを検知するためのスコアボード
- scoreboard objectives add snow_ball_Owner_check dummy
- scoreboard players set @a snow_ball_Owner_check 1
-
-#スキル変更用のスコア
- scoreboard objectives add skill_display custom:sneak_time
-
-#MPの追加
- scoreboard objectives add nnsb_MP_MAX dummy
+#MPの設定
  scoreboard players set @s nnsb_MP_MAX 100
-
- scoreboard objectives add nnsb_MP dummy "§aMP"
  scoreboard players set @s nnsb_MP 100
- scoreboard objectives setdisplay sidebar nnsb_MP

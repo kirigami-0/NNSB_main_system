@@ -5,29 +5,26 @@
 
 ##メインシステムインストール
  #共通ストレージ
- function nnsb_main:install_system/main/add
-
- #レベルシステム
- function nnsb_main:install_system/level_system/add
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/main/add
  
+ #HPシステム
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/hp_system/add
+
  #難易度
- function nnsb_main:install_system/difficult/add
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/difficult/add
+ 
+ #レベルシステム
+  function nnsb_main:install_system/level_system/add
  
  #jobシステム
- function nnsb_main:install_system/job_system/add
-
- #HPシステム
- function nnsb_main:install_system/hp_system/add
-
- #その他スコアボード
- function nnsb_main:install_system/main/add
+  function nnsb_main:install_system/job_system/add
 
 ##サブシステムインストール
  #カスタムアイテム
- function nnsb_item:crafts_item/custom_craft_table/add
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_item:crafts_item/custom_craft_table/add
  
- #スキルシステム
- function nnsb_skill:add
-
  #MP回復ファンクション
- function nnsb_skill:mp_regeneration
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_skill:mp_regeneration
+
+ #スキルシステム
+  function nnsb_skill:add
