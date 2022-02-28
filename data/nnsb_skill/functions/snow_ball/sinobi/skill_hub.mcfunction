@@ -4,7 +4,7 @@
  execute store success score @s snow_ball_Owner_check run data modify entity @e[type=snowball,limit=1] Owner.[0] set from entity @s UUID.[0]
  
  #合ってたら
-  execute as @s[scores={snow_ball_Owner_check=0}] run summon minecraft:armor_stand ~ ~ ~
+  execute as @s[scores={snow_ball_Owner_check=0}] run say 各種ファンクションに飛ぶ！！
  
 #初期化
  execute as @s[scores={snow_ball_Owner_check=0}] run scoreboard players set @s snow_ball_Owner_check 1

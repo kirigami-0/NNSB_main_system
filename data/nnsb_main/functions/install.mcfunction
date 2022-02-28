@@ -1,30 +1,25 @@
 #> nnsb_main:install
 
-##プレイヤーのOh My Datを呼び出す
- function #oh_my_dat:please
+#スニペット登録
+  #define storage nnsb:
 
-##メインシステムインストール
- #共通ストレージ
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/main/add
- 
- #HPシステム
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/hp_system/add
+#毎回インストールされるヤツ
+  #プレイヤーのOh My Datを呼び出す
+    function #oh_my_dat:please
+  
+  #自作の部分
+    function #every_install
 
- #難易度
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/difficult/add
- 
- #レベルシステム
-  function nnsb_main:install_system/level_system/add
- 
- #jobシステム
-  function nnsb_main:install_system/job_system/add
+#最初だけインストールされるやつ
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function #first_install
+  
+  #内容
+    #共通ストレージ
+    #HPシステム
+    #難易度
+    #レベルシステム
+    #カスタムアイテム
+    #MP回復ファンクション
 
-##サブシステムインストール
- #カスタムアイテム
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_item:crafts_item/custom_craft_table/add
- 
- #MP回復ファンクション
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_skill:mp_regeneration
-
- #スキルシステム
-  function nnsb_skill:add
+#インストールフラグ
+  data modify storage nnsb: check.FLAG set value TRUE
