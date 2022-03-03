@@ -6,4 +6,3 @@
  execute as @s run scoreboard players set @s level 0
  execute as @s run scoreboard players set @s need_exp 10
  
-execute as @s unless data storage nnsb: check{FLAG:TRUE} run function nnsb_main:install_system/level_system/new_add

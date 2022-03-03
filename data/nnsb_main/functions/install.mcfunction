@@ -1,7 +1,18 @@
 #> nnsb_main:install
 
 #スニペット登録
-  #define storage nnsb:
+  #ストレージ
+    #define storage nnsb:
+  
+  #タグ
+    #define tag archer
+    #define tag bomber
+    #define tag enchanter
+    #define tag kannagi
+    #define tag samurai
+    #define tag sinobi
+    #define tag sorcerer
+
 
 #毎回インストールされるヤツ
   #プレイヤーのOh My Datを呼び出す

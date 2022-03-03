@@ -1,7 +1,6 @@
 {
     "values": [
         "nnsb_main:tick",
-        "nnsb_item:tick",
-        "nnsb_skill:tick"
+        "nnsb_item:tick"
     ]
 }

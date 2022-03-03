@@ -4,7 +4,9 @@
       "nnsb_main:install_system/hp_system/add",
       "nnsb_main:install_system/difficult/add",
       "nnsb_item:crafts_item/custom_craft_table/add",
-      "nnsb_skill:mp_regeneration"
+      "nnsb_skill:mp_regeneration",
+      "nnsb_main:install_system/level_system/new_add",
+      "nnsb_skill:new_add"
   ]
 }
 
