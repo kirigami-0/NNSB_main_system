@@ -11,7 +11,11 @@
     scoreboard objectives add mp_MAX dummy
     scoreboard objectives add mp dummy "§aMP"
     scoreboard objectives setdisplay sidebar mp
-  
+    
+    #MPの設定
+      scoreboard players set @s mp_MAX 100
+      scoreboard players set @s mp 100
+
 #ストレージ
   data modify storage nnsb: skill.main set value "未設定"
   data modify storage nnsb: skill.sub set value "未設定"

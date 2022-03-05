@@ -16,5 +16,3 @@
     tellraw @s [{"text": "サポートスキル  "},{"text": "  陽    ","color": "gold","bold": true,"clickEvent": {"action": "run_command","value": "/function nnsb_skill:main_system/support/sun"}},{"text": "現在 : "},{"nbt":"skill.sun","storage": "nnsb:","color": "red","underlined": true}]
       tellraw @s [{"text": ""}]
 
-#リセットできるように進捗を剥奪する。
-  advancement revoke @s only nnsb_skill:skill/skill_reset
