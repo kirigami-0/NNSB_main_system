@@ -9,7 +9,6 @@
   execute unless data storage nnsb: difficult{flag:2} run data modify storage nnsb: difficult.now set value "通常"
   execute unless data storage nnsb: difficult{flag:2} run data modify storage nnsb: difficult.next set value "通常"
  
-
 #タイムリセット
   execute unless data storage nnsb: difficult{flag:2} run scoreboard players set @e[type=player] time_limit 120
 

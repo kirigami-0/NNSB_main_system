@@ -4,7 +4,7 @@
   execute at @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:crafting_table"}}] if block ~ ~-1 ~ smithing_table run function nnsb_item:crafts_item/custom_craft_table/set
 
 #カスタムクラフターが壊されたか
-  execute at @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:repeating_command_block"}}] if block ~ ~-1 ~ air run function nnsb_item:crafts_item/custom_craft_table/reset
+  execute at @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:paper"}}] if block ~ ~-1 ~ air run function nnsb_item:crafts_item/custom_craft_table/reset
 
 #クラフトしたら
   execute as @e[type=item_frame,nbt={ItemRotation:1b}] run tag @p add crafting
@@ -16,4 +16,4 @@
   execute as @a as @s[tag=crafting] run function nnsb_item:crafts_item/custom_craft_table/check
 
 #演出
-  execute at @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:repeating_command_block"}}] if block ~ ~-1 ~ dropper run function nnsb_item:crafts_item/custom_craft_table/tick_2
+  execute at @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:paper"}}] if block ~ ~-1 ~ dropper run function nnsb_item:crafts_item/custom_craft_table/tick_2

@@ -5,7 +5,7 @@
 
 #額縁をキルして新しいのに置き換える。
   kill @e[type=item_frame,limit=1,sort=nearest]
-  summon item_frame ~ ~ ~ {Item:{id:"repeating_command_block",Count:1b},Facing:1b,Invulnerable:true}
+  summon item_frame ~ ~ ~ {Item:{id:"paper",Count:1b,tag:{CustomModelData:110011}},Facing:1b,Invulnerable:true,Invisible:true}
 
 
 
