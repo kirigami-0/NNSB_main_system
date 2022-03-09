@@ -1,7 +1,7 @@
-#> nnsb_main:uninstall
+#> first:uninstall
 
 #アンインストールシステムに飛ぶ
-  function #uninstall
+  function #first:uninstall
   data modify storage nnsb: check set value ""
 
 

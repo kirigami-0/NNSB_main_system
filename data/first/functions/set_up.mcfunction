@@ -1,4 +1,4 @@
-#> nnsb_main:set_up
+#> first:set_up
 
 #NNSB専用ストレージ追加
   #job判定用ストレージ

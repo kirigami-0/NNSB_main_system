@@ -1,4 +1,4 @@
-#> nnsb_main:fast_uninstall
+#> first:fast_uninstall
 
 #ストレージ
   data remove storage nnsb: job

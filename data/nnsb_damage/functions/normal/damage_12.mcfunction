@@ -1,7 +1,5 @@
 #> nnsb_damage:normal/damage_12
 
-say 123
-
 #ストレージにItemNameを格納する。
   data modify storage nnsb: damage.item_name set from entity @s SelectedItem.tag.ItemName
 
@@ -9,12 +7,11 @@ say 123
  #execute as @s if data storage nnsb: damage{item_name:"ここにItemNameを入れてね。"} run function コンフィグセットしてね。
   execute as @s if data storage nnsb: damage{item_name:["tester"]} run function nnsb_damage:damage_config/tester
 
-
 #属性ダメージセット
   scoreboard players set $damage_math define 12
 
 #ダメージ計算開始
-  function nnsb_damage:test
+  function nnsb_damage:damage_set
 
 #再利用できるようにする
   advancement revoke @s only nnsb_damage:damage_12

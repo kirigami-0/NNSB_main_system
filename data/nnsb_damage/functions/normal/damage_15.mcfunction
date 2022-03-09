@@ -6,7 +6,6 @@
 #ストレージに格納したItemNameを比較する部分
  #execute as @s if data storage nnsb: damage{item_name:["ここにItemNameを入れてね。"]} run function コンフィグセットしてね。
 
-
 #属性ダメージセット
   scoreboard players set $damage_math define 15
 

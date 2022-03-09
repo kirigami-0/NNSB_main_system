@@ -1,4 +1,4 @@
-#> nnsb_main:install
+#> first:install
 
 #スニペット登録
   #ストレージ

@@ -1,6 +1,6 @@
 {
     "values": [
-        "nnsb_main:fast_uninstall",
+        "first:fast_uninstall",
         "nnsb_hp:uninstall",
         "nnsb_level:uninstall",
         "nnsb_job:uninstall",
