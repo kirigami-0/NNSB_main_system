@@ -7,7 +7,7 @@
  summon area_effect_cloud ~ ~ ~ {Tags:[get]}
 
 #AECの近くにいるMOBのHPのHPをセットする。
- execute at @e[type=area_effect_cloud,tag=get] as @e[limit=1,sort=nearest,tag=enemy] run scoreboard players set $HP_temp Mob_HP 10
+ execute at @e[tag=get] as @e[limit=1,sort=nearest,tag=enemy] run scoreboard players set &HP_temp define 100
 
 #HPを適応させる
- function nnsb_main:install_system/hp_system/set
+ execute at @e[tag=get] as @e[limit=1,sort=nearest,tag=enemy] run function nnsb_main:install_system/hp_system/set

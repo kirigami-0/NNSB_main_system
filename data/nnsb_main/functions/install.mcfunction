@@ -22,16 +22,20 @@
     #define tag shadow_setting
     #define tag sun_setting
     #define tag mp_regeneration
+    #define tag enemy
+    #define tag red
+    #define tag blue
+    #define tag green
+    #define tag cyan
+    #define tag magenta
+    #define tag yellow
     
 #毎回インストールされるヤツ
-  #プレイヤーのOh My Datを呼び出す
-    function #oh_my_dat:please
-  
-  #自作の部分
-    function #every_install
+  function #oh_my_dat:please
+  function #nnsb_main:every_install
 
 #最初だけインストールされるやつ
-  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function #first_install
+  execute as @s unless data storage nnsb: check{FLAG:TRUE} run function #nnsb_main:first_install
 
 #インストールフラグ
   data modify storage nnsb: check.FLAG set value TRUE

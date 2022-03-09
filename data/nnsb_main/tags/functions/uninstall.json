@@ -1,0 +1,10 @@
+{
+    "values": [
+        "nnsb_main:install_system/fast_add/uninstall",
+        "nnsb_hp:uninstall",
+        "nnsb_main:install_system/level_system/uninstall",
+        "nnsb_job:uninstall",
+        "nnsb_skill:uninstall"
+    ]
+}
+

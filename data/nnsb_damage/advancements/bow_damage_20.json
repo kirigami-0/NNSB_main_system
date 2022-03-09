@@ -1,0 +1,163 @@
+{
+	"criteria": {
+		"red_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[red]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		
+		"magenta_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"blue_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[blue]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"cyan_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[cyan]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		"green_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[green]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"yellow_20_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		}
+
+	},
+	"requirements": [
+		[
+			"red_20_1",
+			"magenta_20_1",
+			"blue_20_1",
+			"cyan_20_1",
+			"green_20_1",
+			"yellow_20_1"
+		]
+	],
+	"rewards": {
+		"function": "nnsb_damage:bow/damage_20"
+	}
+}

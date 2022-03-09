@@ -1,8 +1,0 @@
-{
-  "values": [
-      "nnsb_main:install_system/level_system/add",
-      "nnsb_main:install_system/job_system/add",
-      "nnsb_skill:add"
-  ]
-}
-

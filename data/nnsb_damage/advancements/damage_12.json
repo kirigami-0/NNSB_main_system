@@ -1,0 +1,343 @@
+{
+	"criteria": {
+		"red_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[red]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		
+		"red_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[red]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"red_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[red]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"magenta_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		"magenta_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"magenta_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"blue_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[blue]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
+				}
+			}
+		},
+		"blue_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[blue]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"blue_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[blue]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"cyan_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[cyan]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"cyan_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[cyan]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"cyan_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[cyan]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"green_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[green]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"green_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[green]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"green_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[green]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"yellow_12_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"yellow_12_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"yellow_12_3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[red]}"
+				}
+			}
+		}
+
+	},
+	"requirements": [
+		[
+			"red_12_1","red_12_2","red_12_3",
+			"magenta_12_1","magenta_12_2","magenta_12_3",
+			"blue_12_1","blue_12_2","blue_12_3",
+			"cyan_12_1","cyan_12_2","cyan_12_3",
+			"green_12_1","green_12_2","green_12_3",
+			"yellow_12_1","yellow_12_2","yellow_12_3"
+		]
+	],
+	"rewards": {
+		"function": "nnsb_damage:normal/damage_12"
+	}
+}
