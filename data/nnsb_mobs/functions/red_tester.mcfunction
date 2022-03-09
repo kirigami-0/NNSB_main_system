@@ -10,4 +10,4 @@
  execute at @e[tag=get] as @e[limit=1,sort=nearest,tag=enemy] run scoreboard players set &HP_temp define 100
 
 #HPを適応させる
- execute at @e[tag=get] as @e[limit=1,sort=nearest,tag=enemy] run function nnsb_main:install_system/hp_system/set
+ execute at @e[tag=get] as @e[limit=1,sort=nearest,tag=enemy] run function nnsb_hp:set

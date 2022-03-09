@@ -1,4 +1,4 @@
-#> nnsb_main:install_system/difficult/timer/regist
+#> nnsb_difficult:timer/regist
 
 #拒否部分
   execute unless data storage nnsb: difficult{flag:2} run tellraw @e[type=player] [{"text": "\n\n\n\n\n\n\n\n          "},{"nbt":"difficult.next","storage": "nnsb:","bold": true}]
@@ -16,6 +16,6 @@
   execute unless data storage nnsb: difficult{flag:2} run data modify storage nnsb: difficult.flag set value 0
 
 #カウントダウンファンクションを停止
-  execute unless data storage nnsb: difficult{flag:2} run schedule clear nnsb_main:install_system/difficult/timer/count_down
+  execute unless data storage nnsb: difficult{flag:2} run schedule clear nnsb_difficult:/timer/count_down
 
 

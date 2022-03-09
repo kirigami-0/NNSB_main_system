@@ -1,4 +1,4 @@
-#> nnsb_main:install_system/fast_add/set_up
+#> nnsb_main:set_up
 
 #NNSB専用ストレージ追加
   #job判定用ストレージ

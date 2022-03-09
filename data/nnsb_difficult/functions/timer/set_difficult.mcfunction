@@ -1,4 +1,4 @@
-#> nnsb_main:install_system/difficult/timer/set_difficult
+#> nnsb_difficult:timer/set_difficult
 
 #変更不可にする。
   data modify storage nnsb: difficult.flag set value 2

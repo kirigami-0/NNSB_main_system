@@ -1,14 +1,14 @@
 {
   "values": [
-      "nnsb_main:install_system/fast_add/set_up",
+      "nnsb_main:set_up",
+      
+      "nnsb_difficult:add",
       "nnsb_hp:add",
-      "nnsb_main:install_system/difficult/add",
       "nnsb_item:crafts_item/custom_craft_table/add",
       "nnsb_skill:mp_regeneration",
-      "nnsb_main:install_system/level_system/new_add",
       "nnsb_skill:new_add",
       "nnsb_job:new_add",
-      "nnsb_level:level_system/new_add"
+      "nnsb_level:new_add"
   ]
 }
 

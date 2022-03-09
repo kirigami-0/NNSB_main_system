@@ -1,4 +1,4 @@
-#> nnsb_main:install_system/difficult/pl_select/flags/flags2
+#> nnsb_difficult:pl_select/flags/flags2
 
 #変更されていたら
   tellraw @e[type=player] [{"text": "\n\n\n\n\n\n\n\nすでに"}]
