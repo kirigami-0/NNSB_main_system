@@ -1,8 +1,8 @@
 {
     "values": [
-        "nnsb_main:tick",
         "nnsb_item:tick",
         "nnsb_level:count/1",
-        "nnsb_level:lv_up"
+        "nnsb_level:lv_up",
+        "nnsb_skill:skill/check/tick"
     ]
 }
