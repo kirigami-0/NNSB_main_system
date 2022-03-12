@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "install:install"
+    "function": "first:install"
   }
 }
