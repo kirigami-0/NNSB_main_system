@@ -1,4 +1,5 @@
 #> nnsb_skill:skill/hub/main
+  #スキル設定島にTPさせる
 
 #トリガーを削除
   advancement revoke @s only nnsb_skill:skill_setting/go_normal

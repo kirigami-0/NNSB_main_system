@@ -1,31 +1,18 @@
 {
-  "type": "minecraft:the_nether",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:sparse_jungle",
+      "biome": "nnsb_domension:tester",
       "lakes": false,
       "features": false,
       "layers": [
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:air",
           "height": 1
         }
       ],
-      "structures": {
-        "stronghold": {
-          "distance": 0,
-          "spread": 0,
-          "count": 0
-        },
-        "structures": {
-          "minecraft:endcity": {
-            "spacing": 0,
-            "separation": 0,
-            "salt": 0
-          }
-        }
-      }
+      "structure_overrides": []
     }
   }
 }

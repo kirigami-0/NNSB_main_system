@@ -1,4 +1,5 @@
 #> nnsb_skill:skill/hub/tp_dimension
+  #スキル設定島から通常世界に移動させる
 
 #トリガーを削除
   advancement revoke @s only nnsb_skill:skill_setting/reset_ad
