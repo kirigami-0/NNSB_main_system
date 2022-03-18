@@ -4,12 +4,12 @@
   "precipitation": "rain",
   "category": "plains",
   "effects": {
-    "sky_color": 11500287,
-    "fog_color": 14926591,
-    "water_color": 13647844,
-    "water_fog_color": 2688307,
-    "grass_color": 16749716,
-    "foliage_color": 16747146
+    "sky_color": 7780606,
+    "fog_color": 13095167,
+    "water_color": 16711680,
+    "water_fog_color": 4325376,
+    "grass_color": 16756331,
+    "foliage_color": 16740674
   },
   "spawners": {},
   "spawn_costs": {},
