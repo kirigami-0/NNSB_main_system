@@ -3,15 +3,10 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "nnsb_dimension:heaven_on_earth",
+      "biome": "nnsb_dimension:space_of_creators",
       "lakes": false,
       "features": false,
-      "layers": [
-        {
-          "block": "minecraft:water",
-          "height": 30
-        }
-      ],
+      "layers": [],
       "structure_overrides": []
     }
   }

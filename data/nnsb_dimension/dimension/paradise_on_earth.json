@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "nnsb_dimension:paradise_on_earth",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:water",
+          "height": 30
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
