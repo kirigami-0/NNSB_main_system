@@ -9,4 +9,4 @@
 #属性用変数ダミーを作成
   scoreboard players set &damage_math define 0
 
-  #test
+  
