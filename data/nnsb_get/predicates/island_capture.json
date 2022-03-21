@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "temp_ender_eye": 1
+  }
+}

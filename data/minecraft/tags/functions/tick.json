@@ -3,6 +3,7 @@
         "nnsb_item:tick",
         "nnsb_level:count/1",
         "nnsb_level:lv_up",
-        "first:rule"
+        "first:rule",
+        "nnsb_get:tick"
     ]
 }
