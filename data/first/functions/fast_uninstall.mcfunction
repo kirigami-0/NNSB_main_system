@@ -1,5 +1,6 @@
 #> first:fast_uninstall
-
+  #アンインストール処理
+  
 #ストレージ
   data remove storage nnsb: job
   data remove storage nnsb: difficult
