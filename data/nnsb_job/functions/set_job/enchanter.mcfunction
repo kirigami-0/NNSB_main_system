@@ -1,8 +1,8 @@
 #> nnsb_job:set_job/enchanter
+#職業をエンチャンターに設定する
 
 #OMDを自分のストレージにセットし直す
-  execute store result score _ OhMyDatID run scoreboard players get @s OhMyDatID
-  function #oh_its_dat:please
+  function nnsb_get:omd_get
 
 #OMDを自分のストレージにセットし直す
   execute store result score _ OhMyDatID run scoreboard players get @s OhMyDatID

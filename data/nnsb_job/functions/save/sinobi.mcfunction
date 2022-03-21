@@ -1,8 +1,9 @@
 #> nnsb_job:save/sinobi
+
 #現在のレベルとかいろいろを保存する
-  scoreboard players operation @s sinobi_exp = @s exp
-  scoreboard players operation @s sinobi_need_exp = @s need_exp
-  scoreboard players operation @s sinobi_level = @s level
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sinobi_exp int 1 run scoreboard players get @s exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sinobi_need_exp int 1 run scoreboard players get @s need_exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sinobi_level int 1 run scoreboard players get @s level
 
 #タグを無くして設定できるように
   tag @s remove sinobi

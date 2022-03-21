@@ -1,7 +1,8 @@
 #> nnsb_job:set_job/kannagi
+#職業をカンナギに設定する
 
-#OMDに就職したい職業をセットする。
-  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "カンナギ"
+#OMDを自分のストレージにセットし直す
+  function nnsb_get:omd_get
 
 #判定させるために一旦nnsb: job.{next}にコピー
   data modify storage nnsb: job.next set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next

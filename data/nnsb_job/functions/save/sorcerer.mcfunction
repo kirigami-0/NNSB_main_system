@@ -1,9 +1,9 @@
 #> nnsb_job:save/sorcerer
 
 #現在のレベルとかいろいろを保存する
-  scoreboard players operation @s sorcerer_exp = @s exp
-  scoreboard players operation @s sorcerer_need_exp = @s need_exp
-  scoreboard players operation @s sorcerer_level = @s level
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sorcerer_exp int 1 run scoreboard players get @s exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sorcerer_need_exp int 1 run scoreboard players get @s need_exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].sorcerer_level int 1 run scoreboard players get @s level
 
 #タグを無くして設定できるように
   tag @s remove sorcerer

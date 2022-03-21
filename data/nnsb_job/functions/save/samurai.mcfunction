@@ -1,8 +1,9 @@
 #> nnsb_job:save/samurai
+
 #現在のレベルとかいろいろを保存する
-  scoreboard players operation @s samurai_exp = @s exp
-  scoreboard players operation @s samurai_need_exp = @s need_exp
-  scoreboard players operation @s samurai_level = @s level
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].samurai_exp int 1 run scoreboard players get @s exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].samurai_need_exp int 1 run scoreboard players get @s need_exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].samurai_level int 1 run scoreboard players get @s level
 
 #タグを無くして設定できるように
   tag @s remove samurai

@@ -1,8 +1,8 @@
 #> nnsb_job:set_job/bomber
+#職業をボマーに設定する
 
 #OMDを自分のストレージにセットし直す
-  execute store result score _ OhMyDatID run scoreboard players get @s OhMyDatID
-  function #oh_its_dat:please
+  function nnsb_get:omd_get
 
 #OMDに就職したい職業をセットする。
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next set value "ボマー"

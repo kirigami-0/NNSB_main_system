@@ -1,9 +1,9 @@
 #> nnsb_job:save/archer
 
-#現在のレベルとかいろいろを保存する
-  scoreboard players operation @s archer_exp = @s exp
-  scoreboard players operation @s archer_need_exp = @s need_exp
-  scoreboard players operation @s archer_level = @s level
+#現在のレベルとかいろいろをOMDに保存する
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].archer_exp int 1 run scoreboard players get @s exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].archer_need_exp int 1 run scoreboard players get @s need_exp
+  execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].archer_level int 1 run scoreboard players get @s level
 
 #タグを無くして設定できるように
   tag @s remove archer

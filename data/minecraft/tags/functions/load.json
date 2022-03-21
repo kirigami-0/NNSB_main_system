@@ -1,5 +1,6 @@
 {
     "values": [
-        "oh_my_dat:sys/load"
+        "oh_my_dat:sys/load",
+        "score_to_health:load"
         ]
 }
