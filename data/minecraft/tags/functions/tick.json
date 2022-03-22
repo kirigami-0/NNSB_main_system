@@ -4,6 +4,7 @@
         "nnsb_level:count/1",
         "nnsb_level:lv_up",
         "first:rule",
-        "nnsb_get:tick"
+        "nnsb_get:tick",
+        "nnsb_skill:tick"
     ]
 }
