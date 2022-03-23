@@ -1,6 +1,6 @@
 #> nnsb_skill:mp/regeneration
-
 #MP回復処理
+
   #通常回復
     execute as @e[type=player] if score @s mp < @s mp_MAX run scoreboard players add @s mp 10
     execute as @e[type=player] if score @s mp > @s mp_MAX run scoreboard players operation @s mp = @s mp_MAX

@@ -10,6 +10,7 @@
   team add sub_skill_1
   team add sub_skill_2
 
+#チームの色を振り分ける。
   team modify main_skill_1 color gold
   team modify main_skill_2 color gray
   team modify sub_skill_1 color dark_green

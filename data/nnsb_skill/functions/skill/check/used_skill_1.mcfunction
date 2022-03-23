@@ -1,6 +1,6 @@
 #> nnsb_skill:skill/check/used_skill_1
 #MPが必要MPより多いかを比較する。
-say 123
+
   #少なかったら
     execute as @a if score @s mp < @s need_mp run function nnsb_skill:skill/check/less_mp
 
