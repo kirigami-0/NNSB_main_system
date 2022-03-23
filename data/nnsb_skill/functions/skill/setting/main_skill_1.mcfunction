@@ -1,4 +1,4 @@
-#> nnsb_skill:skill/setting/main_skill_set
+#> nnsb_skill:skill/setting/main_skill_1
 #
 #スライムを殴ったらtellrowする。
 

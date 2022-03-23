@@ -3,13 +3,13 @@
     "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": {
-          "nbt": "{Tags:[sub_skill_setting]}"
+        "entity": {
+          "nbt": "{Tags:[main_skill_2]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "nnsb_skill:skill/setting/sub_skill_set"
+    "function": "nnsb_skill:skill/setting/main_skill_2"
   }
 }
