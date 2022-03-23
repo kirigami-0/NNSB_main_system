@@ -4,7 +4,9 @@
         "nnsb_hp:uninstall",
         "nnsb_level:uninstall",
         "nnsb_job:uninstall",
-        "nnsb_skill:uninstall"
+        "nnsb_skill:uninstall",
+        "nnsb_get:uninstall",
+        "nnsb_effect:uninstall"
     ]
 }
 
