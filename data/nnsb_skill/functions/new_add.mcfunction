@@ -4,6 +4,8 @@
   #Ownerのチェック
     scoreboard objectives add Owner_check dummy
     
+  #スキルID
+    scoreboard objectives add skill_id dummy
   #MPの追加
     #最大MPの追加
       scoreboard objectives add mp_MAX dummy
@@ -25,7 +27,7 @@
     scoreboard objectives add sword_used custom:damage_dealt
     
 #ストレージ
-  data modify storage nnsb: skill.main set value "未設定"
-  data modify storage nnsb: skill.sub set value "未設定"
-  data modify storage nnsb: skill.sun set value "未設定"
-  data modify storage nnsb: skill.shadow set value "未設定"
+  data modify storage nnsb: skill.main_skill_1 set value "未設定"
+  data modify storage nnsb: skill.main_skill_2 set value "未設定"
+  data modify storage nnsb: skill.sub_skill_1 set value "未設定"
+  data modify storage nnsb: skill.sub_skill_2 set value "未設定"

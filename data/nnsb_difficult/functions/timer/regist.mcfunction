@@ -1,8 +1,7 @@
 #> nnsb_difficult:timer/regist
 
 #拒否部分
-  execute unless data storage nnsb: difficult{flag:2} run tellraw @e[type=player] [{"text": "\n\n\n\n\n\n\n\n          "},{"nbt":"difficult.next","storage": "nnsb:","bold": true}]
-  execute unless data storage nnsb: difficult{flag:2} run tellraw @e[type=player] [{"text":"への変更が拒否されました。\n\n\n\n\n\n\n\n"}]
+  execute unless data storage nnsb: difficult{flag:2} run tellraw @e[type=player] [{"text": "\n\n\n\n\n\n\n\n          "},{"nbt":"difficult.next","storage": "nnsb:","bold": true},{"text":"への変更が拒否されました。\n\n\n\n\n\n\n\n"}]
 
  
 #データ初期化

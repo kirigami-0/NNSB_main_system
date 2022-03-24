@@ -5,4 +5,5 @@
   execute if score @s level matches 6..10 run scoreboard players add @s need_exp 4
 
 #スキル覚えたかの判定
-  execute if score @s level matches 10 run say すきるをおぼえた！！
+  execute if score @s level matches 10 run scoreboard players add @s skill_id 1
+  execute if score @s level matches 10 run say 159

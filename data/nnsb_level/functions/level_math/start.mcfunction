@@ -4,7 +4,6 @@
   execute if score @s level matches ..50 run scoreboard players add @s level 1
   scoreboard players operation @s exp -= @s need_exp
 
-
 #MP上昇処理
   scoreboard players add @s mp_MAX 10
  
@@ -17,5 +16,4 @@
 
 #レベルオーバーフローの処理
   execute if score @s level matches 51.. run scoreboard players remove @s level 1
-  
   
