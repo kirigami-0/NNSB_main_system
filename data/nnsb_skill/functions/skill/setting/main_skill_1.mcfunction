@@ -1,5 +1,6 @@
 #> nnsb_skill:skill/setting/main_skill_1
 #スライムを殴ったらtellrowする。
+say 123
 
 #タグ付け
   tag @s add main_skill_1_set
