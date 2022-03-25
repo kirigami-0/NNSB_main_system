@@ -18,5 +18,8 @@
 
 #現在のジョブのデータをセーブ
   function nnsb_job:save/hub
-  function nnsb_job:set_job/clear_job_book
+  
+#コマブロを削除する。
+  clear @s command_block{Tags:["sinobi_set"]}
+
 

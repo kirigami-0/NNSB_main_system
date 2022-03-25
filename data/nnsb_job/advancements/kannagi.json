@@ -1,0 +1,21 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:command_block"
+            ],
+            "nbt": "{Tag:[\"kannagi_set\"]}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_job:set_job/kannagi"
+  }
+}
