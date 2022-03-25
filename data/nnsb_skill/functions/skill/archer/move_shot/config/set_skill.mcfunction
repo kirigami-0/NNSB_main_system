@@ -5,6 +5,9 @@
     scoreboard players add @s define 1
   
   #スキルを設定する。
+    #OMDを呼び出す。
+      function nnsb_get:omd_get
+
     #define=1
       execute as @s[tag=main_skill_1_set,scores={define=2}] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].skill.main_1 set value "ムーヴショット"
       execute as @s[tag=main_skill_2_set,scores={define=2}] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].skill.main_2 set value "ムーヴショット"
