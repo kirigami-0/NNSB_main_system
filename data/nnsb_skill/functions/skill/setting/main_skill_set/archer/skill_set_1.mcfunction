@@ -1,13 +1,12 @@
 #> nnsb_skill:skill/setting/main_skill_set/archer/skill_set_1
 #スキルを確認させる。
 
+#> メモ
+  #main_skill_idがN以下ならばtellrawする。
+  #tellraw内容がレベルアップすると増える処理が思いつかなかったので全列挙
+
 #スキルをどれだけ覚えているかを確認する。
-  execute as @s[scores={main_skill_id=1}] run say 123
-  execute as @s[scores={main_skill_id=2}] run say 123
-  execute as @s[scores={main_skill_id=3}] run say 123
-  execute as @s[scores={main_skill_id=4}] run say 123
-  execute as @s[scores={main_skill_id=5}] run say 123
-  execute as @s[scores={main_skill_id=6}] run say 123
-  execute as @s[scores={main_skill_id=7}] run say 123
-  execute as @s[scores={main_skill_id=8}] run say 123
-  execute as @s[scores={main_skill_id=9}] run say 123
+  #main_skill_id=1~4までは一つずつ追加
+  #横列4つのクリックイベントで構成される、
+  
+    execute as @s[scores={main_skill_id=1}] run tellraw @s [{"text": "No.1","clickEvent": {"action": "run_command","value": "/function nnsb_skill:skill/archer/move_shot/config/set_skill"}}]

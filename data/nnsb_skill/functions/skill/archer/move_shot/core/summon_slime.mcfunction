@@ -1,4 +1,4 @@
-#> nnsb_skill:skill/archer/move_shot/summon_slime
+#> nnsb_skill:skill/archer/move_shot/core/summon_slime
 #スライムを隠すように爆発させる。
   execute at @s run particle explosion ~ ~ ~ 0.8 0.8 0.8 0 20 normal
 
