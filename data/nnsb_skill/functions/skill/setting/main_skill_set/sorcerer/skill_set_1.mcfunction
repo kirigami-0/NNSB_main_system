@@ -1,8 +1,5 @@
 #> nnsb_skill:skill/setting/main_skill_set/sorcerer/skill_set_1
-#スキルを確認させる。OMDのskill.unlockにある。
-
-#nnsb: skill.archer_unlockに一度格納して流す。
-  data modify storage nnsb: skill.unlock set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].skill.sorcerer_unlock
+#スキルを確認させる。
 
 #スキルをどれだけ覚えているかを確認する。アペンドで入れているの最新のスキルで確認する。
   execute as @s if score @s skill_id matches 1 run say 123

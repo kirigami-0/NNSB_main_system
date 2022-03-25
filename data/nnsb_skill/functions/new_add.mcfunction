@@ -5,7 +5,9 @@
     scoreboard objectives add Owner_check dummy
     
   #スキルID
-    scoreboard objectives add skill_id dummy
+    scoreboard objectives add main_skill_id dummy
+    scoreboard objectives add sub_skill_id dummy
+    
   #MPの追加
     #最大MPの追加
       scoreboard objectives add mp_MAX dummy
