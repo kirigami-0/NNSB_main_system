@@ -2,4 +2,4 @@
   #単純に連続TP防止させるためのコマンド
 
 #トリガーを再設定
-  advancement revoke @s only nnsb_skill:skill_setting/go_skill_setting
+  advancement revoke @s only nnsb_skill:travel/go_skill_setting

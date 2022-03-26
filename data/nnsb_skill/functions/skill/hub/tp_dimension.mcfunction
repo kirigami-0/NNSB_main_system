@@ -2,8 +2,8 @@
   #スキル設定島から通常世界に移動させる
 
 #トリガーを削除
-  advancement revoke @s only nnsb_skill:skill_setting/reset_ad
-  advancement revoke @s only nnsb_skill:skill_setting/display/summon_skill_slime
+  advancement revoke @s only nnsb_skill:travel/reset_ad
+  advancement revoke @s only nnsb_skill:display/summon_skill_slime
 
 #スキル設定用のアマスタを削除
   kill @e[tag=skill_setting_stand]
