@@ -1,5 +1,6 @@
 #> nnsb_skill:skill/setting/set/print
 #スキルの設定通知を送る
+say 123
   #変更出来た
     execute as @s[scores={define=2}] run tellraw @s [{"text":"スキルが変更されました!!","color": "#55ff55","bold": true}]
   

@@ -28,8 +28,4 @@
   #剣
     scoreboard objectives add sword_used custom:damage_dealt
     
-#ストレージ
-  data modify storage nnsb: skill.main_skill_1 set value "未設定"
-  data modify storage nnsb: skill.main_skill_2 set value "未設定"
-  data modify storage nnsb: skill.sub_skill_1 set value "未設定"
-  data modify storage nnsb: skill.sub_skill_2 set value "未設定"
+

@@ -1,4 +1,4 @@
-#> nnsb_skill:skill/archer/move_shot/config/set_skill
+#> nnsb_skill:skill/jobs/archer/move_shot/config/set_skill
 #スキルをセットする。
 
   #define1上げて判定させる。
@@ -22,5 +22,8 @@
 
       #スコア
         function nnsb_skill:skill/setting/reset/score
+
+      #進捗取り消し
+        function nnsb_skill:skill/setting/reset/advancement
 
       
