@@ -6,3 +6,4 @@
   scoreboard objectives add exp dummy
   scoreboard objectives add need_exp dummy
   scoreboard objectives add level dummy
+  scoreboard objectives add total_level dummy
