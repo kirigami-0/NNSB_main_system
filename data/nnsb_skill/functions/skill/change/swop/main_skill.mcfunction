@@ -13,3 +13,9 @@
 
   #OMD.skill.main_2に.skill.tempを格納
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].skill.main_2 set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].skill.temp
+
+#進捗を取り消す。
+  advancement revoke @s only nnsb_skill:change/swop
+
+#MPの再セット
+  function nnsb_skill:skill/change/swop/set_mp/1_job_hub
