@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"sorcerer\"]}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"skill_set_moon\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_skill:setting/sorcerer/moon"
+  }
+}

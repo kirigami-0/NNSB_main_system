@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:slime_spawn_egg"
+          ],
+          "nbt": "{EntityTag:{Tags:[\"swop_slime\"]}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_skill:swop/swop"
+  }
+}

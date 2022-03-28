@@ -11,8 +11,3 @@
 
 #ストレージ
   data remove storage nnsb: skill
-
-#進捗
-  advancement revoke @a only nnsb_skill:skill_setting/go_normal
-  advancement revoke @a only nnsb_skill:skill_setting/go_skill_setting
-  advancement revoke @a only nnsb_skill:skill_setting/reset_ad

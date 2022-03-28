@@ -5,6 +5,7 @@
     scoreboard objectives add Owner_check dummy
     
   #スキルID
+    scoreboard objectives add skill_flag dummy
     scoreboard objectives add main_skill_id dummy
     scoreboard objectives add sub_skill_id dummy
     
@@ -28,4 +29,3 @@
   #剣
     scoreboard objectives add sword_used custom:damage_dealt
     
-
