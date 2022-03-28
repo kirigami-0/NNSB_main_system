@@ -7,5 +7,5 @@
   execute in overworld run tp 0 0 0
 
 #初期化
-  advancement revoke @s only nnsb_skill:goto/reset
   advancement revoke @s only nnsb_skill:goto/setting_slime
+  advancement revoke @s only nnsb_skill:goto/to_skill_island
