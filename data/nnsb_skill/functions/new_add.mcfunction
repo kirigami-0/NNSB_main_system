@@ -15,7 +15,7 @@
       scoreboard objectives add mp_MAX dummy
     
     #mpの追加
-      scoreboard objectives add mp dummy "§aMP"
+      scoreboard objectives add mp dummy {"text": "MP","color": "#99ff99"}
       scoreboard objectives setdisplay sidebar mp
   
     #スキル発動に必要なMPを追加する。
@@ -28,8 +28,9 @@
     scoreboard objectives add carrot_used used:carrot_on_a_stick 
     
   #剣
-    scoreboard objectives add sword_used custom:damage_dealt
+    scoreboard objectives add wapon_used custom:damage_dealt
   
+
 #チーム
   team add skill_set_flowe
   team add skill_set_bird

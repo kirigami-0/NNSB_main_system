@@ -1,7 +1,6 @@
 #> nnsb_hp:level_up/hp_max_up
 #一定レベルでヘルスが上昇する。
 #トータルレベルが10ごとにHPが2個増える。
-
 #分割しましょう。
   execute as @s[scores={total_level=10..50}] run function nnsb_hp:level_up/10_50
   execute as @s[scores={total_level=51..100}] run function nnsb_hp:level_up/51_100
@@ -13,3 +12,4 @@
 
 #HPを回復する
   scoreboard players set @s ScoreToHealth 9999999
+  
