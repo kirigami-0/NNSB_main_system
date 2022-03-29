@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "スキル設定用ディメンション",
+    "スキルが変更できる"
+  ],
+  
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "職業の変更のシステムだよ",
+    "archer_setのタグが付いたコマブロがインベントリに入ると処理が始まるよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

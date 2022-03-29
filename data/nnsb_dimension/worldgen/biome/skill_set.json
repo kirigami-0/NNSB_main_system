@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "スキル設定用ディメンションの基本バイオーム",
+    "神秘的な水が特徴だよ"
+  ],
+  
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",

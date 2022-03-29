@@ -1,4 +1,9 @@
 {
+	"comment":[
+		"通常の属性ダメージ",
+		"2.0倍"
+	],
+	
 	"criteria": {
 		"red_20_1": {
 			"trigger": "minecraft:player_hurt_entity",

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "レベルアップ処理だよ",
+    "毎チック処理だよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick"

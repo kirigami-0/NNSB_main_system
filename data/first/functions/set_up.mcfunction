@@ -19,3 +19,19 @@
 
 #攻略用スコアボードを作成
   scoreboard objectives add define dummy
+
+  #制圧する必要のある島の数を設定
+    scoreboard players set &island define 10
+
+#既存のゲームルールを変更する。
+  # 注意!! NNSBリリース時に有効化すること
+    #gamerule commandBlockOutput false
+    #gamerule disableRaids true
+    #gamerule doPatrolSpawning false
+    #gamerule doTraderSpawning false
+    #gamerule naturalRegeneration false
+    #gamerule playersSleepingPercentage 50
+    #gamerule reducedDebugInfo true
+    #gamerule sendCommandFeedback false
+    #gamerule spectatorsGenerateChunks false
+  

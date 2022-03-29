@@ -1,8 +1,6 @@
 {
     "values": [
         "nnsb_item:tick",
-        "first:rule",
-        "nnsb_get:tick",
-        "nnsb_hp:death/tick"
+        "first:rule"
     ]
 }

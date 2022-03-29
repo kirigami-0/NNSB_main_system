@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "TUSBでの死の宣告を与えるよ",
+    "10秒以内に指定のアイテムを使わないと死ぬよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:effects_changed",

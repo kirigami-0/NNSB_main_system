@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "開発者の空間の基本バイオーム",
+    "空と霧が明るいのが特徴"
+  ],
+  
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",

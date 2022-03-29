@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "地上の楽園のディメンション",
+    "一面海なのが特徴"
+  ],
+  
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "リスポーンしたときの処理だよ",
+    "少し遅らせないと処理がうまく行かなかったよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

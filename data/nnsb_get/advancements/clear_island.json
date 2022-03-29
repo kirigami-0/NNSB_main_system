@@ -1,0 +1,29 @@
+{
+  "comment":[
+    "島の制圧処理だよ",
+    ""
+  ],
+  
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:end_portal_frame"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_get:clear_island/capture"
+  }
+}

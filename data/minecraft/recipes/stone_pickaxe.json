@@ -1,4 +1,8 @@
 {
+  "comment":[
+    "テンプレートです",
+    "こんな感じで一番上には説明を書いてください"
+  ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "XXX",

@@ -7,9 +7,7 @@
       "nnsb_skill:mp/regeneration",
       "nnsb_skill:new_add",
       "nnsb_job:new_add",
-      "nnsb_level:new_add",
-      "nnsb_get:add",
-      "nnsb_effect:add"
+      "nnsb_level:new_add"
   ]
 }
 

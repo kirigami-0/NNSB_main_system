@@ -1,4 +1,9 @@
 {
+    "comment":[
+      "某プリクラの台頭で使わなくなりそうだよ",
+      "残念だね"
+    ],
+    
     "criteria": {
         "requirement": {
             "trigger": "minecraft:recipe_unlocked",

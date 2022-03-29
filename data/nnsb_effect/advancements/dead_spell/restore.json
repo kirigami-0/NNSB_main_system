@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "NNSB特有の状態異常を解除するよ",
+    "死の宣告"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:effects_changed",

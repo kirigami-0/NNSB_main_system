@@ -1,4 +1,8 @@
 {
+	"comment":[
+		"弓の属性ダメージ",
+		"1.2倍ダメージ処理"
+	],
 	"criteria": {
 		"red_12_1": {
 			"trigger": "minecraft:player_hurt_entity",

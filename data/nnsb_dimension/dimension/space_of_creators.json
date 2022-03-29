@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "二次創作する人用のディメンション",
+    "アイテムとかは全てこっちに格納すること"
+  ],
+  
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "死んだときに動く部分だよ",
+    "主にスタミナを取得するよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

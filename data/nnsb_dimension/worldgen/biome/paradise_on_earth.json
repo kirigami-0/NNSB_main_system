@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "地上の楽園の基本バイオーム",
+    "若干空とかが明るいよ"
+  ],
+  
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",

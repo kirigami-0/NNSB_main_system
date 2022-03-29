@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "敵がダメージを受ける",
+    "監視システム"
+  ],
+  
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
