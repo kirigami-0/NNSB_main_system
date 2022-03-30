@@ -1,0 +1,14 @@
+[
+  {
+    "comment":[
+      "矢のライフが1199か"
+    ],
+    
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "#minecraft:arrows",
+      "nbt": "{life:1199s}"
+    }
+  }
+]
