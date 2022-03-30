@@ -1,6 +1,6 @@
 {
 	"comment":{
-		"prefix": "\"comment\"",
+		"prefix": "コメント",
 		"body":["\"comment\":[\n  \"$1\",\n  \"$2\"\n],\n"]
 
 	}

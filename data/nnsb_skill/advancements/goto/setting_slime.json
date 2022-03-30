@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "スキル設定島に着いたら設定用のスライムを召喚するよ",
+    ""
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",

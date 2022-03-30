@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "通常世界からスキル設定島に飛ぶよ",
+    "薄灰色の彩釉テラコッタでスニークだ!!"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:enter_block",
