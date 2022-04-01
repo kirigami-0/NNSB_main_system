@@ -3,11 +3,11 @@
       "first:set_up",
       "nnsb_difficult:add",
       "nnsb_hp:add",
-      "nnsb_item:crafts_item/custom_craft_table/add",
       "nnsb_skill:mp/regeneration",
       "nnsb_skill:new_add",
       "nnsb_job:new_add",
-      "nnsb_level:new_add"
+      "nnsb_level:new_add",
+      "nnsb_item:add_storage"
   ]
 }
 
