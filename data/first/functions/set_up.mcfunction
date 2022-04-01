@@ -22,6 +22,7 @@
 
   #制圧する必要のある島の数を設定
     scoreboard players set &island define 10
+    scoreboard players set &zero_island define 0
 
 #既存のゲームルールを変更する。
   # 注意!! NNSBリリース時に有効化すること

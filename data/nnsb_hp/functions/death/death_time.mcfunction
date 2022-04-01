@@ -5,3 +5,8 @@
 #スタミナを死亡前と同じにする
   effect give @s hunger 4 255 true
   schedule function nnsb_hp:death/food_set 4s
+
+#不正したらこうなるよ
+  execute as @e[advancements={nnsb_get:bug_set=true}] run effect give @s hunger 10000 255 true
+  execute as @e[advancements={nnsb_get:bug_set=true}] run effect give @s blindness 10000 255 true
+  execute as @e[advancements={nnsb_get:bug_set=true}] run effect give @s nausea 100000 255 true
