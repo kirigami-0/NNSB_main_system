@@ -4,6 +4,8 @@
 #チェック用ストレージを初期化
   data modify storage nnsb: item.temp set value ""
 
+#アイテムグリッドにアイテムが入った際にデータを取得する
+
 #アイテムが間違っていたら一度データを格納する
   execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:0b}]
   execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:1b}]

@@ -1,17 +1,6 @@
 #> nnsb_item:close
 #クラフトせずにタルを閉じたときにアイテムを返却する
 
-#アイテムグリッドにアイテムが入った際にデータを取得する
-  data modify storage nnsb: item.craft.0 set value "None"
-  data modify storage nnsb: item.craft.1 set value "None"
-  data modify storage nnsb: item.craft.2 set value "None"
-  data modify storage nnsb: item.craft.3 set value "None"
-  data modify storage nnsb: item.craft.4 set value "None"
-  data modify storage nnsb: item.craft.5 set value "None"
-  data modify storage nnsb: item.craft.6 set value "None"
-  data modify storage nnsb: item.craft.7 set value "None"
-  data modify storage nnsb: item.craft.8 set value "None"
-
 #クラフトグリッド内にアイテムが入っていたらストレージにアイテムを格納する
   execute at @e[predicate=nnsb_item:in_item] run data modify storage nnsb: item.craft.0 set from block ~ ~-1 ~ Items[{Slot:3b}]
   execute at @e[predicate=nnsb_item:in_item] run data modify storage nnsb: item.craft.1 set from block ~ ~-1 ~ Items[{Slot:4b}]
@@ -45,8 +34,20 @@
   execute unless data storage nnsb: {item:{craft:{7:None}}} run data modify entity @e[limit=1,predicate=nnsb_item:item_restore,sort=nearest] Item set from storage nnsb: item.craft.7
   execute unless data storage nnsb: {item:{craft:{8:None}}} run data modify entity @e[limit=1,predicate=nnsb_item:item_restore,sort=nearest] Item set from storage nnsb: item.craft.8
 
-#タルの中身を空にする
-  execute at @e[predicate=nnsb_item:in_item] run data modify block ~ ~-1 ~ Items set value []
+#初期化処理
+  #タルの中身を空にする
+    execute at @e[predicate=nnsb_item:in_item] run data modify block ~ ~-1 ~ Items set value []
+
+  #ストレージを初期化する
+    execute unless data storage nnsb: {item:{craft:{0:None}}} run data modify storage nnsb: item.craft.0 set value "None"
+    execute unless data storage nnsb: {item:{craft:{1:None}}} run data modify storage nnsb: item.craft.1 set value "None"
+    execute unless data storage nnsb: {item:{craft:{2:None}}} run data modify storage nnsb: item.craft.2 set value "None"
+    execute unless data storage nnsb: {item:{craft:{3:None}}} run data modify storage nnsb: item.craft.3 set value "None"
+    execute unless data storage nnsb: {item:{craft:{4:None}}} run data modify storage nnsb: item.craft.4 set value "None"
+    execute unless data storage nnsb: {item:{craft:{5:None}}} run data modify storage nnsb: item.craft.5 set value "None"
+    execute unless data storage nnsb: {item:{craft:{6:None}}} run data modify storage nnsb: item.craft.6 set value "None"
+    execute unless data storage nnsb: {item:{craft:{7:None}}} run data modify storage nnsb: item.craft.7 set value "None"
+    execute unless data storage nnsb: {item:{craft:{8:None}}} run data modify storage nnsb: item.craft.8 set value "None"
 
 #音関連
   execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ barrel[open=false] run stopsound @a block block.barrel.close
