@@ -1,15 +1,25 @@
 #> nnsb_item:set_up_1
+#作業台の上に額縁を置いたら強化作業台ができる
 
-execute at @e[predicate=nnsb_item:open] run data modify entity @e[predicate=nnsb_item:open,limit=1,sort=nearest] Invulnerable set value 1b
-execute at @e[predicate=nnsb_item:open] run data modify entity @e[predicate=nnsb_item:open,limit=1,sort=nearest] Item set value {id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"test"}'}}}
-execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ crafting_table run setblock ~ ~-1 ~ barrel[facing=up]{CustomName:'{"text":"強化作業台","color": "#00aaff"}'} replace
+#作業台の上に額縁を置いたらを検知
+  #置いてあったら額縁を壊せなくする
+    execute at @e[predicate=nnsb_item:open] run data modify entity @e[predicate=nnsb_item:open,limit=1,sort=nearest] Invulnerable set value 1b
+
+  #額縁の中に強化作業台の名前が付いたコマブロを入れる
+    execute at @e[predicate=nnsb_item:open] run data modify entity @e[predicate=nnsb_item:open,limit=1,sort=nearest] Item set value {id:"minecraft:command_block",Count:1b,tag:{display:{Name:'{"text":"強化作業台","color":"#0000ff"}'}}}
+  
+  #作業台をタルに置き換える
+    execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ crafting_table run setblock ~ ~-1 ~ barrel[facing=up]{CustomName:'{"text":"強化作業台","color": "#00aaff"}'} replace
 
 #タルを開けたら
   execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ barrel[open=true] run function nnsb_item:open_set
 
 #タルを閉じたら
-  execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ barrel[open=false] run data modify block ~ ~-1 ~ Items set value []
+  execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ barrel[open=false] run function nnsb_item:close
 
+
+#タルが破壊されたら
+  execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ air run function nnsb_item:break
 
 advancement revoke @s only nnsb_item:tick
 

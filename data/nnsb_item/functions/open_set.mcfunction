@@ -1,6 +1,28 @@
 #> nnsb_item:open_set
 
+#チェック用ストレージを初期化
+  data modify storage nnsb: item.temp set value ""
+
+
 #アイテムが間違っていたら一度データを格納する
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:0b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:1b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:2b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:6b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:6b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:7b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:8b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:9b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:9b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:10b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:10b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:11b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:11b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:15b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:15b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:16b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:2}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:16b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:17b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:17b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:18b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:18b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:19b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:19b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:20b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:20b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:24b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:24b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:25b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:25b}]
+  execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:26b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:26b}]
 
 #紙を敷き詰める
   execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify block ~ ~-1 ~ Items[{Slot:0b}] merge value {id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":" "}'}}}
@@ -31,13 +53,8 @@
   clear @s paper{CustomModelData:2}
 
 #間違って入れたアイテムを返却する
+  execute at @e[predicate=nnsb_item:in_item] unless data storage nnsb: {item:{temp:""}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute at @e[predicate=nnsb_item:in_item] unless data storage nnsb: {item:{temp:""}} run data modify entity @e[limit=1,predicate=nnsb_item:item_restore,sort=nearest] Item set from storage nnsb: item.temp
 
-
-##
-# 0  1  2   6  7  8
-# 9  10 11  15 16 17
-# 18 19 20  24 25 26
-##
-
-#give @s paper{CustomModelData:1,display:{Name:'{"text": "test"}'}}
-#block ~ ~-1 ~ Items[{Slot:0b}] merge value {id:"minecraft:paper",Count:1b}
+#タルの開閉音消去
+  execute at @e[predicate=nnsb_item:in_item] if block ~ ~-1 ~ barrel[open=true] run stopsound @a block block.barrel.open
