@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "額縁の中ににコマブロが",
+    "入っていたら"
+  ],
+  
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {

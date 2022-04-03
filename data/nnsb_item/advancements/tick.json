@@ -1,10 +1,15 @@
 {
+  "comment":[
+    "毎チック処理だよ",
+    "こうしないと出来なかったよ"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick"
     }
   },
   "rewards": {
-    "function": "nnsb_item:set_up_1"
+    "function": "nnsb_item:set_up"
   }
 }

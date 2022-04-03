@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "額縁が上向きで",
+    "作業台に貼ってあるか"
+  ],
+  
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {

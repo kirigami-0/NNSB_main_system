@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "バリアブロックのAgeが",
+    "1なら"
+  ],
+  
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {

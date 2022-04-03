@@ -1,8 +1,8 @@
-#> nnsb_item:open_set
-
+#> nnsb_item:open
+#タルが開いているときの処理
+  
 #チェック用ストレージを初期化
   data modify storage nnsb: item.temp set value ""
-
 
 #アイテムが間違っていたら一度データを格納する
   execute at @e[predicate=nnsb_item:in_item] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: item.temp set from block ~ ~-1 ~ Items[{Slot:0b}]
@@ -46,14 +46,14 @@
 
 #特定の場所をクリックしたらクラフトが開始される 。
   execute store result score &craft define run clear @s paper{CustomModelData:2} 0
-  execute if score &craft define matches 1 run say 159
+  execute if score &craft define matches 1 run function nnsb_item:craft
 
 #紙をゲットしたら消す
   clear @s paper{CustomModelData:1}
   clear @s paper{CustomModelData:2}
 
 #間違って入れたアイテムを返却する
-  execute at @e[predicate=nnsb_item:in_item] unless data storage nnsb: {item:{temp:""}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute at @e[predicate=nnsb_item:in_item] unless data storage nnsb: {item:{temp:""}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
   execute at @e[predicate=nnsb_item:in_item] unless data storage nnsb: {item:{temp:""}} run data modify entity @e[limit=1,predicate=nnsb_item:item_restore,sort=nearest] Item set from storage nnsb: item.temp
 
 #タルの開閉音消去

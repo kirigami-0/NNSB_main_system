@@ -24,15 +24,15 @@
   execute at @e[predicate=nnsb_item:in_item] run data modify storage nnsb: item.craft.8 set from block ~ ~-1 ~ Items[{Slot:23b}]
 
 #アイテムを変化させるためにバリアブロックを召喚する
-  execute unless data storage nnsb: {item:{craft:{0:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{1:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{2:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{3:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{4:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{5:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{6:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{7:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
-  execute unless data storage nnsb: {item:{craft:{8:None}}} run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{0:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{1:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{2:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{3:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{4:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{5:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{6:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{7:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
+  execute unless data storage nnsb: {item:{craft:{8:None}}} run summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Age:1s}
 
 #アイテムを変化させる
   execute unless data storage nnsb: {item:{craft:{0:None}}} run data modify entity @e[limit=1,predicate=nnsb_item:item_restore,sort=nearest] Item set from storage nnsb: item.craft.0
