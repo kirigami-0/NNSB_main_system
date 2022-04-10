@@ -17,15 +17,15 @@ data modify entity @s Attributes[{Name:"minecraft:generic.attack_knockback"}].Ba
 
 data modify entity @s Tags[0] set from storage nnsb: status.tag
 
-data modify entity @s ArmorItems[3] set from storage nnsb: status.armor.head
-data modify entity @s ArmorItems[2] set from storage nnsb: status.armor.body
-data modify entity @s ArmorItems[1] set from storage nnsb: status.armor.leg
-data modify entity @s ArmorItems[0] set from storage nnsb: status.armor.boot
+data modify entity @s ArmorItems[3] set from storage nnsb: status.armor.set_head
+data modify entity @s ArmorItems[2] set from storage nnsb: status.armor.set_body
+data modify entity @s ArmorItems[1] set from storage nnsb: status.armor.set_leg
+data modify entity @s ArmorItems[0] set from storage nnsb: status.armor.set_boot
 
 data modify entity @s HandItems[0] set from storage nnsb: status.hand.main
 data modify entity @s HandItems[1] set from storage nnsb: status.hand.sub
 
-
+execute store result score @s mob_hp run data get storage nnsb: status.mob_hp
 
 
 

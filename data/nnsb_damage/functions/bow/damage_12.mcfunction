@@ -1,5 +1,7 @@
 #> nnsb_damage:bow/damage_12
 
+say 123
+
 #ストレージにItemNameを格納する。
   data modify storage nnsb: damage.item_name set from entity @s SelectedItem.tag.ItemName
 
@@ -14,3 +16,11 @@
 
 #再利用できるようにする
   advancement revoke @s only nnsb_damage:bow_damage_12
+
+
+#  R
+#Y   M
+#G   B
+#  C
+#
+#

@@ -4,6 +4,7 @@
 #HPを格納するスコアボードを作成
   scoreboard objectives add mob_hp dummy
   scoreboard objectives add attack dummy
+  scoreboard objectives add get_attack custom:damage_dealt
   scoreboard players set &HP_temp define 0
 
 #死亡時のスコアを格納しておく。

@@ -8,13 +8,13 @@
 
 #各種設定
   #HPを設定する
-    data modify storage nnsb: status.hp set value 1.0f
+    data modify storage nnsb: status.mob_hp set value 10
 
   #移動速度を設定
     data modify storage nnsb: status.speed set value 0.5d
 
   #攻撃力
-    data modify storage nnsb: status.attack set value 0.1d
+    data modify storage nnsb: status.attack set value 0.5d
   
   #攻撃したときのノックバック
     data modify storage nnsb: status.knock_back.attack set value 0.1d
@@ -61,7 +61,11 @@
   
     #オフハンド
       data modify storage nnsb: status.hand.sub set value {id:"minecraft:stone",Count:1b}
-  
+
+#変えてはいけない部分
+  data modify storage nnsb: status.hp set value 9999.0f
+
+
 #全ての設定を適応する
   execute as @e[tag=status_set] run function nnsb_mobs:set_status
 

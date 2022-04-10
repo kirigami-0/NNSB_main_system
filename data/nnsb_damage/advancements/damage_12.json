@@ -1,348 +1,318 @@
 {
-	"comment":[
-		"通常の属性ダメージ処理",
-		"1.2倍処理"
-	],
-	
-	"criteria": {
-		"red_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[red]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[red]}"
-				}
-			}
-		},
-		
-		"red_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[red]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[yellow]}"
-				}
-			}
-		},
-		"red_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[red]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-		"magenta_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[magenta]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[red]}"
-				}
-			}
-		},
-		"magenta_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[magenta]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-		"magenta_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[magenta]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"blue_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-		"blue_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"blue_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"cyan_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"cyan_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"cyan_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"green_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[green]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"green_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[green]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"green_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[green]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[yellow]}"
-				}
-			}
-		},
-		"yellow_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[yellow]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"yellow_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[yellow]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[yellow]}"
-				}
-			}
-		},
-		"yellow_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"nbt": "{Tags:[yellow]}"
-							}
-						}
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[red]}"
-				}
-			}
-		}
-
-	},
-	"requirements": [
-		[
-			"red_12_1","red_12_2","red_12_3",
-			"magenta_12_1","magenta_12_2","magenta_12_3",
-			"blue_12_1","blue_12_2","blue_12_3",
-			"cyan_12_1","cyan_12_2","cyan_12_3",
-			"green_12_1","green_12_2","green_12_3",
-			"yellow_12_1","yellow_12_2","yellow_12_3"
-		]
-	],
-	"rewards": {
-		"function": "nnsb_damage:normal/damage_12"
-	}
+  "criteria": {
+    "red_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"red\"]}"
+        },
+        "damage": {
+          "dealt": 0,
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[red]}"
+        }
+      }
+    },
+    "blue_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"blue\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"blue\"]}"
+        }
+      }
+    },
+    "yellow_yellow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        }
+      }
+    },
+    "cyan_cyan": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        }
+      }
+    },
+    "green_green": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"green\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"green\"]}"
+        }
+      }
+    },
+    "magenta_magenta": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        }
+      }
+    },
+    "magenta_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"red\"]}"
+        }
+      }
+    },
+    "magenta_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"blue\"]}"
+        }
+      }
+    },
+    "blue_magenta": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"blue\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        }
+      }
+    },
+    "blue_cyan": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[blue]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        }
+      }
+    },
+    "cyan_blue": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"blue\"]}"
+        }
+      }
+    },
+    "cyan_green": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"green\"]}"
+        }
+      }
+    },
+    "green_cyan": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"green\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        }
+      }
+    },
+    "green_yellow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"green\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        }
+      }
+    },
+    "yellow_green": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"green\"]}"
+        }
+      }
+    },
+    "yellow_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"red\"]}"
+        }
+      }
+    },
+    "red_yellow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"red\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[yellow]}"
+        }
+      }
+    },
+    "red_magenta": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"red\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_red",
+      "red_yellow",
+      "red_magenta",
+      "yellow_yellow",
+      "yellow_red",
+      "yellow_green",
+      "green_green",
+      "green_yellow",
+      "green_cyan",
+      "cyan_cyan",
+      "cyan_green",
+      "cyan_blue",
+      "magenta_magenta",
+      "magenta_red",
+      "magenta_blue",
+      "blue_blue",
+      "blue_magenta",
+      "blue_cyan"
+    ]
+  ],
+  "rewards": {
+    "function": "nnsb_damage:normal/damage_12"
+  }
 }
