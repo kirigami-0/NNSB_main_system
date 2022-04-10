@@ -6,7 +6,8 @@
         "nnsb_job:uninstall",
         "nnsb_skill:uninstall",
         "nnsb_effect:uninstall",
-        "nnsb_item:uninstall"
+        "nnsb_item:uninstall",
+        "nnsb_mobs:uninstall"
     ]
 }
 
