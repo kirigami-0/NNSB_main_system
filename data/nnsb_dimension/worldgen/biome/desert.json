@@ -1,0 +1,24 @@
+
+{
+  "comment":[
+    "アメジストの砂漠の基本バイオーム",
+    "若干空とかが紫だよ"
+  ],
+  
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "plains",
+  "effects": {
+    "sky_color": 9796351,
+    "fog_color": 13026047,
+    "water_color": 4866020,
+    "water_fog_color": 1705267,
+    "grass_color": 10655079,
+    "foliage_color": 12367478
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
