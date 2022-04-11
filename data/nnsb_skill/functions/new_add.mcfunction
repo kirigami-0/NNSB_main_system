@@ -30,8 +30,10 @@
   #剣
     scoreboard objectives add wapon_used custom:damage_dealt
   
-  #バッファー
-    scoreboard objectives add buffer_bomber dummy
+  #nnsb_healthで使用するスコアボード
+    scoreboard objectives add nnsb_health dummy
+    scoreboard objectives add buffer_health_a dummy
+    scoreboard objectives add buffer_health_b dummy
 
 #チーム
   team add skill_set_flowe
