@@ -1,4 +1,4 @@
-#> nnsb_hp:restore
+#> nnsb_health:restore
 #完全回復処理
 
 #赤石愛さんの出たパに干渉してきちんと回復させる。

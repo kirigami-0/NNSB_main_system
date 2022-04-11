@@ -30,6 +30,8 @@
   #剣
     scoreboard objectives add wapon_used custom:damage_dealt
   
+  #バッファー
+    scoreboard objectives add buffer_bomber dummy
 
 #チーム
   team add skill_set_flowe

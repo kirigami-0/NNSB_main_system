@@ -10,12 +10,15 @@
     data modify storage nnsb: difficult.now set value "通常"
     data modify storage nnsb: difficult.next set value "通常"
     data modify storage nnsb: difficult.flag set value 0
- 
+
   #ダメージ計算ストレージ
     data modify storage nnsb: damage.item_name set value ""
 
   #クラフトストレージ
     data modify storage nnsb: craft.reset set value "void"
+
+  #体力ストレージ
+    data modify storage nnsb: health.remove merge value {"percent":10}
 
 #攻略用スコアボードを作成
   scoreboard objectives add define dummy

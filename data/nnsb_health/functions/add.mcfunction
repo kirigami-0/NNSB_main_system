@@ -1,4 +1,4 @@
-#> nnsb_hp:add
+#> nnsb_health:add
 #HPに関するファンクション
   
 #HPを格納するスコアボードを作成

@@ -1,10 +1,10 @@
-#> nnsb_hp:death/death_time
+#> nnsb_health:death/death_time
 #プレイヤーが死んだ時の処理
-  function nnsb_hp:level_up/hp_max_up
+  function nnsb_health:level_up/hp_max_up
 
 #スタミナを死亡前と同じにする
   effect give @s hunger 4 255 true
-  schedule function nnsb_hp:death/food_set 4s
+  schedule function nnsb_health:death/food_set 4s
 
 #不正したらこうなるよ
   execute as @e[advancements={nnsb_get:bug_set=true}] run effect give @s hunger 10000 255 true
