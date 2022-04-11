@@ -1,4 +1,4 @@
-#> nnsb_hp:level_up/101_150
+#> nnsb_health:level_up/101_150
 #10刻みに計算する。
   execute as @s[scores={total_level=101..110}] run attribute @s generic.max_health base set 42
   execute as @s[scores={total_level=111..120}] run attribute @s generic.max_health base set 44

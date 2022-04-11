@@ -1,4 +1,4 @@
-#> nnsb_hp:uninstall
+#> nnsb_health:uninstall
 #アンインストール部分
 
 #スコアボード

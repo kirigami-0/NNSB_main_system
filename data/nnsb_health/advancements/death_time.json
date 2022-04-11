@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "nnsb_hp:death/death_time"
+    "function": "nnsb_health:death/death_time"
   }
 }

@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "nnsb_hp:death/death_food"
+    "function": "nnsb_health:death/death_food"
   }
 }
