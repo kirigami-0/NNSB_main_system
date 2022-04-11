@@ -1,6 +1,6 @@
-#> nnsb_damage:damage_set
+#> nnsb_health:damage_set
   #殴られたMOBの足元にAECを召喚してMOBのHPを間接的に操作する。
-  execute as @e[predicate=nnsb_damage:attack_check] at @e[type=!player,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Tags:["HP_get"]}
+  execute as @e[predicate=nnsb_health:attack_check] at @e[type=!player,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Tags:["HP_get"]}
   
   say 584
   #ダメージ計算

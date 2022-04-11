@@ -1,10 +1,11 @@
 {
 	"comment":[
-		"弓の属性ダメージ",
-		"1.2倍ダメージ処理"
+		"弓の属性ダメージ処理",
+		"1.5倍"
 	],
+	
 	"criteria": {
-		"red_12_1": {
+		"red_15_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -24,12 +25,12 @@
 					}
 				},
 				"entity": {
-					"nbt": "{Tags:[red]}"
+					"nbt": "{Tags:[green]}"
 				}
 			}
 		},
 		
-		"red_12_2": {
+		"red_15_2": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -49,35 +50,11 @@
 					}
 				},
 				"entity": {
-					"nbt": "{Tags:[yellow]}"
+					"nbt": "{Tags:[blue]}"
 				}
 			}
 		},
-		"red_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[red]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-		"magenta_12_1": {
+		"magenta_15_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -89,6 +66,54 @@
 									"minecraft:bow"
 								],
 								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[yellow]}"
+				}
+			}
+		},
+		"magenta_15_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[magenta]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"blue_15_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[blue]}"
 							}
 						}
 					},
@@ -101,7 +126,7 @@
 				}
 			}
 		},
-		"magenta_12_2": {
+		"blue_15_2": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -112,7 +137,31 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[magenta]}"
+								"nbt": "{Tags:[blue]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[green]}"
+				}
+			}
+		},
+		"cyan_15_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[cyan]}"
 							}
 						}
 					},
@@ -125,103 +174,7 @@
 				}
 			}
 		},
-		"magenta_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[magenta]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"blue_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[magenta]}"
-				}
-			}
-		},
-		"blue_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"blue_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[blue]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"cyan_12_1": {
+		"cyan_15_2": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -233,126 +186,6 @@
 									"minecraft:bow"
 								],
 								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[blue]}"
-				}
-			}
-		},
-		"cyan_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"cyan_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[cyan]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"green_12_1": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[green]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[cyan]}"
-				}
-			}
-		},
-		"green_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[green]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"green_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[green]}"
 							}
 						}
 					},
@@ -365,7 +198,7 @@
 				}
 			}
 		},
-		"yellow_12_1": {
+		"green_15_1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
@@ -376,55 +209,7 @@
 								"items": [
 									"minecraft:bow"
 								],
-								"nbt": "{Tags:[yellow]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[green]}"
-				}
-			}
-		},
-		"yellow_12_2": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[yellow]}"
-							}
-						}
-					},
-					"type": {
-						"is_projectile": true
-					}
-				},
-				"entity": {
-					"nbt": "{Tags:[yellow]}"
-				}
-			}
-		},
-		"yellow_12_3": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
-								"nbt": "{Tags:[yellow]}"
+								"nbt": "{Tags:[green]}"
 							}
 						}
 					},
@@ -434,6 +219,78 @@
 				},
 				"entity": {
 					"nbt": "{Tags:[red]}"
+				}
+			}
+		},
+		"green_15_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[green]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[blue]}"
+				}
+			}
+		},
+		"yellow_15_1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[cyan]}"
+				}
+			}
+		},
+		"yellow_15_2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:bow"
+								],
+								"nbt": "{Tags:[yellow]}"
+							}
+						}
+					},
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[magenta]}"
 				}
 			}
 		}
@@ -441,15 +298,15 @@
 	},
 	"requirements": [
 		[
-			"red_12_1","red_12_2","red_12_3",
-			"magenta_12_1","magenta_12_2","magenta_12_3",
-			"blue_12_1","blue_12_2","blue_12_3",
-			"cyan_12_1","cyan_12_2","cyan_12_3",
-			"green_12_1","green_12_2","green_12_3",
-			"yellow_12_1","yellow_12_2","yellow_12_3"
+			"red_15_1","red_15_2",
+			"magenta_15_1","magenta_15_2",
+			"blue_15_1","blue_15_2",
+			"cyan_15_1","cyan_15_2",
+			"green_15_1","green_15_2",
+			"yellow_15_1","yellow_15_2"
 		]
 	],
 	"rewards": {
-		"function": "nnsb_damage:bow/damage_12"
+		"function": "nnsb_health:bow/damage_15"
 	}
 }

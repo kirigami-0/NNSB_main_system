@@ -1,4 +1,4 @@
-#> nnsb_damage:bow/damage_12
+#> nnsb_health:bow/damage_12
 
 say 123
 
@@ -12,10 +12,10 @@ say 123
   scoreboard players set $damage_math define 12
 
 #ダメージ計算開始
-  function nnsb_damage:damage_set
+  function nnsb_health:damage_set
 
 #再利用できるようにする
-  advancement revoke @s only nnsb_damage:bow_damage_12
+  advancement revoke @s only nnsb_health:bow_damage_12
 
 
 #  R
