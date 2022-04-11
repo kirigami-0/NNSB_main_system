@@ -313,6 +313,6 @@
     ]
   ],
   "rewards": {
-    "function": "nnsb_damage:normal/damage_12"
+    "function": "nnsb_health:normal/damage_12"
   }
 }

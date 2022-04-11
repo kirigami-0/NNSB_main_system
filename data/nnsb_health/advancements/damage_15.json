@@ -235,6 +235,6 @@
 		]
 	],
 	"rewards": {
-		"function": "nnsb_damage:normal/damage_15"
+		"function": "nnsb_health:normal/damage_15"
 	}
 }

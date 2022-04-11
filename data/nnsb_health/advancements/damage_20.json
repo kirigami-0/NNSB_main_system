@@ -1,6 +1,6 @@
 {
 	"comment":[
-		"弓の属性ダメージ処理",
+		"通常の属性ダメージ",
 		"2.0倍"
 	],
 	
@@ -13,15 +13,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[red]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -38,15 +32,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[magenta]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -62,15 +50,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[blue]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -86,15 +68,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[cyan]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -110,15 +86,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[green]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -134,15 +104,9 @@
 						"type": "minecraft:player",
 						"equipment": {
 							"mainhand": {
-								"items": [
-									"minecraft:bow"
-								],
 								"nbt": "{Tags:[yellow]}"
 							}
 						}
-					},
-					"type": {
-						"is_projectile": true
 					}
 				},
 				"entity": {
@@ -163,6 +127,6 @@
 		]
 	],
 	"rewards": {
-		"function": "nnsb_damage:bow/damage_20"
+		"function": "nnsb_health:normal/damage_20"
 	}
 }
