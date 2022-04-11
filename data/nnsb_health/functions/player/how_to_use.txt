@@ -1,0 +1,5 @@
+remove.mcfunctionの仕様
+  これは、プレイヤーの体力を減らす時に↓で指定した％だけ減らすファンクションです。
+  ・何％減らすかは固定ではなく、ストレージのmphe:health_removerのpercentで指定します。
+  (例：20％減らしたいときは /data modify storage nnsb: health.remove.percent set value 20)
+  ・体力の減った後の値をnnsb_healthに入れます。
