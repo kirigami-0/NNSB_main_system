@@ -1,8 +1,8 @@
 # _#hp_percentのbuffer_health_aに何％の体力を減らすかを代入する
-execute store result score _#hp_percent buffer_health_a run data get storage nnsb: health.remove.percent 1
-# プレイヤーの体力をそのプレイヤーのbuffer_healthに代入する。
+execute store result score _#hp_percent buffer_health_a run data get storage nnsb: health.remove.perdel 1
+# プレイヤーの体力をそのプレイヤーのbuffer_health_aに代入する。
 execute store result score @s buffer_health_a run data get entity @s Health 1
-# そのプレイヤーのbuffer_health_aとbuffer_health_aを同じにする
+# そのプレイヤーのbuffer_health_aとbuffer_health_bを同じにする
 scoreboard players operation @s buffer_health_b = @s buffer_health_a
 # プレイヤーの体力の?割を求める
 scoreboard players operation @s buffer_health_b *= _#hp_percent buffer_health_a
