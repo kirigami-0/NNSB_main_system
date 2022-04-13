@@ -6,5 +6,3 @@ execute store result score @s buffer_health_b run data get entity @s Health 1
 scoreboard players operation @s buffer_health_b *= _#hp_percent buffer_health_b
 # nnsb_healthに残る体力をいれる。
 scoreboard players operation @s nnsb_health = @s buffer_health_b
-# ScoreToHealthに代入。
-scoreboard players operation @s ScoreToHealth = @s nnsb_health
