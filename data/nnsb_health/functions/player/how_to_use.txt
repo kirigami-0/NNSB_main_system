@@ -1,5 +1,13 @@
-remove.mcfunctionの仕様
+hp_del.mcfunctionの仕様
   これは、プレイヤーの体力を減らす時に↓で指定した％だけ減らすファンクションです。
-  ・何％減らすかは固定ではなく、ストレージのmphe:health_removerのpercentで指定します。
-  (例：20％減らしたいときは /data modify storage nnsb: health.remove.percent set value 20)
+  ・何％減らすかは固定ではなく、ストレージのmphe:health.removeのperdelで指定します。
+  (例：20％減らしたいときは /data modify storage nnsb: health.remove.perdel set value 20)
   ・体力の減った後の値をnnsb_healthに入れます。
+hp_remain.mcfunctionの仕様
+  これは、上のファンクションと違い、何%残すかで指定します。
+  ・何％残すかは固定ではなく、ストレージのmphe:health.remove.perremainで指定します。
+  (例：20％残したいときは /data modify storage nnsb: health.remove.perremain set value 20)
+  ・体力の残る値をnnsb_healthに入れます。
+
+どちらの方から出る値は自動的にそのプレイヤーのScoreToHealthへ代入されます。
+（もしも、計算だけであれば/onlycalc以下に置いてある方を使ってください。）
