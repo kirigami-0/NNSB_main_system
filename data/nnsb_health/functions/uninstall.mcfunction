@@ -8,3 +8,6 @@
 	scoreboard objectives remove death_hp
 	scoreboard objectives remove death_food
 	scoreboard objectives remove now_food
+	scoreboard objectives remove nnsb_health
+	scoreboard objectives remove buffer_health_a
+	scoreboard objectives remove buffer_health_b
