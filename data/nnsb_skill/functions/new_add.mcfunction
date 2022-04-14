@@ -30,6 +30,10 @@
   #剣
     scoreboard objectives add wapon_used custom:damage_dealt
   
+  #ボマーで使用するスコアボード
+  scoreboard objectives add buffer_bomber_a dummy
+  scoreboard objectives add buffer_bomber_b dummy
+
   #nnsb_healthで使用するスコアボード
     scoreboard objectives add nnsb_health dummy
     scoreboard objectives add buffer_health_a dummy
