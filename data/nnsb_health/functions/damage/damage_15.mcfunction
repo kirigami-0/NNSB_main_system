@@ -1,4 +1,4 @@
-#> nnsb_health:bow/damage_15
+#> nnsb_health:damage/damage_15
 
 #ストレージにItemNameを格納する。
   data modify storage nnsb: damage.item_name set from entity @s SelectedItem.tag.ItemName
