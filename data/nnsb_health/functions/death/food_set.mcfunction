@@ -15,3 +15,4 @@
 
 #進捗取り消し
   execute as @e[advancements={nnsb_health:death_time=true}] run advancement revoke @s only nnsb_health:death_time
+
