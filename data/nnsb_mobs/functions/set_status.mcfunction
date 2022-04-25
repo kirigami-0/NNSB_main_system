@@ -2,8 +2,9 @@
 #ステータスをセットする
 
 #HP
+data modify entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base set from storage nnsb: status.final.MaxHealth
+data modify entity @s Health set value 1024
 execute store result score @s mob_hp run data get storage nnsb: status.mob_hp
-data modify entity @s Health set from storage nnsb: status.hp
 
 #名前
 data modify entity @s CustomName set from storage nnsb: status.name

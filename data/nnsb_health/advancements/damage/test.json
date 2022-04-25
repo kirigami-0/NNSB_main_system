@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "blue_red": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"red\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"red\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue_red"
+    ]
+  ],
+  "rewards": {
+    "function": "nnsb_health:enemy_damage/bow/12"
+  }
+}

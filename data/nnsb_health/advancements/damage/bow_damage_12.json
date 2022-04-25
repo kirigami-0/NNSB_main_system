@@ -7,13 +7,12 @@
           "nbt": "{Tags:[\"red\"]}"
         },
         "damage": {
-          "dealt": 0,
           "type": {
             "is_projectile": true
           }
         },
         "entity": {
-          "nbt": "{Tags:[red]}"
+          "nbt": "{Tags:[\"red\"]}"
         }
       }
     },
@@ -269,7 +268,7 @@
           }
         },
         "entity": {
-          "nbt": "{Tags:[yellow]}"
+          "nbt": "{Tags:[\"yellow\"]}"
         }
       }
     },
@@ -313,6 +312,6 @@
     ]
   ],
   "rewards": {
-    "function": "nnsb_health:bow/damage_12"
+    "function": "nnsb_health:enemy_damage/bow/12"
   }
 }

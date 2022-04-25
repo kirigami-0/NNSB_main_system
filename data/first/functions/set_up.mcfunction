@@ -27,6 +27,10 @@
     scoreboard players set &island define 10
     scoreboard players set &zero_island define 0
 
+#モブの最大HP（不変）
+data modify storage nnsb: status.final.MaxHealth set value 1024
+
+
 #既存のゲームルールを変更する。
   # 注意!! NNSBリリース時に有効化すること
     #gamerule commandBlockOutput false

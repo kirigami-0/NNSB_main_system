@@ -5,8 +5,8 @@
 
 #名前を設定する
   data modify storage nnsb: status.name set value '{"text":"test","color":"#ff9999"}'
-#HPを設定する
-  data modify storage nnsb: status.mob_hp set value 20
+#HPを設定するスコアボード
+  data modify storage nnsb: status.mob_hp set value 60
 #移動速度を設定
   data modify storage nnsb: status.speed set value 0.5d
 #攻撃力
@@ -43,9 +43,6 @@
   data modify storage nnsb: status.armor.drop_body set value 0f
 #ブーツ
   data modify storage nnsb: status.armor.drop_head set value 0f
-
-##変えてはいけない部分
-  data modify storage nnsb: status.hp set value 9999.0f
 
 ##全ての設定を適応する
   execute as @e[tag=status_set] run function nnsb_mobs:set_status
