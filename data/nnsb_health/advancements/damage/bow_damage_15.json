@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "1.5倍ダメージ",
+    "弓による攻撃"
+  ],
+  
   "criteria": {
     "red_blue": {
       "trigger": "minecraft:player_hurt_entity",
