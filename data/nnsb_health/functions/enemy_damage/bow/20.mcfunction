@@ -14,4 +14,4 @@
   function nnsb_health:enemy_damage/set_damage 
 
 #進捗を取り消す
-  advancement revoke @s only nnsb_health:damage/test
+  advancement revoke @s only nnsb_health:damage/bow_damage_20

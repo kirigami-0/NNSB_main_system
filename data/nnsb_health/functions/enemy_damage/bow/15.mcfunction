@@ -5,7 +5,7 @@
   execute at @e[tag=bow_damage_get,limit=1,sort=nearest,type=!player] run kill @e[type=!player,tag=bow_damage_get,limit=1,sort=nearest]
 
 #ダメージ倍率を設定する
-  scoreboard players set &damage_multiplier define 7
+  scoreboard players set &damage_multiplier define 6
   
 #ダメージ計算
   function nnsb_health:enemy_damage/math_bow_damage
@@ -14,4 +14,4 @@
   function nnsb_health:enemy_damage/set_damage 
 
 #進捗を取り消す
-  advancement revoke @s only nnsb_health:damage/test
+  advancement revoke @s only nnsb_health:damage/bow_damage_15

@@ -8,7 +8,7 @@
 #HPを設定するスコアボード
   data modify storage nnsb: status.mob_hp set value 60
 #移動速度を設定
-  data modify storage nnsb: status.speed set value 0.5d
+  data modify storage nnsb: status.speed set value 0d
 #攻撃力
   data modify storage nnsb: status.attack set value 0.5d
 #攻撃したときのノックバック
