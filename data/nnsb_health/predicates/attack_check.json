@@ -3,14 +3,10 @@
     "敵がダメージを受ける",
     "監視システム"
   ],
-  
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "player": {
-      "looking_at": {
-        "nbt": "{HurtTime:10s}"
-      }
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{HurtTime:10s}"
     }
   }
-}
+  

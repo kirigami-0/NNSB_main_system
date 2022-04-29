@@ -7,7 +7,8 @@
         "nnsb_skill:uninstall",
         "nnsb_effect:uninstall",
         "nnsb_item:uninstall",
-        "nnsb_mobs:uninstall"
+        "nnsb_mobs:uninstall",
+        "nnsb_color:reset"
     ]
 }
 

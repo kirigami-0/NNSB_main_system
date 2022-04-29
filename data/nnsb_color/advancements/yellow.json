@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "属性を変化させる",
+    "イエロー"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",

@@ -40,12 +40,12 @@
     scoreboard objectives add buffer_health_b dummy
 
 #チーム
-  team add skill_set_flowe
+  team add skill_set_flower
   team add skill_set_bird
   team add skill_set_wind
   team add skill_set_moon
 
-  team modify skill_set_flowe color gold
+  team modify skill_set_flower color gold
   team modify skill_set_bird color white
   team modify skill_set_wind color green
   team modify skill_set_moon color aqua

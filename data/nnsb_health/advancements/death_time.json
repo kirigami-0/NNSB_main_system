@@ -13,7 +13,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "death_time": 5
+              "death_time": 1
             }
           }
         ]

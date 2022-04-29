@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "2.0倍ダメージ",
+    "弓による攻撃"
+  ],
+  
   "criteria": {
     "red_cyan": {
       "trigger": "minecraft:player_hurt_entity",
@@ -99,15 +104,15 @@
   },
   "requirements": [
     [
-      "red_cyan",
-      "magenta_green",
-      "blue_yellow",
-      "cyan_red",
+      "yellow_blue",
       "green_magenta",
-      "yellow_blue"
+      "cyan_red",
+      "blue_yellow",
+      "magenta_green",
+      "red_cyan"
     ]
   ],
   "rewards": {
-    "function": "nnsb_health:bow/damage_20"
+    "function": "nnsb_health:enemy_damage/bow/20"
   }
 }

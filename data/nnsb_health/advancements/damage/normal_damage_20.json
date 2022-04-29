@@ -108,6 +108,6 @@
     ]
   ],
   "rewards": {
-    "function": "nnsb_health:normal/damage_20"
+    "function": "nnsb_health:enemy_damage/normal/20"
   }
 }
