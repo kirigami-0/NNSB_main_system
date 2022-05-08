@@ -15,7 +15,7 @@
     data modify storage nnsb: damage.item_name set value ""
 
   #クラフトストレージ
-    data modify storage nnsb: craft.reset set value "void"
+    data modify storage nnsb: craft.return set value "void"
 
   #体力ストレージ
     data modify storage nnsb: health.remove merge value {"percent":10}
@@ -29,7 +29,6 @@
 
 #モブの最大HP（不変）
 data modify storage nnsb: status.final.MaxHealth set value 1024
-
 
 #既存のゲームルールを変更する。
   # 注意!! NNSBリリース時に有効化すること

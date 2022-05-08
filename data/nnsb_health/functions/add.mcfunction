@@ -1,6 +1,5 @@
 #> nnsb_health:add
 #インストール
-
 #モブのHPのスコアボード
   scoreboard objectives add mob_hp dummy
   

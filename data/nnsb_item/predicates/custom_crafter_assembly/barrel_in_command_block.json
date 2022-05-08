@@ -1,7 +1,7 @@
 {
   "comment":[
-    "額縁が上向きで",
-    "作業台に貼ってあるか"
+    "コマブロ入った額縁が上向きで",
+    "タルに貼ってあるか"
   ],
   
   "condition": "minecraft:entity_properties",

@@ -1,0 +1,15 @@
+{
+  "comment":[
+    "毎チック処理",
+    "ファンクション内で条件付き"
+  ],
+  
+  "criteria": {
+    "set_up": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "nnsb_item:set_up"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "comment":[
-    "バリアブロックのAgeが",
-    "1なら"
+    "アイテムを返却する用の",
+    "バリアブロックを与える"
   ],
   
   "condition": "minecraft:entity_properties",
