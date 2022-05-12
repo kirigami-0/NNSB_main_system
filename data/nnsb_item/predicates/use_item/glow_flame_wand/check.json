@@ -1,0 +1,23 @@
+[
+  {
+    "comment":[
+      "練習モードのみゲットできる杖",
+      "使うとエンドフレームが光るよ"
+    ],
+
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{SelectedItem:{tag:{Tags:[\"glow_flame_wand\"]}}}"
+    }
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "carrot_used": {
+        "min": 1
+      }
+    }
+  }
+]

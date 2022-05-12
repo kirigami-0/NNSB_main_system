@@ -28,8 +28,20 @@
     scoreboard players set &zero_island define 0
 
 #モブの最大HP（不変）
-data modify storage nnsb: status.final.MaxHealth set value 1024
+  data modify storage nnsb: status.final.MaxHealth set value 1024
 
+#チームセット
+  team add yellow
+  team add skill_set_flower
+  team add skill_set_bird
+  team add skill_set_wind
+  team add skill_set_moon
+  
+  team modify yellow color yellow
+  team modify skill_set_flower color gold
+  team modify skill_set_bird color white
+  team modify skill_set_wind color green
+  team modify skill_set_moon color aqua
 #既存のゲームルールを変更する。
   # 注意!! NNSBリリース時に有効化すること
     #gamerule commandBlockOutput false

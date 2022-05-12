@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "nnsb_item:set_up"
+    "function": "nnsb_item:custom_crafter/set_up"
   }
 }

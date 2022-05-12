@@ -1,4 +1,4 @@
-#> nnsb_item:crafted
+#> nnsb_item:custom_crafter/crafted
 #クラフトを開始する
 tellraw @s [{"text":"クラフト開始","color": "#ffff00"}]
 
