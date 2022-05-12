@@ -23,10 +23,6 @@
 #攻略用スコアボードを作成
   scoreboard objectives add define dummy
 
-  #制圧する必要のある島の数を設定
-    scoreboard players set &island define 10
-    scoreboard players set &zero_island define 0
-
 #モブの最大HP（不変）
   data modify storage nnsb: status.final.MaxHealth set value 1024
 

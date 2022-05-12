@@ -1,6 +1,6 @@
 #> nnsb_item:custom_crafter/crafting
 
-#クラフトスロット以外にアイテムを入れたらアイテム返却する
+#クラフトスロット以外に入れたアイテムを返却する
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run data modify storage nnsb: craft.return set from block ~ ~-1 ~ Items[{Slot:0b}]
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run data modify storage nnsb: craft.return set from block ~ ~-1 ~ Items[{Slot:1b}]
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run data modify storage nnsb: craft.return set from block ~ ~-1 ~ Items[{Slot:2b}]
@@ -25,7 +25,7 @@
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data storage nnsb: craft{return:"void"} run data modify entity @e[limit=1,predicate=nnsb_item:custom_crafter_assembly/return_item] Item set from storage nnsb: craft.return
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data storage nnsb: craft{return:"void"} run data modify storage nnsb: craft.return set value void
 
-#紙を削除します
+#紙を削除
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run clear @s paper{CustomModelData:1}
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run clear @s paper{CustomModelData:1}
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}] run clear @s paper{CustomModelData:1}

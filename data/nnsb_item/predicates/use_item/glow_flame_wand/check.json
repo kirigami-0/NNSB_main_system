@@ -10,14 +10,5 @@
     "predicate": {
       "nbt": "{SelectedItem:{tag:{Tags:[\"glow_flame_wand\"]}}}"
     }
-  },
-  {
-    "condition": "minecraft:entity_scores",
-    "entity": "this",
-    "scores": {
-      "carrot_used": {
-        "min": 1
-      }
-    }
   }
 ]

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "条件付きチェック",
+    "人参棒使用で発火する"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

@@ -3,7 +3,7 @@
 #作業台を置き換える
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/crafting_table_in_iron_ingot,limit=1] run setblock ~ ~-1 ~ barrel[facing=up]{CustomName:'{"text": "           強化作業台","bold": true,"color": "#0000ff"}'}
 
-#紙を敷き詰める初期化をする
+#紙を敷き詰め初期化
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_iron_ingot,limit=1] run data modify block ~ ~-1 ~ Items[{Slot:0b}] merge value {id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_iron_ingot,limit=1] run data modify block ~ ~-1 ~ Items[{Slot:1b}] merge value {id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_iron_ingot,limit=1] run data modify block ~ ~-1 ~ Items[{Slot:2b}] merge value {id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,display:{Name:'{"text":""}'}}}
@@ -31,7 +31,7 @@
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] if block ~ ~-1 ~ barrel[open=true] run function nnsb_item:custom_crafter/crafting
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] if block ~ ~-1 ~ barrel[open=false] run function nnsb_item:custom_crafter/closed
 
-#破壊されたらアイテムを返却する
+#破壊されたらアイテムを返却
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/breack] run kill @e[type=item,sort=nearest,limit=1]
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/breack] run summon item ~ ~-0.3 ~ {Item:{id:"minecraft:iron_ingot",Count:1b}}
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/breack] run summon item ~ ~-0.3 ~ {Item:{id:"minecraft:crafting_table",Count:1b}}
@@ -42,4 +42,5 @@
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] unless block ~ ~ ~ air run setblock ~ ~ ~ air destroy
   execute at @e[predicate=nnsb_item:custom_crafter_assembly/barrel_in_command_block] if block ~ ~-2 ~ hopper run setblock ~ ~-2 ~ air destroy
 
-advancement revoke @s only nnsb_item:custpm_crafter/set_up
+#進捗を取り消す
+  advancement revoke @s only nnsb_item:custpm_crafter/set_up
