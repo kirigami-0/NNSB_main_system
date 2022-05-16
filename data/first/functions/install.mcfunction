@@ -1,5 +1,4 @@
 #> first:install
-
 #最初だけインストールされるやつ
   execute as @s unless data storage nnsb: check{FLAG:TRUE} run function #first:first_install
 

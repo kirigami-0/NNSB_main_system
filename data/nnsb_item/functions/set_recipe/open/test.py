@@ -1,0 +1,2 @@
+for num in range (0,27):
+  print('execute at @e[tag=setRecipe] unless data block ~ ~ ~ Items[{Slot:' + str(num) + 'b}] run data modify block ~ ~ ~ Items[{Slot:' + str(num) + 'b}] merge from storage nnsb: craft.ui')

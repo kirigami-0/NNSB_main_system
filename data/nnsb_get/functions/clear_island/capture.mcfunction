@@ -20,3 +20,4 @@
 
 #トリガーを削除
   advancement revoke @s only nnsb_get:clear_island
+

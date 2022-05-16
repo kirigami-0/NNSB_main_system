@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"producer\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_item:set_recipe/tick"
+  }
+}

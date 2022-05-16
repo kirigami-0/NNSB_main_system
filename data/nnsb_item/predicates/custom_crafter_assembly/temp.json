@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "鉄インゴット入の額縁が上向きで",
+    "タルに貼ってあるか"
+  ],
+  
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
@@ -8,10 +13,7 @@
       "block": {
         "blocks": [
           "minecraft:barrel"
-        ],
-        "state": {
-          "CustomName": "'{\"text\":\"           強化作業台\"}'"
-        }
+        ]
       }
     }
   }

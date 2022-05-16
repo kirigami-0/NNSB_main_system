@@ -6,7 +6,8 @@
     "nnsb_skill:mp/regeneration",
     "nnsb_skill:new_add",
     "nnsb_job:new_add",
-    "nnsb_level:new_add"
+    "nnsb_level:new_add",
+    "nnsb_item:new_add"
   ]
 }
 
