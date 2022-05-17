@@ -1,5 +1,4 @@
 #> nnsb_item:set_recipe/open/set_shaped
-say 定形レシピを追加します。
 #define tag {Name:"NNSB_recipes"}
 
 # 1.全データを取得する
@@ -44,8 +43,11 @@ say 定形レシピを追加します。
   #完成品
     data remove storage pretty_crafter: recipe.result.Slot
 
-#レシピカテゴリーセット
-  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
+##レシピカテゴリーセット
+#  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
+#
+##レシピを追加
+#  function #pretty_crafter:add
 
-#レシピを追加
-  function #pretty_crafter:add
+tellraw @a [{"text": "定形レシピを追加しました","color": "#ffffaa"}]
+function nnsb_item:set_recipe/open/restore
