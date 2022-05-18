@@ -1,22 +1,22 @@
 #> nnsb_item:custom_crafter/set_up
-
 #define tag custom_crafter
 
-
+#マーカーとブロックをセットする
 execute at @e[predicate=nnsb_item:custom_crafter/crafting_table_in_iron_ingot] run summon marker ~ ~-1 ~ {Tags:["custom_crafter"]}
 execute at @e[predicate=nnsb_item:custom_crafter/crafting_table_in_iron_ingot] run setblock ~ ~-1 ~ barrel[facing=up]{CustomName:'{"text": "            強化作業台","color": "#0000ff","bold": true}'}
 
-execute at @e[tag=custom_crafter] as @e[type=item_frame,sort=nearest,limit=1] unless data entity @s Item{id:"minecraft:paper"} run data modify entity @s Item.id set value "minecraft:paper"
+execute at @e[tag=custom_crafter] as @e[type=item_frame,sort=nearest,limit=1] run data modify entity @s Item.id set value "minecraft:paper"
+execute at @e[tag=custom_crafter] as @e[type=item_frame,sort=nearest,limit=1] run data modify entity @s Invulnerable set value true
 
 
 execute at @e[tag=custom_crafter] if block ~ ~ ~ barrel[open=true] run function nnsb_item:custom_crafter/crafting
-execute at @e[tag=custom_crafter] if block ~ ~ ~ barrel[open=false] run data modify block ~ ~ ~ Items set value []
+execute at @e[tag=custom_crafter] if block ~ ~ ~ barrel[open=false] run function nnsb_item:custom_crafter/closed
+
+
+execute at @e[tag=custom_crafter] unless block ~ ~ ~ barrel run kill @e[type=item_frame,limit=1,sort=nearest]
 execute at @e[tag=custom_crafter] unless block ~ ~ ~ barrel run kill @e[tag=custom_crafter,sort=nearest,limit=1]
 
 advancement revoke @s only nnsb_item:custpm_crafter/set_up
-
-
-
 
 
 
