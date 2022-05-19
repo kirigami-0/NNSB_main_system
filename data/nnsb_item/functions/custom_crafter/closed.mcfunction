@@ -1,7 +1,6 @@
 #> nnsb_item:custom_crafter/closed
 #クラフト欄に入れたまま閉じたアイテムを返却する
 
-
 execute if data storage nnsb: craft.item{return_1:"null"} run data modify storage nnsb: craft.item.return_1 set from block ~ ~ ~ Items[{Slot:3b}]
 execute if data storage nnsb: craft.item{return_2:"null"} run data modify storage nnsb: craft.item.return_2 set from block ~ ~ ~ Items[{Slot:4b}]
 execute if data storage nnsb: craft.item{return_3:"null"} run data modify storage nnsb: craft.item.return_3 set from block ~ ~ ~ Items[{Slot:5b}]
@@ -38,7 +37,8 @@ execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify en
 
 execute unless data storage nnsb: craft.item{return_9:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
 execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_9
-#
+
+#データを初期化する
 data modify storage nnsb: craft.item.return_1 set value "null"
 data modify storage nnsb: craft.item.return_2 set value "null"
 data modify storage nnsb: craft.item.return_3 set value "null"
@@ -48,6 +48,3 @@ data modify storage nnsb: craft.item.return_6 set value "null"
 data modify storage nnsb: craft.item.return_7 set value "null"
 data modify storage nnsb: craft.item.return_8 set value "null"
 data modify storage nnsb: craft.item.return_9 set value "null"
-
-#樽の中身を空にする
-# execute at @e[tag=custom_crafter] run data modify block ~ ~ ~ Items set value []
