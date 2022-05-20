@@ -1,7 +1,6 @@
 #> nnsb_item:custom_crafter/crafting
 #define score_holder &crafting
 
-
 #クラフト欄以外に入れたアイテムを取得する
   execute at @e[tag=useing] unless data block ~ ~ ~ Items[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: craft.item.return set from block ~ ~ ~ Items[{Slot:0b}]
   execute at @e[tag=useing] unless data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:paper",Count:1b,tag:{CustomModelData:1}}] run data modify storage nnsb: craft.item.return set from block ~ ~ ~ Items[{Slot:1b}]
