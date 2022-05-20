@@ -39,19 +39,19 @@
   data remove storage nnsb: craft.recipe.unshaped[8].Slot
   data remove storage nnsb: craft.result.unshaped.Slot
 
-##プリクラにデータをぶん投げる
-#  #レシピ
-#    data modify storage pretty_crafter: recipe.items set from storage nnsb: craft.recipe.unshaped
-#
-#  #完成品
-#    data modify storage pretty_crafter: recipe.result set from storage nnsb: craft.result.unshaped
-#
-##カテゴリをセットします
-#  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
-#
-##レシピ追加
-#  function #pretty_crafter:add
-#
+#プリクラにデータをぶん投げる
+  #レシピ
+    data modify storage pretty_crafter: recipe.items set from storage nnsb: craft.recipe.unshaped
+
+  #完成品
+    data modify storage pretty_crafter: recipe.result set from storage nnsb: craft.result.unshaped
+
+#カテゴリをセットします
+  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
+
+#レシピ追加
+  function #pretty_crafter:add
+
 #レシピを消去する。
   data modify storage nnsb: craft.recipe.unshaped set value []
 

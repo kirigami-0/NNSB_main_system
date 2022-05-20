@@ -22,10 +22,10 @@
   execute at @e[tag=custom_crafter] if block ~ ~ ~ barrel[open=false] as @e[tag=unused] run function nnsb_item:custom_crafter/closed
 
 #演出
-  execute at @e[tag=custom_crafter] run particle ambient_entity_effect ~1 ~ ~1 0 0 0 0 1 normal
-  execute at @e[tag=custom_crafter] run particle ambient_entity_effect ~1 ~ ~-1 0 0 0 0 1 normal
-  execute at @e[tag=custom_crafter] run particle ambient_entity_effect ~-1 ~ ~1 0 0 0 0 1 normal
-  execute at @e[tag=custom_crafter] run particle ambient_entity_effect ~-1 ~ ~-1 0 0 0 0 1 normal
+  execute at @e[tag=custom_crafter] run particle composter ~1 ~0.5 ~1 0 0.1 0.1 0.1 1 normal
+  execute at @e[tag=custom_crafter] run particle composter ~1 ~0.5 ~-1 0 0.1 0.1 0.1 1 normal
+  execute at @e[tag=custom_crafter] run particle composter ~-1 ~0.5 ~1 0 0.1 0.1 0.1 1 normal
+  execute at @e[tag=custom_crafter] run particle composter ~-1 ~0.5 ~-1 0 0.1 0.1 0.1 1 normal
 
 #破壊されたら
   execute at @e[tag=custom_crafter] unless block ~ ~ ~ barrel as @e[type=item_frame,limit=1,sort=nearest] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:iron_ingot",Count:1b}}

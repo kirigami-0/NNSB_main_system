@@ -43,11 +43,11 @@
   #完成品
     data remove storage pretty_crafter: recipe.result.Slot
 
-##レシピカテゴリーセット
-#  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
-#
-##レシピを追加
-#  function #pretty_crafter:add
+#レシピカテゴリーセット
+  data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
+
+#レシピを追加
+  function #pretty_crafter:add
 
 tellraw @a [{"text": "定形レシピを追加しました","color": "#ffffaa"}]
 function nnsb_item:set_recipe/open/restore
