@@ -42,10 +42,10 @@
 #プリクラにデータをぶん投げる
   #レシピ
     data modify storage pretty_crafter: recipe.items set from storage nnsb: craft.recipe.unshaped
-
+    data modify storage nnsb: test set from storage nnsb: craft.recipe.unshaped
   #完成品
     data modify storage pretty_crafter: recipe.result set from storage nnsb: craft.result.unshaped
-
+    data modify storage nnsb: test set from storage nnsb: craft.recipe.unshaped
 #カテゴリをセットします
   data modify storage pretty_crafter: recipe.category set value {Name:"NNSB_recipes"}
 
