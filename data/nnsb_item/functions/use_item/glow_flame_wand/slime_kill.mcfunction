@@ -1,4 +1,5 @@
 #> nnsb_item:use_item/glow_flame_wand/slime_kill
+#define tag/entity_type glow_flame_slime
 #演出
   execute at @e[tag=glow_flame_slime] run particle flash ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
 

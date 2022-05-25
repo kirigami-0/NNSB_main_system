@@ -20,6 +20,7 @@
   #体力ストレージ
     data modify storage nnsb: health.remove merge value {"percent":10}
 
+  
 #攻略用スコアボードを作成
   scoreboard objectives add define dummy
 

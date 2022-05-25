@@ -1,6 +1,6 @@
 #> nnsb_get:clear_island/capture
+#declare score_holder &island define 島の数
 #島制圧処理
-
 #残りの島を計算する
   execute at @e[tag=end_frame] if block ~ ~ ~ end_portal_frame[eye=false] run summon area_effect_cloud ~ ~ ~ {Tags:["not_capture"]}
   execute store result score &island define run execute if entity @e[tag=not_capture]

@@ -1,4 +1,5 @@
 #> nnsb_item:use_item/glow_flame_wand/main
+#define tag/item glow_flame_wand
 #練習モードのみで登場
 #使うと10秒間エンドフレームの中に発光スライムを召喚する
 
