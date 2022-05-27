@@ -12,31 +12,31 @@ execute if data storage nnsb: craft.item{return_8:"null"} run data modify storag
 execute if data storage nnsb: craft.item{return_9:"null"} run data modify storage nnsb: craft.item.return_9 set from block ~ ~ ~ Items[{Slot:23b}]
 
 execute unless data storage nnsb: craft.item{return_1:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_1
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_1
 
 execute unless data storage nnsb: craft.item{return_2:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_2
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_2
 
 execute unless data storage nnsb: craft.item{return_3:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_3
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_3
 
 execute unless data storage nnsb: craft.item{return_4:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_4
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_4
 
 execute unless data storage nnsb: craft.item{return_5:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_5
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_5
 
 execute unless data storage nnsb: craft.item{return_6:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_6
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_6
 
 execute unless data storage nnsb: craft.item{return_7:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_7
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_7
 
 execute unless data storage nnsb: craft.item{return_8:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_8
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_8
 
 execute unless data storage nnsb: craft.item{return_9:"null"} run summon item ~ ~0.5 ~ {Age:1s,Item:{id:"minecraft:barrier",Count:1b}}
-execute as @e[predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_9
+execute positioned ~ ~0.5 ~ as @e[distance=0,predicate=nnsb_item:custom_crafter/return_item] run data modify entity @s Item set from storage nnsb: craft.item.return_9
 
 #データを初期化する
 data modify storage nnsb: craft.item.return_1 set value "null"

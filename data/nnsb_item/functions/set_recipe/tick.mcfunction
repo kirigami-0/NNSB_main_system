@@ -1,16 +1,16 @@
 #> nnsb_item:set_recipe/tick
-execute at @e[tag=setRecipe] if block ~ ~ ~ barrel[open=true] run function nnsb_item:set_recipe/open/fill_item
-execute at @e[tag=setRecipe] if block ~ ~ ~ barrel[open=false] run data modify block ~ ~ ~ Items set value {}
-execute at @e[tag=setRecipe] unless block ~ ~ ~ barrel as @e[tag=setRecipe,limit=1,sort=nearest] run kill @s
+#define tag setRecipe
 
-#演出
-  execute at @e[tag=setRecipe] align yxz run particle glow ~1 ~-0.1 ~1 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~ ~-0.1 ~ 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~ ~-0.1 ~1 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~1 ~-0.1 ~ 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~1 ~1.1 ~1 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~ ~1.1 ~ 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~ ~1.1 ~1 0 0 0 0 1 normal
-  execute at @e[tag=setRecipe] align yxz run particle glow ~1 ~1.1 ~ 0 0 0 0 1 normal
+#毎チック処理
+#アイテムを敷き詰める
+  execute as @e[tag=setRecipe] at @s if block ~ ~ ~ barrel[open=true] run function nnsb_item:set_recipe/open/fill_item
 
+#タルを閉めたら中身を空に
+  execute as @e[tag=setRecipe] at @s if block ~ ~ ~ barrel[open=false] run data modify block ~ ~ ~ Items set value []
+
+#破壊後の処理
+  execute as @e[tag=setRecipe] at @s unless block ~ ~ ~ barrel run kill @s
+
+
+execute at @e[tag=setRecipe] run function nnsb_item:set_recipe/particle
 advancement revoke @s only nnsb_item:set_recipe/tick

@@ -1,7 +1,7 @@
 #> nnsb_item:use_item/carrot_check
 
 #光杖を使用したら
-  execute as @s[predicate=nnsb_item:use_item/glow_flame_wand/check] run function nnsb_item:use_item/glow_flame_wand/main
+  execute if entity @s[predicate=nnsb_item:use_item/glow_flame_wand/check] run function nnsb_item:use_item/glow_flame_wand/main
 
 #初期化
   scoreboard players set @s carrot_used 0

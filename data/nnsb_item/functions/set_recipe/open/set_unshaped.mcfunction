@@ -17,26 +17,10 @@
     data modify storage nnsb: craft.result.unshaped set from block ~ ~ ~ Items[{Slot:15b}]
 
 #Countを消去
-  data remove storage nnsb: craft.recipe.unshaped[0].Count
-  data remove storage nnsb: craft.recipe.unshaped[1].Count
-  data remove storage nnsb: craft.recipe.unshaped[2].Count
-  data remove storage nnsb: craft.recipe.unshaped[3].Count
-  data remove storage nnsb: craft.recipe.unshaped[4].Count
-  data remove storage nnsb: craft.recipe.unshaped[5].Count
-  data remove storage nnsb: craft.recipe.unshaped[6].Count
-  data remove storage nnsb: craft.recipe.unshaped[7].Count
-  data remove storage nnsb: craft.recipe.unshaped[8].Count
+  data remove storage nnsb: craft.recipe.unshaped[].Count
 
 #Slotを消去
-  data remove storage nnsb: craft.recipe.unshaped[0].Slot
-  data remove storage nnsb: craft.recipe.unshaped[1].Slot
-  data remove storage nnsb: craft.recipe.unshaped[2].Slot
-  data remove storage nnsb: craft.recipe.unshaped[3].Slot
-  data remove storage nnsb: craft.recipe.unshaped[4].Slot
-  data remove storage nnsb: craft.recipe.unshaped[5].Slot
-  data remove storage nnsb: craft.recipe.unshaped[6].Slot
-  data remove storage nnsb: craft.recipe.unshaped[7].Slot
-  data remove storage nnsb: craft.recipe.unshaped[8].Slot
+  data remove storage nnsb: craft.recipe.unshaped[].Slot
   data remove storage nnsb: craft.result.unshaped.Slot
 
 #プリクラにデータをぶん投げる
