@@ -16,13 +16,9 @@
   particle composter ~-1 ~0.5 ~-1 0 0.1 0.1 0.1 1 normal
 
 #破壊されたら
-  #execute as @s unless block ~ ~ ~ barrel as @e[type=item_frame,limit=1,sort=nearest] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:iron_ingot",Count:1b}}
-  #execute as @s unless block ~ ~ ~ barrel as @e[type=item_frame,limit=1,sort=nearest] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:item_frame",Count:1b}}
-  #execute as @s unless block ~ ~ ~ barrel as @e[type=item_frame,limit=1,sort=nearest] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:crafting_table",Count:1b}}
-  #execute as @s unless block ~ ~ ~ barrel as @e[type=item_frame,limit=1,sort=nearest] run kill @s
-  #execute as @s unless block ~ ~ ~ barrel as @e[tag=custom_crafter,limit=1,sort=nearest] run kill @s
-
-  execute as @s unless block ~ ~ ~ barrel as @e[nbt={Age:0s}] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:iron_ingot",Count:1b}}
-  execute as @s unless block ~ ~ ~ barrel as @e[nbt={Age:0s}] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:item_frame",Count:1b}}
-  execute as @s unless block ~ ~ ~ barrel as @e[nbt={Age:0s}] run summon item ~ ~0.5 ~ {Item:{id:"minecraft:crafting_table",Count:1b}}
-  execute as @s unless block ~ ~ ~ barrel run kill @s
+  execute unless block ~ ~ ~ barrel as @e[nbt={Age:0s}] run kill @s
+  execute unless block ~ ~ ~ barrel as @e[type=item_frame,sort=nearest,limit=1] run kill @s
+  execute unless block ~ ~ ~ barrel run summon item ~ ~0.5 ~ {Item:{id:"minecraft:iron_ingot",Count:1b}}
+  execute unless block ~ ~ ~ barrel run summon item ~ ~0.5 ~ {Item:{id:"minecraft:item_frame",Count:1b}}
+  execute unless block ~ ~ ~ barrel run summon item ~ ~0.5 ~ {Item:{id:"minecraft:crafting_table",Count:1b}}
+  execute unless block ~ ~ ~ barrel run kill @s
