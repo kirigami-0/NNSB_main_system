@@ -1,4 +1,9 @@
 {
+    "comment":[
+      "アンインストールで走るファンクション",
+      ""
+    ],
+    
     "values": [
         "first:fast_uninstall",
         "nnsb_health:uninstall",

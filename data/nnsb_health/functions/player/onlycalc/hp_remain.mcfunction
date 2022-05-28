@@ -1,3 +1,6 @@
+#> nnsb_health:player/onlycalc/hp_remain
+#declare score_holder _#hp_percent buffer_health_b
+
 #_#hp_percentのbuffer_health_bに何%の体力を残すかを代入する
   execute store result score _#hp_percent buffer_health_b run data get storage nnsb: health.remove.perremain 1
 

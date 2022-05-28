@@ -11,6 +11,8 @@
 #破壊後の処理
   execute as @e[tag=setRecipe] at @s unless block ~ ~ ~ barrel run kill @s
 
+#演出
+  execute at @e[tag=setRecipe] run function nnsb_item:set_recipe/particle
 
-execute at @e[tag=setRecipe] run function nnsb_item:set_recipe/particle
-advancement revoke @s only nnsb_item:set_recipe/tick
+#トリガーを再セット
+  advancement revoke @s only nnsb_item:set_recipe/tick

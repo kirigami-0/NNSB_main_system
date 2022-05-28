@@ -1,7 +1,7 @@
 [
   {
     "comment":[
-      "矢のライフが1か"
+      "矢のライフが1かを検知する"
     ],
     
     "condition": "minecraft:entity_properties",

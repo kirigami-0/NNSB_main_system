@@ -30,15 +30,13 @@
 
 # 2-2.不必要なものを削っていくSlot
   #クラフトスロット
-    data remove storage pretty_crafter: recipe.items.0.0.Slot
-    data remove storage pretty_crafter: recipe.items.0.1.Slot
-    data remove storage pretty_crafter: recipe.items.0.2.Slot
-    data remove storage pretty_crafter: recipe.items.1.0.Slot
-    data remove storage pretty_crafter: recipe.items.1.1.Slot
-    data remove storage pretty_crafter: recipe.items.1.2.Slot
-    data remove storage pretty_crafter: recipe.items.2.0.Slot
-    data remove storage pretty_crafter: recipe.items.2.1.Slot
-    data remove storage pretty_crafter: recipe.items.2.2.Slot
+    data remove storage pretty_crafter: recipe.items.0.Slot
+    data remove storage pretty_crafter: recipe.items.1.Slot
+    data remove storage pretty_crafter: recipe.items.1.Slot
+    data remove storage pretty_crafter: recipe.items.1.Slot
+    data remove storage pretty_crafter: recipe.items.2.Slot
+    data remove storage pretty_crafter: recipe.items.2.Slot
+    data remove storage pretty_crafter: recipe.items.2.Slot
 
   #完成品
     data remove storage pretty_crafter: recipe.result.Slot

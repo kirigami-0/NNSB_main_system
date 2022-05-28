@@ -22,14 +22,14 @@
   execute unless data block ~ ~ ~ Items[{Slot:26b}] run data modify block ~ ~ ~ Items[{Slot:26b}] merge from storage nnsb: craft.ui.button3
 
 #ボタンを押されたかを検知する
-  clear @s paper{CustomModelData:1}
-  execute store result score &recipe_set_unshaped define run clear @s paper{CustomModelData:3} 0
-  execute store result score &recipe_set_shaped define run clear @s paper{CustomModelData:4} 0
+  clear @e[type=player] paper{CustomModelData:1}
+  execute store result score &recipe_set_unshaped define run clear @e[type=player] paper{CustomModelData:3} 0
+  execute store result score &recipe_set_shaped define run clear @e[type=player] paper{CustomModelData:4} 0
 
 #ファンクションに飛ばす
   execute if score &recipe_set_unshaped define matches 1.. run function nnsb_item:set_recipe/open/set_unshaped
   execute if score &recipe_set_shaped define matches 1.. run function nnsb_item:set_recipe/open/set_shaped
 
 #ボタンを消去する。
-  execute if score &recipe_set_unshaped define matches 1.. run clear @s paper{CustomModelData:3}
-  execute if score &recipe_set_shaped define matches 1.. run clear @s paper{CustomModelData:4}
+  execute if score &recipe_set_unshaped define matches 1.. run clear @e[type=player] paper{CustomModelData:3}
+  execute if score &recipe_set_shaped define matches 1.. run clear @e[type=player] paper{CustomModelData:4}

@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "製作者用のレシピ追加アイテム",
+    "毎チック処理"
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

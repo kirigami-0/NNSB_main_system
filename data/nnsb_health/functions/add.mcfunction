@@ -1,5 +1,11 @@
 #> nnsb_health:add
 #インストール
+#宣言
+  #define score_holder &damage_set ダメージセット
+  #define score_holder &damage_multiplier ダメージ倍率
+  #define tag math_hp HP計算する際にマーカーにつけているタグ
+  #define tag bow_damage_get 弓ダメージを取得する
+  
 #モブのHPのスコアボード
   scoreboard objectives add mob_hp dummy
   
@@ -13,8 +19,3 @@
   scoreboard objectives add death_food food
   scoreboard objectives add now_food dummy
 
-#define
-  #define score_holder &damage_set ダメージセット
-  #define score_holder &damage_multiplier ダメージ倍率
-  #define tag math_hp HP計算する際にマーカーにつけているタグ
-  #define tag bow_damage_get 弓ダメージを取得する

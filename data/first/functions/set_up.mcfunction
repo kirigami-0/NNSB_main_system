@@ -39,8 +39,9 @@
   team modify skill_set_bird color white
   team modify skill_set_wind color green
   team modify skill_set_moon color aqua
+  
 #既存のゲームルールを変更する。
-  # 注意!! NNSBリリース時に有効化すること
+  #注意!! NNSBリリース時に有効化すること
     #gamerule commandBlockOutput false
     #gamerule disableRaids true
     #gamerule doPatrolSpawning false

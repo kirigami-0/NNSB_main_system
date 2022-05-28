@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "地上の楽園へ侵入を検知する",
+    ""
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",

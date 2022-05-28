@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "初回だけインストールされる部分",
+    ""
+  ],
+  
   "values": [
     "first:set_up",
     "nnsb_difficult:add",
