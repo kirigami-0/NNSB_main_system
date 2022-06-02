@@ -1,0 +1,13 @@
+{
+  "comment":[
+      "毎チック処理",
+      ""
+  ],
+  "values": [
+      "first:rule",
+      "nnsb_item:custom_crafter/set_up",
+      "nnsb_level:count/1",
+      "nnsb_level:lv_up",
+      "nnsb_mobs:tick"
+      ]
+}
