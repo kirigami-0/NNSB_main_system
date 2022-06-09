@@ -3,7 +3,7 @@ on: push
 jobs:
   check:
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.commits[0].message, '[check]') }}
+    if: contains(github.event.commits[0].message, '[check]')
     steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
