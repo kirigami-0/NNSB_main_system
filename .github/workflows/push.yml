@@ -1,0 +1,33 @@
+name: Push Actions
+on: push
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.commits.*.message, '[check]') }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0.2
+    - name: Check minecraft commands
+      uses: mcbeet/check-commands@v1.0.6
+      with:
+        source: .
+        minecraft: "1.18"
+    - name: Finish output
+      run: echo "NoNameSkyBlock Datapack was checked."
+  release:
+    runs-on: ubuntu-latest
+    if: if: ${{ contains(github.event.commits.*.message, '[release]') }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0.2
+    - name: Check minecraft commands
+      uses: mcbeet/check-commands@v1.0.6
+      with:
+        source: .
+        minecraft: "1.18"
+    - name: check finish message
+      run: echo "NoNameSkyBlock Datapack was checked."
+    - name: Repository clone
+      run: git clone https://github.com/sysnote8main/NNSB_main_system_ghac.git
+    - name: Create output dir & Move data
+      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system_ghac/data ./ && cp ../NNSB_main_system_ghac/pack.mcmeta ./
