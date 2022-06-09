@@ -71,6 +71,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./nnsb.zip
+        asset_path: ./outputs/nnsb.zip
         asset_name: nnsb.zip
         asset_content_type: application/zip
