@@ -7,10 +7,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
+    - name: Repository clone
+      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Check minecraft commands
       uses: mcbeet/check-commands@v1.0.6
       with:
-        source: .
+        source: ./NNSB_main_system
         minecraft: "1.18"
     - name: Finish output
       run: echo "NoNameSkyBlock Datapack was checked."
@@ -28,9 +30,9 @@ jobs:
     - name: check finish message
       run: echo "NoNameSkyBlock Datapack was checked."
     - name: Repository clone
-      run: git clone https://github.com/sysnote8main/NNSB_main_system_ghac.git
+      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Create output dir & Move data
-      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system_ghac/data ./ && cp ../NNSB_main_system_ghac/pack.mcmeta ./
+      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system/data ./ && cp ../NNSB_main_system/pack.mcmeta ./
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.0.0
       with:
@@ -51,9 +53,9 @@ jobs:
     - name: check finish message
       run: echo "NoNameSkyBlock Datapack was checked."
     - name: Repository clone
-      run: git clone https://github.com/sysnote8main/NNSB_main_system_ghac.git
+      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Create output dir & Move data & zip
-      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system_ghac/data ./ && cp ../NNSB_main_system_ghac/pack.mcmeta ./ && zip -r nnsb *
+      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system/data ./ && cp ../NNSB_main_system/pack.mcmeta ./ && zip -r nnsb *
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1.0.0
