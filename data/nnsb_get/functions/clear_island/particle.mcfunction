@@ -13,4 +13,3 @@
 
 #サウンド
   playsound ui.toast.challenge_complete ambient @a ~ ~ ~ 1 2 1
-

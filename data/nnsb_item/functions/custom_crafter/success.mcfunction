@@ -2,7 +2,7 @@
 
   #成功ログを表示
     tellraw @s [{"text":"クラフトに成功しました","color": "#55ff55"}]
- 
+
   #アイテムスロットを空に
     item modify block ~ ~ ~ container.3 nnsb_item:count_remove
     item modify block ~ ~ ~ container.4 nnsb_item:count_remove
