@@ -1,4 +1,4 @@
-
+#> nnsb_health:player/onlycalc/hp_del
 #_#hp_percentのbuffer_health_aに何%の体力を減らすかを代入する
   execute store result score _#hp_percent buffer_health_a run data get storage nnsb: health.remove.percent 1
 

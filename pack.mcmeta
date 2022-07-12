@@ -2,7 +2,7 @@
   "pack": {
       "pack_format": 9,
       "description":[
-        "nnsb",
+        "nnsb (1.18+)",
         "Sync Health with Score (1.16+)"
       ] 
   }

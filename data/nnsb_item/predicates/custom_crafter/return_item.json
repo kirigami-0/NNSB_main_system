@@ -1,0 +1,13 @@
+{
+  "comment":[
+    "アイテムを返却する用の",
+    "バリアブロックを与える"
+  ],
+  
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "nbt": "{Item:{id:\"minecraft:barrier\",Count:1b},Age:1s}"
+  }
+}

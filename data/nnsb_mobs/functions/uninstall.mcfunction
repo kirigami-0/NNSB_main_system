@@ -1,3 +1,7 @@
 #> nnsb_mobs:uninstall
-
-data remove storage nnsb: status
+#アンインストール
+  data remove storage nnsb: status
+  scoreboard objectives remove spawner_id
+  scoreboard objectives remove spawner_life
+  scoreboard objectives remove max_spawner_life
+  data remove storage nnsb: mob

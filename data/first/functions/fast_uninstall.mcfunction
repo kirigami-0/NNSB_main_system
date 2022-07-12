@@ -12,4 +12,3 @@
 
 #フラグ処理
   data remove storage nnsb: check
-

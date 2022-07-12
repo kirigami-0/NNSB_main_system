@@ -3,6 +3,6 @@
   
 #アンインストールシステムに飛ぶ
   function #first:uninstall
-  data modify storage nnsb: check set value ""
+  data remove storage nnsb: check
 
 

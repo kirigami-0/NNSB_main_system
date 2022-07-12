@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "アメジストの砂漠へ侵入を検知する",
+    ""
+  ],
+  
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",

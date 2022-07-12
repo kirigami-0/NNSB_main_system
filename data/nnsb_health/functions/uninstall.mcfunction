@@ -14,3 +14,6 @@
 	scoreboard objectives remove buffer_bomber_a
 	scoreboard objectives remove buffer_bomber_b
 	scoreboard objectives remove mob_hp
+
+#ストレージ
+	data remove storage nnsb: health

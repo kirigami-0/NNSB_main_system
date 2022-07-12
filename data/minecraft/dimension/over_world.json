@@ -1,0 +1,23 @@
+{
+  "generate_features": true,
+  "bonus_chest": false,
+  "seed": 1,
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "minecraft:the_void",
+          "layers": [
+            {
+              "block": "minecraft:air",
+              "height": 1
+            }
+          ],
+          "structure_overrides": []
+        }
+      }
+    }
+  }
+}

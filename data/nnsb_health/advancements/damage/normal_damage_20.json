@@ -1,4 +1,9 @@
 {
+  "comment":[
+    "通常攻撃",
+    "2.0倍"
+  ],
+  
   "criteria": {
     "red_cyan": {
       "trigger": "minecraft:player_hurt_entity",
