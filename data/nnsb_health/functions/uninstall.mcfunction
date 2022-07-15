@@ -9,11 +9,13 @@
 	scoreboard objectives remove nnsb_health
 	scoreboard objectives remove buffer_health_a
 	scoreboard objectives remove buffer_health_b
-	scoreboard objectives remove damage_dealt
-	scoreboard objectives remove setting_damage
+	scoreboard objectives remove player_to_mob_damage
+	scoreboard objectives remove player_to_mob_damage_math
 	scoreboard objectives remove buffer_bomber_a
 	scoreboard objectives remove buffer_bomber_b
 	scoreboard objectives remove mob_hp
-
+	scoreboard objectives remove mob_to_player_damage
+	scoreboard objectives remove mob_to_player_damage_math
+	
 #ストレージ
 	data remove storage nnsb: health

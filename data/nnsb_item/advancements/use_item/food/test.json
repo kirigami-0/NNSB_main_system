@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"test\"}'},CustomModelData:1,nnsb:food}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_item:get_item/test_food/test_food"
+  }
+}

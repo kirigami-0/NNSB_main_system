@@ -15,9 +15,11 @@
 
 #now が無職だったらnextのジョブをコピー
   execute as @s if data storage nnsb: job{now:"neet"} run data modify storage nnsb: job.now set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].next
-   
+
 #現在のジョブのデータをセーブ
   function nnsb_job:save/hub
 
 #コマブロを削除する。
   clear @s command_block{Tags:["archer_set"]}
+
+

@@ -1,7 +1,4 @@
 #> nnsb_item:set_recipe/open/fill_item
-#declare score_holder &recipe_set_unshaped 
-#declare score_holder &recipe_set_shaped 
-
 #紙を敷き詰める
   execute unless data block ~ ~ ~ Items[{Slot:3b}] run data modify block ~ ~ ~ Items[{Slot:3b}] merge from storage nnsb: craft.ui.BG
   execute unless data block ~ ~ ~ Items[{Slot:4b}] run data modify block ~ ~ ~ Items[{Slot:4b}] merge from storage nnsb: craft.ui.BG

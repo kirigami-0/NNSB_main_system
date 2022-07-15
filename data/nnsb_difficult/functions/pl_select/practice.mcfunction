@@ -9,7 +9,6 @@
 
 #カウントダウン
   execute as @e[type=player] if score &difficult_flag define matches 0 run function nnsb_difficult:timer/count_down
- 
+
 #現在の状態を確認する。
   function nnsb_difficult:pl_select/flags/hub
- 

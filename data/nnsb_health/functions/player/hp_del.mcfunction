@@ -1,6 +1,6 @@
 #> nnsb_health:player/hp_del
 
-#_#hp_percentのbuffer_health_aに何％の体力を減らすかを代入する
+#_#hp_percentのbuffer_health_aに何%の体力を減らすかを代入する
   execute store result score _#hp_percent buffer_health_a run data get storage nnsb: health.remove.perdel 1
 
 #プレイヤーの体力をそのプレイヤーのbuffer_health_aに代入する。
