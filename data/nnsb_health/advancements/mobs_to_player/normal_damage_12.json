@@ -228,7 +228,7 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "nbt": "{Tags:[yellow]}"
+          "nbt": "{Tags:[\"yellow\"]}"
         },
         "damage": {
           "type": {

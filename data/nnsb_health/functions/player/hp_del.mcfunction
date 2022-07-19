@@ -22,7 +22,7 @@
   scoreboard players operation @s buffer_health_a -= @s buffer_health_b
 
 #nnsb_healthに減った後の体力をいれる。
-  scoreboard players operation @s nnsb_health = @s buffer_health_a
+  scoreboard players operation @s player_hp = @s buffer_health_a
 
 #ScoreToHealthに代入。
-  scoreboard players operation @s ScoreToHealth = @s nnsb_health
+  scoreboard players operation @s ScoreToHealth = @s player_hp

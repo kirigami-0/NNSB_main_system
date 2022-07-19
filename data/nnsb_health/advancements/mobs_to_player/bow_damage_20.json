@@ -113,6 +113,6 @@
     ]
   ],
   "rewards": {
-    "function": "nnsb_health:damage/mobs_to_player/normal/20"
+    "function": "nnsb_health:damage/mobs_to_player/bow/20"
   }
 }

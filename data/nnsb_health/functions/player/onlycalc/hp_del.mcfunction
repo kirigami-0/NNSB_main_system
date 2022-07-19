@@ -20,5 +20,5 @@
 #最終的なプレイヤーの体力量を計算する
   scoreboard players operation @s buffer_health_a -= @s buffer_health_b
 
-#nnsb_healthに減った後の体力をいれる。
-  scoreboard players operation @s nnsb_health = @s buffer_health_a
+#player_hpに減った後の体力をいれる。
+  scoreboard players operation @s player_hp = @s buffer_health_a
