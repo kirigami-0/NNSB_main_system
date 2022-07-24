@@ -1,4 +1,7 @@
 #> nnsb_health:damage/mobs_to_player/normal/12
+# 宣言
+  #declare score_holder &set_damage_multiplier define ダメージ倍率設定
+  
 # ダメージ倍率設定
   scoreboard players set &set_damage_multiplier define 12
 

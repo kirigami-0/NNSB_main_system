@@ -1,6 +1,9 @@
 #> nnsb_health:damage/mobs_to_player/math_damage
 # ダメージ計算
-
+# 宣言
+  #declare score_holder &set_damage_multiplier define ダメージ倍率設定
+  #declare score_holder &math_10 define 定数10が格納されている
+  
 # ダメージをdummyにうつしてから計算
   scoreboard players operation @s mob_to_player_damage_math = @s mob_to_player_damage
 

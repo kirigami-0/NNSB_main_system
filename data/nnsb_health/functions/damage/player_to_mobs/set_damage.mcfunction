@@ -1,5 +1,7 @@
 #> nnsb_health:damage/player_to_mobs/set_damage
 #セットしたダメージをセットする
+# 宣言
+  #declare score_holder &damage_set define ダメージ倍率設定
 
 #殴られた敵を取得するためにマーカーを召喚
   execute at @e[predicate=nnsb_health:attack_check] as @s run summon armor_stand ~ ~ ~ {Tags:[math_hp],Marker:true}

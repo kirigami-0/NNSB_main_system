@@ -1,6 +1,8 @@
 #> nnsb_health:damage/player_to_mobs/normal/20
 #2.0倍ダメージ
-
+# 宣言
+  #declare score_holder &set_damage_multiplier define ダメージ倍率設定
+  
 #変数に代入
   scoreboard players operation @s damage_math = @s damage_dealt
 

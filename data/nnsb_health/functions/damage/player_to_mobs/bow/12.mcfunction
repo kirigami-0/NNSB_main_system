@@ -1,4 +1,7 @@
 #> nnsb_health:damage/player_to_mobs/bow/12
+# 宣言
+  #declare score_holder &set_damage_multiplier define ダメージ倍率設定
+  
 #矢のダメージを取得する
   execute at @e[predicate=nnsb_health:attack_check] as @s run summon armor_stand ~ ~ ~ {Tags:[bow_damage_get],Marker:true}
   execute at @e[tag=bow_damage_get,limit=1,sort=nearest,type=!player] run execute store result score @s damage_math run data get entity @e[type=#arrows,limit=1] damage

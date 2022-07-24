@@ -7,7 +7,7 @@
           "items": [
             "minecraft:beetroot"
           ],
-          "nbt": "{display:{Name:'{\"text\":\"test\"}'},CustomModelData:1,nnsb:food}"
+          "nbt": "{display:{Name:'{\"text\":\"アイテム名\"}'},CustomModelData:1,nnsb:food}"
         }
       }
     }
