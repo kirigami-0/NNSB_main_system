@@ -1,7 +1,7 @@
 {
 	"Print to console": {
-		 	"scope": "mcfunction",
-		 	"prefix": ">status",
+			"scope": "mcfunction",
+			"prefix": ">status",
 			"body": [
 				"#ステータスの設定",
 				"##モブの召喚",
