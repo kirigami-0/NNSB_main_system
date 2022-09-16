@@ -1,4 +1,4 @@
-# **NNSB_main_system**  
+# **No Name Sky Block mcver: 1.18.x **  
 ----
 ##### No Name Sky Block を遊ぶ前にチェック！
 
@@ -7,7 +7,7 @@
 - **ソロでのプレイ**
   - マインクラフトのバージョンが1.18.xであること
   - バニラないしOptifineのみの環境であること
-    - ※Forgeの環境でプレイしないこと
+    - ※ Modローダー(Forge,Fabric,Quiltmc,etc..)の環境でプレイしないこと
 
 - **マルチでのプレイ**
   - サーバープロファイルの設定を行う
