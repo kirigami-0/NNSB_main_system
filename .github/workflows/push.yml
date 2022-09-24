@@ -21,9 +21,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
-        minecraft: "1.18"
-    - name: check finish message
-      run: echo "NoNameSkyBlock Datapack was checked."
     - name: Create output dir & Move data
       run: mkdir ../outputs && cd ../outputs && cp -r NNSB_main_system/data ./ && cp NNSB_main_system/pack.mcmeta ./
     - name: Upload a Build Artifact
@@ -39,8 +36,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
-    - name: check finish message
-      run: echo "NoNameSkyBlock Datapack was checked."
     - name: Repository clone
       run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Create output dir & Move data & zip
