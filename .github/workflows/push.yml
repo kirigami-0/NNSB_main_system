@@ -16,6 +16,8 @@ jobs:
           notOutputSuccess: true
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
+      - name: ls
+        run: ls && cd .. && ls && cd .. && ls
   artifact:
     needs: lint
     runs-on: ubuntu-latest
