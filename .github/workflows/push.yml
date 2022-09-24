@@ -6,15 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3.0.2
+      - name: Check minecraft commands
+        uses: mcbeet/check-commands@v1.0.6
         with:
-          fetch-depth: 0
-
-      - name: lint
-        uses: ChenCMD/datapack-linter@v1
-        with:
-          checkAlwaysAllFile: true
+          source: .
+          minecraft: "1.18"
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
   artifact:
@@ -31,10 +29,8 @@ jobs:
         minecraft: "1.18"
     - name: check finish message
       run: echo "NoNameSkyBlock Datapack was checked."
-    - name: Repository clone
-      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Create output dir & Move data
-      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system/data ./ && cp ../NNSB_main_system/pack.mcmeta ./
+      run: mkdir ../outputs && cd ../outputs && cp -r NNSB_main_system/data ./ && cp NNSB_main_system/pack.mcmeta ./
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.0.0
       with:
