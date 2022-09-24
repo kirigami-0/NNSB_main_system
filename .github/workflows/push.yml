@@ -3,20 +3,18 @@ on: push
 jobs:
   check:
     runs-on: ubuntu-latest
-    if: contains(github.event.commits[0].message, '[check]')
     steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
-    - name: Repository clone
-      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
     - name: Check minecraft commands
       uses: mcbeet/check-commands@v1.0.6
       with:
-        source: ./NNSB_main_system
+        source: .
         minecraft: "1.18"
     - name: Finish output
-      run: echo "NoNameSkyBlock Datapack was checked."
+      run: echo "NoNameSkyBlock Datapack's check was successfully."
   artifact:
+    needs: check
     runs-on: ubuntu-latest
     if: contains(github.event.commits[0].message, '[artifact]')
     steps:
