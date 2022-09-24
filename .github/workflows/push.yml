@@ -17,7 +17,7 @@ jobs:
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
       - name: ls
-        run: pwd && echo "=========" && ls && echo "=========" && && cd .. && ls && echo "=========" && && cd .. && ls
+        run: pwd && ls && cd .. && ls && cd .. && ls
   artifact:
     needs: lint
     runs-on: ubuntu-latest
