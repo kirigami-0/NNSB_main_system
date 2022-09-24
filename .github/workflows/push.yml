@@ -9,8 +9,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Make a dir
-        run: mkdir NNSB_main_system && grep -v "NNSB_main_system" | xargs -I% mv % ./NNSB_main_system
       - name: Test
         uses: ChenCMD/datapack-linter@v1
         with:
