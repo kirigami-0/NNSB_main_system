@@ -13,6 +13,8 @@ jobs:
 
       - name: lint
         uses: ChenCMD/datapack-linter@v1
+        with:
+          checkAlwaysAllFile: true
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
   artifact:
@@ -40,6 +42,7 @@ jobs:
         path: ./outputs
         retention-days: 10
   release:
+    needs: lint
     runs-on: ubuntu-latest
     if: contains(github.event.commits[0].message, '[release]')
     steps:
