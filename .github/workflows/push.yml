@@ -6,12 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: lint
+      - name: Test
         uses: ChenCMD/datapack-linter@v1
+        with:
+          outputDefine: public
+          notOutputSuccess: true
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
   artifact:
