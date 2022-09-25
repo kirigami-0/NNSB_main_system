@@ -33,9 +33,9 @@
 **改変してもいいけどこのデータパックの名前を必ず表示してください** 
 
 例としては
-** Forked from NoNameSkyBlock **
+**Forked from NoNameSkyBlock**
 とか
-** 改変元: https://github.com/kirigami-0/NNSB_main_system **
+**改変元: https://github.com/kirigami-0/NNSB_main_system**
 と書いてください
 
 ----  
