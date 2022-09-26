@@ -3,7 +3,6 @@
     "アメジストの砂漠のディメンションの",
     "基本設計"
   ],
-  
 "type": "minecraft:overworld",
 "generator": {
   "type": "minecraft:flat",
