@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: datapack-linter
-        uses: ChenCMD/datapack-linter@v1.3.12
+        uses: ChenCMD/datapack-linter@v1
         with:
           outputDefine: public
           notOutputSuccess: true
