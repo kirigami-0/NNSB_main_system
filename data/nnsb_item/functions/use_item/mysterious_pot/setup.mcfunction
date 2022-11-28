@@ -1,0 +1,2 @@
+scoreboard objectives add item_hunger_pot dummy
+scoreboard objectives add buffer_hunger_pot dummy

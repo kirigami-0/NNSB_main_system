@@ -1,0 +1,1 @@
+execute store result score @s buffer_item_pot run data get entity @s foodLevel
