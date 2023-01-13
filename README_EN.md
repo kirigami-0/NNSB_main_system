@@ -1,13 +1,13 @@
 # ** NNSB_main_system **
 ----
-##### It ’s a test.
+##### Please check before play No Name Sky Block
 
 ## Before playing
 Please play in the following environment.
 -** Play solo **
   --Minecraft version is 1.18.x
-  --Vanilla or Optifine only environment
-    -* Do not play in the Forge environment
+  --Please play in Vanilla or Optifine
+    -* Do not play in the Forge (We can't support problem while using Forge.)
 
 -** Multi-play **
   --Set the server profile
