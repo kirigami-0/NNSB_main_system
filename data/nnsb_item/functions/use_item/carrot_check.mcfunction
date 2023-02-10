@@ -5,4 +5,4 @@
 
 #初期化
   scoreboard players set @s carrot_used 0
-  advancement revoke @s only nnsb_item:use_item/carrot_check
+  advancement revoke @s only nnsb_item:use_item/carrot/carrot_check

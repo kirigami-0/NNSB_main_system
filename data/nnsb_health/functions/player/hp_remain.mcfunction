@@ -1,4 +1,6 @@
 #> nnsb_health:player/hp_remain
+# 宣言
+  #declare score_holder _#hp_percent buffer_health_b HP倍率
 
 #_#hp_percentのbuffer_health_bに何%の体力を残すかを代入する
   execute store result score _#hp_percent buffer_health_b run data get storage nnsb: health.remove.perremain 1
@@ -10,7 +12,7 @@
   scoreboard players operation @s buffer_health_b *= _#hp_percent buffer_health_b
 
 #nnsb_healthに残る体力をいれる。
-  scoreboard players operation @s nnsb_health = @s buffer_health_b
+  scoreboard players operation @s player_hp = @s buffer_health_b
 
 #ScoreToHealthに代入。
-  scoreboard players operation @s ScoreToHealth = @s nnsb_health
+  scoreboard players operation @s ScoreToHealth = @s player_hp

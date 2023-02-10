@@ -9,6 +9,6 @@
 
 #タグを無くして設定できるように
   tag @s remove archer
- 
+
 #次は読み込み
   function nnsb_job:load/hub

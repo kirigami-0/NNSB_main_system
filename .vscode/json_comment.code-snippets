@@ -7,5 +7,38 @@
 	"mcfunction_comment":{
 		"prefix": "＃",
 		"body": "#"
+	},
+
+	"json_CMD":{
+		"prefix": "CMD",
+		"body": ["{",
+			"\t\"predicate\": {\"custom_model_data\": $1},",
+			"\t\"model\": \"item/nnsb_item/$2/$3\"",
+			"}"
+		]
+	},
+
+	"json_HAND":{
+		"prefix": "HAND",
+		"body": [
+			"{",
+			"\t\"parent\": \"minecraft:item/handheld\",",
+			"\t\"textures\": {",
+			"\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
+			"\t}",
+			"}"
+		]
+	},
+
+	"json_generated":{
+		"prefix": "GEN",
+		"body": [
+			"{",
+			"\t\"parent\": \"minecraft:item/generated\",",
+			"\t\"textures\": {",
+			"\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
+			"\t}",
+			"}"
+		]
 	}
 }

@@ -6,7 +6,7 @@
   tellraw @a [{"score":{"name": "@e[tag=dead_spell,limit=1]","objective": "effect_counter"},"color": "red"}]
 
 #スコアを-1する。
- scoreboard players remove @e[tag=dead_spell,limit=1] effect_counter 1
+  scoreboard players remove @e[tag=dead_spell,limit=1] effect_counter 1
 
 #0になるまで処理を繰り返す。
   execute if score @e[tag=dead_spell,limit=1] effect_counter matches 0..15 run schedule function nnsb_effect:dead_spell/main 1s

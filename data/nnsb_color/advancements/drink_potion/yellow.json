@@ -1,0 +1,23 @@
+{
+  "comment":[
+    "属性を変化させる",
+    "イエロー"
+  ],
+  
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ],
+          "nbt": "{CuntomModelData:6}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nnsb_color:dorink_potion/drinking_yellow_potion"
+  }
+}

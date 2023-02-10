@@ -10,5 +10,5 @@
 #プレイヤーの残る体力量を計算する。
   scoreboard players operation @s buffer_health_b *= _#hp_percent buffer_health_b
 
-#nnsb_healthに残る体力をいれる。
-  scoreboard players operation @s nnsb_health = @s buffer_health_b
+#player_hpに残る体力をいれる。
+  scoreboard players operation @s player_hp = @s buffer_health_b

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# **No Name Sky Block v1.18.2**  
+=======
 # No Name Sky Block mcver: 1.18.x
+>>>>>>> origin/dev
 ----
 ##### No Name Sky Block を遊ぶ前にチェック！
 
@@ -7,7 +11,11 @@
 - **ソロでのプレイ**
   - マインクラフトのバージョンが1.18.xであること
   - バニラないしOptifineのみの環境であること
+<<<<<<< HEAD
+    - ※Modランチャー(Forge,Fabric,Quiltmc,etc...)の環境でプレイしないこと
+=======
     - ※ Modローダー(Forge,Fabric,Quiltmc,etc..)の環境でプレイしないこと
+>>>>>>> origin/dev
 
 - **マルチでのプレイ**
   - サーバープロファイルの設定を行う
@@ -31,7 +39,13 @@
   
 簡単にまとめると  
 **改変してもいいけどこのデータパックの名前を必ず表示してください** 
-  
+
+例としては
+**Forked from NoNameSkyBlock**
+とか
+**改変元: https://github.com/kirigami-0/NNSB_main_system**
+と書いてください
+
 ----  
 ### 
 ### 
