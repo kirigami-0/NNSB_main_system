@@ -1,6 +1,5 @@
 # **No Name Sky Block v1.18.2**  
 
-# No Name Sky Block mcver: 1.18.x
 ----
 ##### No Name Sky Block を遊ぶ前にチェック！
 
