@@ -1,39 +1,46 @@
-# ** NNSB_main_system **
 ----
-##### Please check before play No Name Sky Block
+##### Check No Name Sky Block before you play!
 
-## Before playing
-Please play in the following environment.
--** Play solo **
-  --Minecraft version is 1.18.x
-  --Please play in Vanilla or Optifine
-    -* Do not play in the Forge (We can't support problem while using Forge.)
+## Before Playing  
+Please play in the following environment.  
+- **Play solo**.
+  - Minecraft version 1.18.x
+  - You must be using vanilla or Optifine only.
+    - Do not play with mod launchers (Forge, Fabric, Quiltmc, etc...) Do not play in an environment with a mod launcher (Forge, Fabric, Quiltmc, etc...).
+    - Do not play in a mod loader (Forge, Fabric, Quiltmc, etc...) environment. Do not play in an environment with a mod loader (Forge,Fabric,Quiltmc,etc...)
 
--** Multi-play **
-  --Set the server profile
-    1. Set PVP to False
-    2. Set the arrow collision detection to False. (<= Corrected part here)
-
-----
-
-## I found a bug! !!
-Bug reports are accepted at the following sites and services.
--[NNSB exclusive discord] ()
--[NNSB capture wiki] ()
-
-When we fix a bug, we will post it on both ** wiki and discord **.
+- **Play in multiplayer**.
+  - Set up your server profile
+    1. set PVP to False
+    Set arrow hit detection to False. (<= here is where to fix it)
 
 ----
-## Regarding the use of data pack trademarks
-This data pack
-It is based on ** CC BY-SA 4.0 **.
-[CC (What is Creative Commons)] (https://creativecommons.jp/licenses/)
 
-To summarize briefly
-** You can modify it, but be sure to display the name of this data pack **
+## I found a bug!
+Reports about bugs are accepted at the following sites and services.  
+- [NNSB Discord]()
+- [NNSB strategy wiki]()  
+  
+When we fix a bug, we will post it on both **wiki and discord**.
 
-----
-###
+----  
+## Regarding trademark use of data packs  
+This data pack is.
+**CC BY-SA 4.0**.  
+[CC (what is Creative Commons)](https://creativecommons.jp/licenses/) 		
+  
+To briefly summarize.  
+**You may modify it, but be sure to indicate the name of this datapack**. 
+
+Example.
+**Forked from NoNameSkyBlock**
+and
+**Modified from: https://github.com/kirigami-0/NNSB_main_system**
+Please write
+
+----  
+### 
+### 
 ###
 ###
 ###
