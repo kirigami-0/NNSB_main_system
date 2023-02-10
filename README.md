@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **No Name Sky Block v1.18.2**  
 =======
 # No Name Sky Block mcver: 1.18.x
@@ -11,11 +10,8 @@
 - **ソロでのプレイ**
   - マインクラフトのバージョンが1.18.xであること
   - バニラないしOptifineのみの環境であること
-<<<<<<< HEAD
     - ※Modランチャー(Forge,Fabric,Quiltmc,etc...)の環境でプレイしないこと
-=======
     - ※ Modローダー(Forge,Fabric,Quiltmc,etc..)の環境でプレイしないこと
->>>>>>> origin/dev
 
 - **マルチでのプレイ**
   - サーバープロファイルの設定を行う
