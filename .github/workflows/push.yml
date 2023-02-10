@@ -1,0 +1,68 @@
+name: Push Actions
+on: push
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: datapack-linter
+#        uses: mcbeet/check-commands@v1
+#        with:
+#          source: .
+#          minecraft: "1.18"
+        uses: ChenCMD/datapack-linter@v1.3.12
+        with:
+          notOutputSuccess: true
+          checkAlwaysAllFile: true
+      - name: Finish output
+        run: echo "NoNameSkyBlock Datapack's check was successfully."
+  artifact:
+    needs: lint
+    runs-on: ubuntu-latest
+    if: contains(github.event.commits[0].message, '[artifact]')
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0.2
+    - name: Create output dir & Move data
+      run: mkdir ../outputs && cd ../outputs && cp -r NNSB_main_system/data ./ && cp NNSB_main_system/pack.mcmeta ./
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        name: nnsb
+        path: ./outputs
+        retention-days: 10
+  release:
+    needs: lint
+    runs-on: ubuntu-latest
+    if: contains(github.event.commits[0].message, '[release]')
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0.2
+    - name: Repository clone
+      run: git clone https://github.com/kirigami-0/NNSB_main_system.git
+    - name: Create output dir & Move data & zip
+      run: mkdir outputs && cd outputs && cp -r ../NNSB_main_system/data ./ && cp ../NNSB_main_system/pack.mcmeta ./ && zip -r nnsb *
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: true
+        prerelease: false
+    - name: Upload Release Asset
+      id: upload-release-asset 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./outputs/nnsb.zip
+        asset_name: nnsb.zip
+        asset_content_type: application/zip

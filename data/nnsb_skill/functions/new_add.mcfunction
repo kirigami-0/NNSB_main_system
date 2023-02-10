@@ -33,6 +33,8 @@
   #ボマーで使用するスコアボード
   scoreboard objectives add buffer_bomber_a dummy
   scoreboard objectives add buffer_bomber_b dummy
+  scoreboard objectives add player_death deathCount
+  scoreboard objectives add player_death_buff dummy
 
   
 

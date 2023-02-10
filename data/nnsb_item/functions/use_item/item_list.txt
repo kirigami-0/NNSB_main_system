@@ -1,0 +1,7 @@
+No Name Sky Block Item List (nnsb_item/use_item以下)
+glow_flame_wand:エンドフレイムを光らせる
+healing_wand:
+homerun_bat:
+hunger_charm:
+mysterious_pot:
+showtime:
