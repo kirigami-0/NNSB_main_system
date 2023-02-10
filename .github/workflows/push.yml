@@ -10,14 +10,15 @@ jobs:
         with:
           fetch-depth: 0
       - name: datapack-linter
-#        uses: mcbeet/check-commands@v1
-#        with:
-#          source: .
-#          minecraft: "1.18"
-        uses: ChenCMD/datapack-linter@v1.3.12
+        uses: mcbeet/check-commands@v1.1.1
         with:
-          notOutputSuccess: true
-          checkAlwaysAllFile: true
+          source: .
+          minecraft: "1.18"
+          log: CRITICAL
+#        uses: ChenCMD/datapack-linter@v1.3.12
+#        with:
+#          notOutputSuccess: true
+#          checkAlwaysAllFile: true
       - name: Finish output
         run: echo "NoNameSkyBlock Datapack's check was successfully."
   artifact:
