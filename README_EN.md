@@ -6,7 +6,6 @@ Please play in the following environment.
 - **Play solo**.
   - Minecraft version 1.18.x
   - You must be using vanilla or Optifine only.
-    - Do not play with mod launchers (Forge, Fabric, Quiltmc, etc...) Do not play in an environment with a mod launcher (Forge, Fabric, Quiltmc, etc...).
     - Do not play in a mod loader (Forge, Fabric, Quiltmc, etc...) environment. Do not play in an environment with a mod loader (Forge,Fabric,Quiltmc,etc...)
 
 - **Play in multiplayer**.
