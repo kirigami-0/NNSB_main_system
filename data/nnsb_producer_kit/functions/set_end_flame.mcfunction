@@ -12,4 +12,4 @@
 
 #アイが嵌っていないエンドフレームの数をカウントする
   execute as @e[tag=end_frame] at @s if block ~ ~ ~ end_portal_frame[eye=false] run summon area_effect_cloud ~ ~ ~ {Tags:["not_capture"]}
-  execute store result score &island define run execute if entity @e[tag=not_capture]
+  execute store result score &number_of_islands define run execute if entity @e[tag=not_capture]

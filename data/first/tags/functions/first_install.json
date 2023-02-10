@@ -6,14 +6,14 @@
   
   "values": [
     "first:set_up",
-    "nnsb_difficult:add",
     "nnsb_health:add",
     "nnsb_skill:mp/regeneration",
     "nnsb_skill:new_add",
     "nnsb_job:new_add",
     "nnsb_level:new_add",
     "nnsb_item:new_add",
-    "nnsb_mobs:new_add"
+    "nnsb_mobs:new_add",
+    "nnsb_color:new_add"
   ]
 }
 

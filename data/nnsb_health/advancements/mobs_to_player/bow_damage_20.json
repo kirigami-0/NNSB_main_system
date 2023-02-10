@@ -1,0 +1,118 @@
+{
+  "comment":[
+    "通常攻撃",
+    "2.0倍"
+  ],
+  
+  "criteria": {
+    "red_cyan": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"red\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"cyan\"]}"
+          }
+        }
+      }
+    },
+    "magenta_green": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"magenta\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"green\"]}"
+          }
+        }
+      }
+    },
+    "blue_yellow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"blue\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"yellow\"]}"
+          }
+        }
+      }
+    },
+    "cyan_red": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"cyan\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"red\"]}"
+          }
+        }
+      }
+    },
+    "green_magenta": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"green\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"magenta\"]}"
+          }
+        }
+      }
+    },
+    "yellow_blue": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"yellow\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "source_entity": {
+            "nbt": "{Tags:[\"blue\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_cyan",
+      "magenta_green",
+      "blue_yellow",
+      "cyan_red",
+      "green_magenta",
+      "yellow_blue"
+    ]
+  ],
+  "rewards": {
+    "function": "nnsb_health:damage/mobs_to_player/bow/20"
+  }
+}
