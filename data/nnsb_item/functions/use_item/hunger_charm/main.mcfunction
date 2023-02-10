@@ -1,0 +1,1 @@
+execute store result score @s ScoreToHealth run attribute @s minecraft:generic.max_health get 100

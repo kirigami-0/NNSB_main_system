@@ -35,5 +35,7 @@ Temporary Items
 *.icloud
 
 .datapack
-
 # End of https://www.toptal.com/developers/gitignore/api/macos
+
+# Additional Configurations
+.vscode/settings.json
