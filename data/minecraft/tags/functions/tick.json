@@ -4,7 +4,7 @@
     ""
   ],
   "values": [
-    "first:rule",
+    "nnsb_const:rule",
     "nnsb_item:custom_crafter/set_up",
     "nnsb_level:count/1",
     "nnsb_level:lv_up",

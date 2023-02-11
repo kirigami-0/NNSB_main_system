@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:barrier"
+            ],
+            "nbt": "{CustomModelData: 2}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_workbench:on_click/clear_button"
+  }
+}

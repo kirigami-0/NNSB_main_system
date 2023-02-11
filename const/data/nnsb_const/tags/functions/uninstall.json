@@ -1,0 +1,18 @@
+{
+    "comment":[
+      "アンインストールで走るファンクション",
+      ""
+    ],
+
+    "values": [
+        "nnsb_const:fast_uninstall",
+        "nnsb_health:uninstall",
+        "nnsb_level:uninstall",
+        "nnsb_job:uninstall",
+        "nnsb_skill:uninstall",
+        "nnsb_effect:uninstall",
+        "nnsb_mobs:uninstall",
+        "nnsb_color:uninstall",
+        "nnsb_mobs:uninstall"
+    ]
+}
