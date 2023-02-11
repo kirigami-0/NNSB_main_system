@@ -34,7 +34,7 @@
 
     #declare score_holder &difficult_flag 難易度フラグ bool
     #declare score_holder &difficult_timer 難易度変更タイマー int
-    scoreboard players set &difficult_time define 120
+    scoreboard players set &difficult_timer define 120
 
     #declare score_holder &number_of_islands 島の数 int
 
