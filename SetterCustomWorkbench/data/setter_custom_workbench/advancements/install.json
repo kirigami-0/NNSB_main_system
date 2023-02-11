@@ -1,0 +1,11 @@
+{
+  "comment": "インストール処理",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "setter_custom_workbench:install"
+  }
+}

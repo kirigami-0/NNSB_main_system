@@ -1,0 +1,21 @@
+{
+  "comment": "不定形レシピ設定ボタン押下処理",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_void"
+            ],
+            "nbt": "{CustomModelData: 2}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "setter_custom_workbench:onclick/clear_button"
+  }
+}
