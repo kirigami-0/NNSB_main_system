@@ -1,0 +1,14 @@
+{
+  "comment":[
+    "毎回インストールされる部分",
+    ""
+  ],
+  
+  "values": [
+      "nnsb_job:add",
+      "nnsb_skill:add",
+      "nnsb_level:add"
+      
+  ]
+}
+
