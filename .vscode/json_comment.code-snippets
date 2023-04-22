@@ -1,44 +1,49 @@
 {
-	"json_comment":{
-		"prefix": "コメント",
-		"body":["\"comment\":[\n  \"$1\",\n  \"$2\"\n],\n"]
+    "json_comment": {
+        "scope": "json",
+        "prefix": "コメント",
+        "body": ["\"comment\":[\n  \"$1\",\n  \"$2\"\n],\n"]
+    },
+    "mcfunction_comment": {
+        "scope": "json",
+        "prefix": "＃",
+        "body": "#"
+    },
 
-	},
-	"mcfunction_comment":{
-		"prefix": "＃",
-		"body": "#"
-	},
+    "json_CMD": {
+        "scope": "json",
+        "prefix": "CMD",
+        "body": [
+            "{",
+            "\t\"predicate\": {\"custom_model_data\": $1},",
+            "\t\"model\": \"item/nnsb_item/$2/$3\"",
+            "}"
+        ]
+    },
 
-	"json_CMD":{
-		"prefix": "CMD",
-		"body": ["{",
-			"\t\"predicate\": {\"custom_model_data\": $1},",
-			"\t\"model\": \"item/nnsb_item/$2/$3\"",
-			"}"
-		]
-	},
+    "json_HAND": {
+        "scope": "json",
+        "prefix": "HAND",
+        "body": [
+            "{",
+            "\t\"parent\": \"minecraft:item/handheld\",",
+            "\t\"textures\": {",
+            "\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
+            "\t}",
+            "}"
+        ]
+    },
 
-	"json_HAND":{
-		"prefix": "HAND",
-		"body": [
-			"{",
-			"\t\"parent\": \"minecraft:item/handheld\",",
-			"\t\"textures\": {",
-			"\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
-			"\t}",
-			"}"
-		]
-	},
-
-	"json_generated":{
-		"prefix": "GEN",
-		"body": [
-			"{",
-			"\t\"parent\": \"minecraft:item/generated\",",
-			"\t\"textures\": {",
-			"\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
-			"\t}",
-			"}"
-		]
-	}
+    "json_generated": {
+        "scope": "json",
+        "prefix": "GEN",
+        "body": [
+            "{",
+            "\t\"parent\": \"minecraft:item/generated\",",
+            "\t\"textures\": {",
+            "\t\t\"layer0\": \"item/nnsb_item/$1/$2\"",
+            "\t}",
+            "}"
+        ]
+    }
 }
